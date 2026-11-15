@@ -15,6 +15,7 @@
 	(No neutral color exists for {mode} mode.)	(Det finns ingen neutral färg för läget {mode}.)
 	(print to the printer)	(skriv ut på skrivaren)
 	+ Add variable	+ Lägg till variabel
+	0 picks a free port; AI apps find it by themselves	0 väljer en ledig port; AI-appar hittar den själva
 	0 turns this threshold off; SVG groups nested deeper than 100 levels are always rasterized.	0 stänger av tröskelvärdet; SVG-grupper som är nästlade djupare än 100 nivåer rasteriseras alltid.
 	10 fps	10 bild/s
 	100%	100 %
@@ -75,6 +76,7 @@
 	A brush preset with this name already exists	Det finns redan en penselförinställning med det här namnet
 	A command was canceled or stopped during batch processing. Continue with the next file or stop?	Ett kommando avbröts eller stoppades under batchbearbetningen. Vill du fortsätta med nästa fil eller stoppa?
 	A file is still being placed; try again when it has finished.	En fil håller fortfarande på att placeras. Försök igen när den är klar.
+	A grey mix that spreads the image's tones	En grå blandning som sprider ut bildens toner
 	A picked document is no longer a grayscale document of the same size.	Ett av de valda dokumenten är inte längre ett gråskaledokument i samma storlek.
 	A picked document is no longer open.	Ett av de valda dokumenten är inte längre öppet.
 	A save to {name} is still running; try again when it finishes	En sparning till {name} pågår fortfarande; försök igen när den är klar
@@ -97,6 +99,7 @@
 	Add a mask  (from the selection; {key} inverts)	Lägg till en mask  (från markeringen; {key} inverterar)
 	Add a mask  (from the selection; ⌥ inverts)	Lägg till en mask  (från markeringen; ⌥ inverterar)
 	Add an adjustment	Lägg till en justering
+	Add Anchor Point	Lägg till ankarpunkt
 	Add Anchor Point Tool	Verktyget Lägg till ankarpunkt
 	Add beauty precomp from the AOVs	Lägg till beauty-förkomposition från AOV:er
 	Add disk	Lägg till disk
@@ -155,7 +158,9 @@
 	After	Efter
 	After (X)	Efter (X)
 	Again	Igen
+	Agents can connect on 127.0.0.1:{port}.	Agenter kan ansluta på 127.0.0.1:{port}.
 	AHD (adaptive homogeneity)	AHD (adaptiv homogenitet)
+	AI apps such as Claude can open, edit and save documents in this window while ArtCraft Launcher › Settings › AI agents › Let AI agents use Craft apps is on. Only programs on this computer can connect.	AI-appar som Claude kan öppna, redigera och spara dokument i det här fönstret när ArtCraft Launcher › Inställningar › AI-agenter › Låt AI-agenter använda Craft-appar är på. Endast program på den här datorn kan ansluta.
 	AI Integrations	AI-integrationer
 	AI Integrations…	AI-integrationer…
 	Airbrush: keeps depositing paint while the pointer rests.	Airbrush: fortsätter att lägga på färg medan pekaren står still.
@@ -163,13 +168,16 @@
 	Align and Distribute	Justera och fördela
 	Align and distribute	Justera och fördela
 	Align bottom edges	Justera underkanter
+	Align Edges	Justera kanter
 	Align horizontal centers	Justera vågräta mittpunkter
 	Align left edges	Justera vänsterkanter
 	Align right edges	Justera högerkanter
+	Align To:	Justera mot:
 	Align top edges	Justera överkanter
 	Align vertical centers	Justera vertikala mittpunkter
 	Align with layer	Justera efter lager
 	Align {what}	Justera {what}
+	Align:	Justera:
 	Aligned	Justerad
 	All Classes	Alla klasser
 	All Layers No Adjustments	Alla lager utan justeringar
@@ -417,6 +425,7 @@ cameraRaw	Blue	Blå
 	Blur Gallery	Oskärpegalleri
 	Blur More	Mer oskärpa
 	Blur Tool	Oskärpeverktyg
+	blur tool	oskärpeverktyg
 fontWeight	Bold	Fet
 	Bold Italic	Fet kursiv
 	Border	Ram
@@ -476,6 +485,7 @@ fontWeight	Bold	Fet
 	Bundle Arrow-Key Nudges	Samla stegvisa flyttningar med piltangenterna
 	Burn	Efterbelys
 	Burn Tool	Efterbelysningsverktyg
+	burn tool	efterbelysningsverktyg
 	Butt / Flat	Rak / Platt
 	Button Mode	Knappläge
 	Button Mode On	Knappläge på
@@ -636,6 +646,8 @@ cameraRaw	Clarity	Klarhet
 	Clone	Klona
 	Clone Source	Klonkälla
 	Clone source set at {x}, {y}	Klonkälla inställd på {x}, {y}
+	Clone Source X Offset	Klonkälla, X-förskjutning
+	Clone Source Y Offset	Klonkälla, Y-förskjutning
 	Clone source {n} ({key}-click with Clone Stamp to set)	Klonkälla {n} ({key}-klicka med klonstämpeln för att ange)
 	Clone Stamp	Klonstämpel
 	Clone Stamp Tool	Klonstämpelverktyg
@@ -784,6 +796,7 @@ cameraRaw	Contrast	Kontrast
 	Convert for Smart Filters	Konvertera för smarta filter
 	Convert Frames > Video Layers	Konvertera bildrutor > videolager
 	Convert Point Tool	Verktyget Konvertera punkt
+	Convert Profile to sRGB	Konvertera profil till sRGB
 	Convert to Alpha Channel	Konvertera till alfakanal
 	Convert to Embedded	Konvertera till inbäddat
 	Convert to Frame…	Konvertera till ram…
@@ -836,6 +849,8 @@ cameraRaw	Contrast	Kontrast
 	Could not use Puppet Warp: the layer is empty	Det gick inte att använda Marionettdeformering: lagret är tomt
 	Could not use the clone stamp tool because the area to clone has not been defined (Alt-click to define a source point).	Det gick inte att använda klonstämpelverktyget eftersom området som ska klonas inte har definierats (Alt-klicka för att definiera en källpunkt).
 	Could not use the clone stamp tool because the area to clone has not been defined (Option-click to define a source point).	Det gick inte att använda klonstämpelverktyget eftersom området som ska klonas inte har definierats (Option-klicka för att definiera en källpunkt).
+	Could not use the magic eraser because it does not work with Bitmap images (convert image to Grayscale mode to edit).	Det gick inte att använda det magiska suddgummit eftersom det inte fungerar med bitmappsbilder (konvertera bilden till färgläget Gråskala för att redigera).
+	Could not use the magic eraser because it does not work with Indexed Color images (convert image to RGB Color mode to edit).	Det gick inte att använda det magiska suddgummit eftersom det inte fungerar med bilder i indexerad färg (konvertera bilden till färgläget RGB-färg för att redigera).
 	Could not use the move tool because the layer is locked.	Det gick inte att använda flyttverktyget eftersom lagret är låst.
 	Could not use the type tool because the layer is locked.	Det gick inte att använda textverktyget eftersom lagret är låst.
 	Could not use the {tool} because the target layer is a group.	Det gick inte att använda {tool} eftersom mållagret är en grupp.
@@ -884,6 +899,7 @@ cameraRaw	Contrast	Kontrast
 	Create new group	Skapa ny grupp
 	Create new layer	Skapa nytt lager
 	Create new layer comp	Skapa ny lagerkomposition
+	Create new layer with results	Skapa nytt lager med resultatet
 	Create new path	Skapa ny bana
 	Create new pattern from the selection	Skapa nytt mönster från markeringen
 	Create new set	Skapa ny uppsättning
@@ -1141,8 +1157,10 @@ cameraRaw	Developing {name}	Framkallar {name}
 	Dissolve is approximated: it blends without Photoshop's dither.	Upplös är en approximation: den blandar utan Photoshops dithering.
 	Distribute Heights	Fördela höjder
 	Distribute horizontally	Fördela horisontellt
+	Distribute Spacing:	Fördela avstånd:
 	Distribute vertically	Fördela vertikalt
 	Distribute Widths	Fördela bredder
+	Distribute:	Fördela:
 	Distribution	Fördelning
 	Dither	Dithering
 	Divide…	Dela…
@@ -1169,6 +1187,7 @@ cameraRaw	Developing {name}	Framkallar {name}
 	Don't Import	Importera inte
 	Don't show again	Visa inte igen
 	Dont Enlarge	Förstora inte
+	Dont enlarge	Förstora inte
 	Double click layer mask launches select and mask	Dubbelklick på lagermask öppnar Markera och maskera
 	Double Line	Dubbel linje
 	Drag (lasso) or click points (polygonal) · {add} add · {sub} subtract	Dra (lasso) eller klicka på punkter (polygonal) · {add} lägg till · {sub} subtrahera
@@ -1303,6 +1322,7 @@ cameraRaw	Effects	Effekter
 	Errors	Fel
 	Esc to cancel	Esc för att avbryta
 	Essentials	Grundläggande
+	Estimated file size	Uppskattad filstorlek
 	Exclude Overlapping Shapes	Uteslut överlappande former
 	Excluded Area	Uteslutet område
 	EXIF	EXIF
@@ -1402,6 +1422,7 @@ cameraRaw	Feather	Fjädring
 	File path	Filsökväg
 	File Settings	Filinställningar
 	File Size	Filstorlek
+	File Type	Filtyp
 	Filename	Filnamn
 layers	Fill	Fyllning
 	Fill Color	Fyllningsfärg
@@ -1467,6 +1488,8 @@ layers	Fill:	Fyllning:
 	Fix the red plane first: its corners must form a convex quad	Korrigera det röda planet först: dess hörn måste bilda en konvex fyrhörning
 	Fixed Ratio	Fast proportion
 	Fixed Size	Fast storlek
+	Fixed Size H:	Fast storlek H:
+	Fixed Size W:	Fast storlek B:
 	Flag	Flagga
 	Flame	Flamma
 	Flame Bottom Alignment	Justering av flammans nederkant
@@ -1661,6 +1684,7 @@ cameraRaw	Green	Grön
 	Group	Grupp
 	Group from Layers	Grupp från lager
 	Group from Layers…	Grupp från lager…
+	Group Images by Folder	Gruppera bilder efter mapp
 	Group Layer	Grupplager
 	Group Layers	Gruppera lager
 	Group name	Gruppnamn
@@ -1675,6 +1699,7 @@ cameraRaw	Green	Grön
 	Guides, Grid & Slices…	Stödlinjer, rutnät och skivor…
 	Gutter	Spaltmellanrum
 	H	H
+	H:	H:
 	Half Round	Halvrund
 	Halftone Pattern	Halvtonsmönster
 	Halftone Screen	Halvtonsraster
@@ -1787,6 +1812,7 @@ cameraRaw	Hue	Nyans
 	Image Rotation	Bildrotation
 	Image Size:	Bildstorlek:
 	Image Size…	Bildstorlek…
+	Images in subfolders will start on a new Contact Sheet	Bilder i undermappar börjar på ett nytt kontaktark
 	Import .GRD	Importera .GRD
 	Import as New Group	Importera som ny grupp
 	Import as New Group keeps “{group}” and adds the file as a new group beside it.	Importera som ny grupp behåller ”{group}” och lägger till filen som en ny grupp bredvid den.
@@ -1825,6 +1851,7 @@ cameraRaw	Hue	Nyans
 	Include Color	Ta med färg
 	Include ICC Profile	Bädda in ICC-profil
 	Include in playback	Ta med i uppspelning
+	Include Subfolders	Inkludera undermappar
 	Include Tool Settings	Ta med verktygsinställningar
 	Including layers will increase file size.	Om lager tas med blir filen större.
 	Increase Brush Hardness	Öka penselns hårdhet
@@ -2131,6 +2158,7 @@ cameraRaw	Luminance Detail	Luminansdetalj
 	Lut	LUT
 	LUT folder	LUT-mapp
 	LZW	LZW
+	LZW Compression	LZW-komprimering
 	Mac Crisp	Mac krispig
 	Mac LCD	Mac LCD
 	Mac OS	Mac OS
@@ -2164,6 +2192,7 @@ cameraData	Make	Tillverkare
 	Make:	Tillverkare:
 	Malvar–He–Cutler	Malvar–He–Cutler
 	Manage submitted jobs in the system print queue	Hantera skickade jobb i systemets utskriftskö
+	Managed by the launch options (--control).	Hanteras av startalternativen (--control).
 	Manual	Manuell
 	manual	manuell
 	Map Document	Mappa dokument
@@ -2198,6 +2227,7 @@ cameraRaw	Masking	Maskering
 	Matting	Kantbehandling
 	Max Offset	Max. förskjutning
 	Max Radius	Max. radie
+	Maximize Compatibility	Maximera kompatibilitet
 	Maximize psd compatibility	Maximera PSD-kompatibilitet
 	Maximum…	Maximum…
 	Mean	Medelvärde
@@ -2483,6 +2513,7 @@ cameraRaw	Noise Reduction	Brusreducering
 	Octagon	Oktagon
 	off	av
 	Off: the speed of the pointer sets the spacing	Av: pekarens hastighet styr avståndet
+	Off: turn on AI agents in ArtCraft Launcher › Settings › AI agents.	Av: slå på AI-agenter i ArtCraft Launcher › Inställningar › AI-agenter.
 	Offset…	Förskjutning…
 	Oil Paint	Oljemålning
 	Oil Paint…	Oljemålning…
@@ -2610,6 +2641,8 @@ cameraRaw	Paint Overlay	Målningsöverlägg
 	Patch	Lapp
 	Patch Tool	Lappverktyg
 	Patch:	Lapp:
+	Path alignment	Justering av banor
+	Path arrangement	Arrangemang av banor
 	Path Blur	Banoskärpa
 	Path Blur…	Banoskärpa…
 	Path operations	Banåtgärder
@@ -2815,8 +2848,10 @@ cameraRaw	Paint Overlay	Målningsöverlägg
 	ProPhoto RGB	ProPhoto RGB
 	Prophoto-compat	ProPhoto-kompatibel
 	Proportional	Proportionell
+	Proportional H:	Proportionell H:
 	Proportional Lining	Proportionella versalsiffror
 	Proportional Oldstyle	Proportionella medievalsiffror
+	Proportional W:	Proportionell B:
 	Protect Detail	Skydda detaljer
 	Protect Foreground Color	Skydda förgrundsfärg
 	Protect skin tones	Skydda hudtoner
@@ -2836,6 +2871,7 @@ cameraRaw	Paint Overlay	Målningsöverlägg
 cameraRaw	Purple	Lila
 	Push Left	Skjut åt vänster
 	Put this command's shortcuts back as they were	Återställ det här kommandots kortkommandon som de var
+	px	px
 	Pyramids	Pyramider
 	Quick Export as PNG	Snabbexportera som PNG
 	Quick export format	Format för snabbexport
@@ -2945,6 +2981,7 @@ fontWeight	Regular	Normal
 	Remove after each stroke	Ta bort efter varje penseldrag
 	Remove All	Ta bort alla
 	Remove All Pins	Ta bort alla nålar
+	Remove area after a single stroke	Ta bort ytan efter ett enda drag
 	Remove Black Matte	Ta bort svart kantfärg
 	Remove from Favorites	Ta bort från favoriter
 	Remove from favorites	Ta bort från favoriter
@@ -3013,6 +3050,7 @@ fontWeight	Regular	Normal
 	Reset View	Återställ vy
 	Reset Workspace	Återställ arbetslayout
 	Resize image during place	Ändra bildstorlek vid placering
+	Resize to Fit	Anpassa storlek
 	Resize Windows to Fit	Anpassa fönstrens storlek
 	Resize windows when zooming using the Zoom Tool	Ändra storlek på fönster vid zoomning med zoomverktyget
 	Resolution	Upplösning
@@ -3070,6 +3108,8 @@ fontWeight	Regular	Normal
 	Rotate Auto	Rotera automatiskt
 	Rotate Fixed	Fast rotation
 	Rotate View	Rotera vy
+	Rotate View Left	Rotera vy åt vänster
+	Rotate View Right	Rotera vy åt höger
 	Rotate View Tool	Verktyget Rotera vy
 	Rotate view with trackpad	Rotera vyn med styrplattan
 	Rotate:	Rotera:
@@ -3090,9 +3130,12 @@ cameraRaw	Roundness	Rundhet
 	Ruler Tool	Linjalverktyg
 	Ruler Units	Linjalenheter
 	Rulers  (⌘R)	Linjaler  (⌘R)
+	Run	Kör
 	Same folder	Samma mapp
 	Sample a pixel anywhere on the screen	Ta prov på en pixel var som helst på skärmen
 	Sample All Layers	Ta prov på alla lager
+	Sample all layers	Ta prov på alla lager
+	Sample content from all visible layers	Ta prov på innehåll från alla synliga lager
 	Sample content from part of the image and use it to fill a small area	Hämta innehåll från en del av bilden för att fylla ett litet område
 	Sample Size	Provstorlek
 	Sample Size:	Provstorlek:
@@ -3116,8 +3159,11 @@ cameraRaw	Saturation	Mättnad
 	Saturation Jitter	Mättnadsvariation
 	Save a list of these shortcuts as a web page	Spara en lista över dessa kortkommandon som en webbsida
 	Save Actions…	Spara åtgärder…
+	Save as JPEG	Spara som JPEG
 	Save as PDF	Spara som PDF
 	Save As Preset	Spara som förinställning
+	Save as PSD	Spara som PSD
+	Save as TIFF	Spara som TIFF
 	Save before closing?	Vill du spara innan du stänger?
 	Save canceled	Sparandet avbröts
 	Save Changes	Spara ändringar
@@ -3277,6 +3323,7 @@ fontWeight	SemiBold	Halvfet
 	Set 9	Uppsättning 9
 	Set additional Crop options	Ange fler beskärningsalternativ
 	Set additional pen and path options	Ange fler alternativ för penna och bana
+	Set additional shape and path options	Ange fler alternativ för former och banor
 	Set additional smoothing options	Ange fler utjämningsalternativ
 	Set as default	Ange som standard
 	Set background color	Ange bakgrundsfärg
@@ -3467,6 +3514,7 @@ curves	Smooth	Jämna ut
 	Smudge	Smeta ut
 	Smudge Stick	Smetkrita
 	Smudge Tool	Verktyget Smeta ut
+	smudge tool	verktyget Smeta ut
 	Snap	Fäst
 	Snap To	Fäst mot
 	Snap to Grid	Fäst vid rutnät
@@ -3506,6 +3554,7 @@ curves	Smooth	Jämna ut
 	Source2 Channel	Kanal för källa 2
 	Source2 Invert	Invertera källa 2
 	Source:	Källa:
+	Source: document closed	Källa: dokumentet stängt
 	Source: not set ({key}-click with Clone Stamp)	Källa: inte angiven ({key}-klicka med klonstämpeln)
 	Source: set	Källa: angiven
 	Source: {name}	Källa: {name}
@@ -3730,6 +3779,7 @@ cameraRaw	Texture	Struktur
 	Thin	Tunn
 fontWeight	Thin	Tunn
 	This adjustment ({key}) is kept as imported and can't be edited yet.	Den här justeringen ({key}) behålls som den importerades och kan inte redigeras ännu.
+	This custom shape can't be added to a shape layer with a path operation: choose New Layer	Den här anpassade formen kan inte läggas till i ett formlager med en banåtgärd: välj Nytt lager
 	This document's layers need {needed} but may hold {budget}: whole-document redraws use the CPU	Lagren i det här dokumentet behöver {needed} men får använda {budget}: omritningar av hela dokumentet använder CPU:n
 	This document's layers: {needed} of {budget} for layers	Lagren i det här dokumentet: {needed} av {budget} för lager
 	This layer must be rasterized before proceeding.	Det här lagret måste rasteriseras innan du fortsätter.
@@ -3846,6 +3896,7 @@ cameraRaw	Tone Histogram	Tonhistogram
 	Unavailable in this color mode	Inte tillgängligt i det här färgläget
 	Uncached Refresh	Uppdatera utan cache
 	Uncoated CMYK	Obestruket CMYK
+	Unconstrained	Obegränsad
 	Undefined Areas	Odefinierade områden
 	Underline	Understrykning
 	Underlying Layer:	Underliggande lager:
