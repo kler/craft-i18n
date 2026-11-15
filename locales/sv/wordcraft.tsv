@@ -51,6 +51,7 @@
 	A mail merge field	Ett kopplingsfält
 	A numbered sequence (figures, tables…)	En numrerad serie (figurer, tabeller…)
 	A password is required to open this document.	Det krävs ett lösenord för att öppna det här dokumentet.
+	a shape inside a drawing canvas is placed by the canvas	en form på en rityta placeras av ritytan
 	A table of contents	En innehållsförteckning
 	A xor B	A xor B
 	A, B, C, …	A, B, C, …
@@ -175,6 +176,7 @@
 	Anyone can open this document. Encrypt it with a password to keep it private.	Vem som helst kan öppna det här dokumentet. Kryptera det med ett lösenord för att hålla det privat.
 	Anyone who opens the document will need this password.	Alla som öppnar dokumentet behöver det här lösenordet.
 	APA	APA
+	Applies the next time WordCraft starts.	Gäller nästa gång WordCraft startas.
 	Apply as you type	Använd medan du skriver
 	Apply Asian line-breaking rules (kinsoku)	Använd asiatiska regler för radbrytning (kinsoku)
 	Apply formatting to:	Använd formatering på:
@@ -420,6 +422,7 @@
 	Citation Style	Referensstil
 	Citations	Källhänvisningar
 	Citations & Bibliography	Källor och källförteckning
+	Clear all	Rensa allt
 	Clear All Formatting	Rensa all formatering
 	Clear Character Formatting	Rensa teckenformatering
 	Clear Character Style	Rensa teckenstil
@@ -452,6 +455,7 @@
 	Colorful	Färgglad
 	Column	Kolumn
 	Column Break	Kolumnbrytning
+	Column Edge	Kolumnkant
 	Column Selection	Kolumnmarkering
 	Column {n}	Kolumn {n}
 	Column:	Kolumn:
@@ -525,6 +529,7 @@
 	Cosine Function	Cosinusfunktion
 	Cotangent Function	Cotangensfunktion
 	Could not check for updates:\n{error}	Det gick inte att söka efter uppdateringar:\n{error}
+	Could not save the preferences: {error}	Det gick inte att spara inställningarna: {error}
 	Couldn't download {name}: {error}	Det gick inte att ladda ner {name}: {error}
 	Couldn't get the list of languages: {error}	Det gick inte att hämta listan över språk: {error}
 	Couldn't install: {error}	Det gick inte att installera: {error}
@@ -552,13 +557,18 @@
 	Dark Blue	Mörkblå
 	Dark Red	Mörkröd
 	Dark Yellow	Mörkgul
+	Default format saved.	Standardformatet har sparats.
 	Display server:	Displayserver:
 	East	Öster
+	Emphasis Mark	Betoningstecken
+	Fit\nOne Page	Anpassa till\nen sida
+	Flat OpenDocument Text (*.fodt)	Platt OpenDocument-text (*.fodt)
 	Get the list of languages again	Hämta listan över språk igen
 	Getting the list of languages…	Hämtar listan över språk…
 	Gray-25%	Grå 25 %
 	Gray-50%	Grå 50 %
 	Hidden text is not shown unless you display it.	Dold text visas inte om du inte väljer att visa den.
+	Ignore Once	Ignorera en gång
 	Install	Installera
 	Install ({size})	Installera ({size})
 	Install Language Pack	Installera språkpaket
@@ -566,32 +576,52 @@
 	Installing turns on downloading of fonts and Language packs from GitHub.	När du installerar slås hämtning av typsnitt och språkpaket från GitHub på.
 	Installing… {percent}%	Installerar… {percent} %
 	Inverse	Omvänd
+	Item Color	Objektfärg
 	Language data	Språkdata
+	Language Packs	Språkpaket
 	Language packs aren't available in the browser.	Språkpaket är inte tillgängliga i webbläsaren.
 	Language packs come from a test source: {source}	Språkpaketen kommer från en testkälla: {source}
 	Language packs need the font store folder, and there is none on this computer.	Språkpaket kräver mappen för typsnittsarkivet, och det finns ingen på den här datorn.
 	Licence: {licence}. Source: {source}	Licens: {licence}. Källa: {source}
+	Linux display server	Linux-visningsserver
 	Macro name:	Makronamn:
+	Markdown Source	Markdown-källkod
+	Markdown Source takes up to 2 MB of text	Markdown-källkod rymmer upp till 2 MB text
+	Missing Fonts	Saknade typsnitt
 	More options	Fler alternativ
+	Mouse wheel scroll speed:	Rullhastighet för mushjulet:
 	Next sheet	Nästa ark
+	No other WordCraft windows are open.	Inga andra WordCraft-fönster är öppna.
 	Not in Dictionary	Finns inte i ordlistan
 	Not installed — shown as	Inte installerat — visas som
+	Nothing to redo	Inget att göra om
+	Nothing to undo	Inget att ångra
+	On X11, the touchpad follows the mouse wheel speed.	I X11 följer styrplattan mushjulets hastighet.
 	Only you can turn on downloading: click the button yourself. Agents can install once it is on.	Bara du kan slå på hämtning: klicka själv på knappen. Agenter kan installera när den är på.
 spacing	Open	Öppen
+	OpenDocument Text Template (*.ott)	OpenDocument-textmall (*.ott)
 	Page number	Sidnummer
 	Pages per sheet	Sidor per ark
 	Picture border	Bildkantlinje
 	Previous sheet	Föregående ark
 	Printing cancelled. Nothing was sent to the printer.	Utskriften avbröts. Ingenting skickades till skrivaren.
 	Record…	Spela in…
+	Remove from list	Ta bort från listan
 	Remove Language Pack	Ta bort språkpaket
+	Removed {count} documents from the recent list	{count} dokument togs bort från listan över senaste
+	Removed {name} from the recent list	{name} togs bort från listan över senaste
 	Run	Kör
+	Saved. Edits in the formatted view meant writing the Markdown out again, so its own layout wasn't kept.	Sparat. Ändringarna i den formaterade vyn krävde att Markdown-koden skrevs ut på nytt, så dess egen layout behölls inte.
+	Screen only. Document backgrounds, printing and exports keep their colours. Dark page and explicit Read Mode colours take precedence.	Endast skärmen. Dokumentbakgrunder, utskrifter och exporter behåller sina färger. Mörk sida och uttryckligt angivna färger för läsläge har företräde.
+	Screen paper color:	Pappersfärg på skärmen:
+	Select Canvas Member	Markera del av ritytan
 	Set the colors in the Text Pane to use custom colors.	Ange färgerna i textpanelen för att använda anpassade färger.
 	Shape color	Formfärg
 	Sheet {page} of {pages}	Ark {page} av {pages}
 	Shown in substitute fonts. Click for details.	Visas med ersättningstypsnitt. Klicka för detaljer.
 	Soft Edge	Mjuk kant
 	Source	Källa
+	Status bar	Statusfält
 	Status bar count:	Antal i statusfältet:
 	Stop Recording	Stoppa inspelning
 	Style Color	Stilfärg
@@ -600,8 +630,13 @@ spacing	Open	Öppen
 	The document or selection changed. Check again to continue.	Dokumentet eller markeringen har ändrats. Kontrollera igen för att fortsätta.
 	The spelling and hyphenation data WordCraft uses, and their licences.	Stavnings- och avstavningsdata som WordCraft använder, och deras licenser.
 	There are no macros yet. Record one to add it here.	Det finns inga makron än. Spela in ett för att lägga till det här.
+	This document has content Markdown can't hold. Changing the text here removes it; one Undo afterwards brings it back.	Det här dokumentet har innehåll som Markdown inte kan lagra. Om du ändrar texten här tas det bort; ett Ångra efteråt återställer det.
+	Touchpad scroll speed:	Rullhastighet för styrplattan:
 	Turquoise	Turkos
 	Type a size in any unit, such as 3 cm or 300 px.	Ange en storlek i valfri enhet, till exempel 3 cm eller 300 px.
+	Update automatically	Uppdatera automatiskt
+	Updates are off in this window: WordCraft was started with another program's AppImage settings. Start WordCraft from its own menu entry to update it.	Uppdateringar är avstängda i det här fönstret: WordCraft startades med ett annat programs AppImage-inställningar. Starta WordCraft från dess egen menypost för att uppdatera det.
+	You can also right-click the count in the status bar to change it.	Du kan också högerklicka på antalet i statusfältet för att ändra det.
 	{chars} characters	{chars} tecken
 	{chars} characters (no spaces)	{chars} tecken (utan blanksteg)
 	{field}, record {n}	{field}, post {n}
