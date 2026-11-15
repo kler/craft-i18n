@@ -777,7 +777,6 @@ key	Delete	Delete
 	document structure	dokumentstruktur
 	Document structure provides a logical reading order	Dokumentstrukturen ger en logisk läsordning
 	Document title is showing in title bar	Dokumenttiteln visas i namnlisten
-	Document: {name}	Dokument: {name}
 	Documents and view	Dokument och vy
 	Documents of more than 20 pages need bookmarks for navigation. Add bookmarks for the main sections.	Dokument med fler än 20 sidor behöver bokmärken för att kunna navigera. Lägg till bokmärken för huvudavsnitten.
 	Domain	Domän
@@ -2576,7 +2575,6 @@ calendar weekday	Th	to
 	this document is signed: rewriting it would invalidate its signatures (save it incrementally instead)	det här dokumentet är signerat: att skriva om det skulle göra signaturerna ogiltiga (spara det inkrementellt i stället)
 	This document is trying to open a local file:	Det här dokumentet försöker öppna en lokal fil:
 	This document isn't password-protected	Det här dokumentet är inte lösenordsskyddat
-	This document's script is asking	Det här dokumentets skript frågar
 	This drawing exceeds the snapping limit; only the first paths are used.	Ritningen överskrider gränsen för fästfunktionen; endast de första banorna används.
 	This field is locked. Unlock it to change its properties.	Det här fältet är låst. Lås upp det för att ändra dess egenskaper.
 	This field's font can't draw “{c}” ({code}), so PdfCraft shows ? in its place. The value is saved, and other PDF viewers redraw the field from it.	Det här fältets typsnitt kan inte rita ”{c}” ({code}), så PdfCraft visar ? i stället. Värdet sparas, och andra PDF-läsare ritar om fältet från det.
@@ -2596,7 +2594,6 @@ calendar weekday	Th	to
 	This PDF uses the unsupported {s} action.	Den här PDF-filen använder åtgärden {s} som inte stöds.
 	This printer offers no settings of its own.	Den här skrivaren har inga egna inställningar.
 	This printer's driver doesn't take two-sided settings from other programs, so its own setting applies. Change it in Properties…	Den här skrivarens drivrutin tar inte emot inställningar för dubbelsidig utskrift från andra program, så dess egen inställning gäller. Ändra den i Egenskaper…
-	This request comes from the document, not PdfCraft. Only enter a password if you trust this document.	Den här begäran kommer från dokumentet, inte från PdfCraft. Ange bara ett lösenord om du litar på dokumentet.
 	This script is too long to edit here ({kib} KiB); its start is shown. It is kept as it is.	Skriptet är för långt för att redigeras här ({kib} KiB); början visas. Det behålls som det är.
 	This signature uses an RSA key shorter than 2048 bits, which is no longer considered strong enough for signatures. It still validates, but it should not be relied on.	Signaturen använder en RSA-nyckel som är kortare än 2048 bitar, vilket inte längre anses tillräckligt starkt för signaturer. Den valideras fortfarande, men du bör inte förlita dig på den.
 	This signature uses RIPEMD-160, a legacy 160-bit hash algorithm that is no longer recommended for signatures. It still validates, but it should not be relied on.	Den här signaturen använder RIPEMD-160, en äldre 160-bitars hashalgoritm som inte längre rekommenderas för signaturer. Den valideras fortfarande, men den bör inte litas på.
