@@ -182,6 +182,7 @@
 	Apply formatting to:	Använd formatering på:
 	Apply Style	Använd stil
 	Apply Styles	Använd stilar
+	Apply to the whole document	Använd för hela dokumentet
 	Arabic	Arabiska
 	Arch Down	Båge nedåt
 	Arch Up	Båge uppåt
@@ -311,9 +312,11 @@
 	Built-in Heading styles	Inbyggda rubrikstilar
 	Built-in style	Inbyggd stil
 	Built-in styles can't be deleted.	Inbyggda stilar kan inte tas bort.
+	Bullet character	Punkttecken
 	Bullet Library	Punktbibliotek
 	Bullets	Punktlista
 	By author	Efter författare
+	By:	Av:
 	Calendar	Kalender
 	Can't be deleted	Kan inte tas bort
 	Can't find a command? Press {key} and type what you want to do.	Hittar du inte ett kommando? Tryck på {key} och skriv vad du vill göra.
@@ -560,11 +563,16 @@
 	Dark Yellow	Mörkgul
 	Default format saved.	Standardformatet har sparats.
 	Display server:	Displayserver:
+	Don't show this again	Visa inte detta igen
+	Download from {publisher}	Hämta från {publisher}
+	Download the font. If it comes as a .zip file, unpack it.	Hämta typsnittet. Om det kommer som en .zip-fil packar du upp den.
 	East	Öster
 	Emphasis Mark	Betoningstecken
 	Fit\nOne Page	Anpassa till\nen sida
 	Flat OpenDocument Text (*.fodt)	Platt OpenDocument-text (*.fodt)
+	Fonts come with licence terms. Read the publisher's terms on the download page: following them is up to you.	Typsnitt har licensvillkor. Läs förlagets villkor på hämtningssidan: det är upp till dig att följa dem.
 	Get the list of languages again	Hämta listan över språk igen
+	Get the Missing Fonts…	Hämta saknade typsnitt…
 	Getting the list of languages…	Hämtar listan över språk…
 	Gray-25%	Grå 25 %
 	Gray-50%	Grå 50 %
@@ -578,21 +586,25 @@
 	Installing… {percent}%	Installerar… {percent} %
 	Inverse	Omvänd
 	Item Color	Objektfärg
+	Its licence limits who may use it: read the terms first.	Licensen begränsar vem som får använda det: läs villkoren först.
 	Language data	Språkdata
 	Language Packs	Språkpaket
+	Language packs aren't available in the browser	Språkpaket är inte tillgängliga i webbläsaren
 	Language packs aren't available in the browser.	Språkpaket är inte tillgängliga i webbläsaren.
 	Language packs come from a test source: {source}	Språkpaketen kommer från en testkälla: {source}
 	Language packs need the font store folder, and there is none on this computer.	Språkpaket kräver mappen för typsnittsarkivet, och det finns ingen på den här datorn.
+	Level	Nivå
 	Licence: {licence}. Source: {source}	Licens: {licence}. Källa: {source}
 	Linux display server	Linux-visningsserver
 	Macro name:	Makronamn:
+	Mark the whole document as:	Märk hela dokumentet som:
 	Markdown Source	Markdown-källkod
 	Markdown Source takes up to 2 MB of text	Markdown-källkod rymmer upp till 2 MB text
 	Missing Fonts	Saknade typsnitt
 	More options	Fler alternativ
 	Mouse wheel scroll speed:	Rullhastighet för mushjulet:
 	Next sheet	Nästa ark
-	No other WordCraft windows are open.	Inga andra WordCraft-fönster är öppna.
+	None of the fonts this document is missing can be downloaded free of charge from their publisher.	Inget av typsnitten som saknas i det här dokumentet kan hämtas kostnadsfritt från förlaget.
 	Not in Dictionary	Finns inte i ordlistan
 	Not installed — shown as	Inte installerat — visas som
 	Nothing to redo	Inget att göra om
@@ -601,8 +613,12 @@
 	Only you can turn on downloading: click the button yourself. Agents can install once it is on.	Bara du kan slå på hämtning: klicka själv på knappen. Agenter kan installera när den är på.
 spacing	Open	Öppen
 	OpenDocument Text Template (*.ott)	OpenDocument-textmall (*.ott)
+	Or install it for every app: copy the font files to the .local/share/fonts folder in your home folder, then restart WordCraft.	Eller installera det för alla appar: kopiera typsnittsfilerna till mappen .local/share/fonts i din hemmapp och starta sedan om WordCraft.
+	Or install it for every app: double-click each font file and choose Install in Font Book, then restart WordCraft.	Eller installera det för alla appar: dubbelklicka på varje typsnittsfil och välj Installera i Font Book, och starta sedan om WordCraft.
+	Or install it for every app: select the font files, right-click and choose Install, then restart WordCraft.	Eller installera det för alla appar: markera typsnittsfilerna, högerklicka och välj Installera, och starta sedan om WordCraft.
 	Page number	Sidnummer
 	Pages per sheet	Sidor per ark
+	Pick the font files:	Välj typsnittsfilerna:
 	Picture border	Bildkantlinje
 	Previous sheet	Föregående ark
 	Printing cancelled. Nothing was sent to the printer.	Utskriften avbröts. Ingenting skickades till skrivaren.
@@ -619,17 +635,23 @@ spacing	Open	Öppen
 	Set the colors in the Text Pane to use custom colors.	Ange färgerna i textpanelen för att använda anpassade färger.
 	Shape color	Formfärg
 	Sheet {page} of {pages}	Ark {page} av {pages}
+	Shown as {fonts} · {publisher}	Visas som {fonts} · {publisher}
 	Shown in substitute fonts. Click for details.	Visas med ersättningstypsnitt. Klicka för detaljer.
 	Soft Edge	Mjuk kant
 	Source	Källa
+	Special:	Special:
 	Status bar	Statusfält
 	Status bar count:	Antal i statusfältet:
 	Stop Recording	Stoppa inspelning
 	Style Color	Stilfärg
 	Suggestions	Förslag
+	Symbol…	Symbol…
 	Teal	Blågrön
+	Tell me when a document's missing fonts can be downloaded	Meddela mig när typsnitt som saknas i ett dokument kan hämtas
+	Text in a missing font is shown in another font, so it may not look as it was written. The downloads are free of charge.	Text i ett typsnitt som saknas visas i ett annat typsnitt och ser därför kanske inte ut som när den skrevs. Hämtningarna är kostnadsfria.
 	The document or selection changed. Check again to continue.	Dokumentet eller markeringen har ändrats. Kontrollera igen för att fortsätta.
 	The spelling and hyphenation data WordCraft uses, and their licences.	Stavnings- och avstavningsdata som WordCraft använder, och deras licenser.
+	Then add it to WordCraft	Lägg sedan till det i WordCraft
 	There are no macros yet. Record one to add it here.	Det finns inga makron än. Spela in ett för att lägga till det här.
 	This document has content Markdown can't hold. Changing the text here removes it; one Undo afterwards brings it back.	Det här dokumentet har innehåll som Markdown inte kan lagra. Om du ändrar texten här tas det bort; ett Ångra efteråt återställer det.
 	Touchpad scroll speed:	Rullhastighet för styrplattan:
