@@ -29,6 +29,7 @@
 	125%	125 %
 	15 fps	15 bild/s
 	150%	150 %
+	16 Bit	16 bitar
 	16 Bits/Channel	16 bitar/kanal
 	175%	175 %
 	180°	180°
@@ -47,6 +48,7 @@
 	30 frames @ 30 fps	30 bildrutor vid 30 bild/s
 	300%	300 %
 	31 by 31 Average	Medelvärde 31 x 31
+	32 Bit	32 bitar
 	32 bit (float)	32 bitar (flyttal)
 	32 Bits/Channel	32 bitar/kanal
 	32-bit Preview Options	Alternativ för 32-bitars förhandsgranskning
@@ -64,6 +66,7 @@
 	51 by 51 Average	Medelvärde 51 x 51
 	6-up	6 fönster
 	75%	75 %
+	8 Bit	8 bitar
 	8 Bits/Channel	8 bitar/kanal
 	8 Columns	8 kolumner
 	80%	80 %
@@ -75,6 +78,7 @@
 	@{login}: {prs} PRs, {commits} commits, +{added} / −{deleted} lines (Δ {delta}), +{binAdded} / −{binDeleted} binary assets, {first} – {last}	@{login}: {prs} PR:er, {commits} commits, +{added} / −{deleted} rader (Δ {delta}), +{binAdded} / −{binDeleted} binära resurser, {first} – {last}
 	A brush preset with this name already exists	Det finns redan en penselförinställning med det här namnet
 	A command was canceled or stopped during batch processing. Continue with the next file or stop?	Ett kommando avbröts eller stoppades under batchbearbetningen. Vill du fortsätta med nästa fil eller stoppa?
+	A custom shape is placed from its preset	En anpassad form placeras från sin förinställning
 	A file is still being placed; try again when it has finished.	En fil håller fortfarande på att placeras. Försök igen när den är klar.
 	A grey mix that spreads the image's tones	En grå blandning som sprider ut bildens toner
 	A picked document is no longer a grayscale document of the same size.	Ett av de valda dokumenten är inte längre ett gråskaledokument i samma storlek.
@@ -98,9 +102,11 @@
 	Add a layer style	Lägg till en lagerstil
 	Add a mask  (from the selection; {key} inverts)	Lägg till en mask  (från markeringen; {key} inverterar)
 	Add a mask  (from the selection; ⌥ inverts)	Lägg till en mask  (från markeringen; ⌥ inverterar)
+	Add a size	Lägg till en storlek
 	Add an adjustment	Lägg till en justering
 	Add Anchor Point	Lägg till ankarpunkt
 	Add Anchor Point Tool	Verktyget Lägg till ankarpunkt
+	Add artboard	Lägg till rityta
 	Add beauty precomp from the AOVs	Lägg till beauty-förkomposition från AOV:er
 	Add disk	Lägg till disk
 	Add Layer Above to Selection	Lägg till lagret ovanför i markeringen
@@ -119,12 +125,14 @@
 	Add space after paragraph	Lägg till avstånd efter stycke
 	Add space before paragraph	Lägg till avstånd före stycke
 	Add Stop	Lägg till färgstopp
+	Add the files to load	Lägg till filerna som ska läsas in
 	Add to	Lägg till i
 	Add to Favorites	Lägg till i favoriter
 	Add to favorites	Lägg till i favoriter
 	Add to Sample	Lägg till i prov
 	Add to selection  ({key})	Lägg till i markeringen  ({key})
 	Add to selection  (⇧)	Lägg till i markeringen  (⇧)
+	Add Variable	Lägg till variabel
 	Add Vector Mask	Lägg till vektormask
 	Add vector mask	Lägg till vektormask
 	Add “copy” to Copied Layers and Groups	Lägg till ”kopia” i kopierade lager och grupper
@@ -135,6 +143,7 @@
 	Adjust for Zoom	Anpassa efter zoom
 	Adjust Interval For Loops	Justera intervall för slingor
 	Adjustment	Justering
+	Adjustment Composite	Justeringskomposit
 	Adjustment Layer	Justeringslager
 	Adjustment Layers	Justeringslager
 	Adjustment layers have nothing to transform	Justeringslager har inget att ombilda
@@ -184,6 +193,7 @@
 	All open documents	Alla öppna dokument
 	All shortcuts reset to PhotoCraft defaults.	Alla kortkommandon har återställts till PhotoCrafts standardvärden.
 	All User Slices	Alla användarskivor
+	All Visible Layers	Alla synliga lager
 	Allow agent control	Tillåt agentstyrning
 	Allow Continue	Tillåt att fortsätta
 	Allow Non-Linear History	Tillåt icke-linjär historik
@@ -215,6 +225,7 @@ cameraRaw	Amount	Mängd
 	Anamorphic 2:1 (2)	Anamorfisk 2:1 (2)
 	Anchor:	Ankare:
 	Android 1080p	Android 1080p
+	Angle and roundness	Vinkel och rundhet
 	Angle Gradient	Vinkelgradient
 	Angle Jitter	Vinkelvariation
 	Angled Strokes	Vinklade penseldrag
@@ -222,6 +233,7 @@ cameraRaw	Amount	Mängd
 	Animation Options	Animeringsalternativ
 	Anisotropic	Anisotropisk
 	Answer the open import question first, then import this file again.	Besvara den öppna importfrågan först och importera sedan filen igen.
+	Answer the open question first.	Besvara den öppna frågan först.
 	Answer the unsaved-changes prompt first	Svara först på frågan om osparade ändringar
 	Anti-alias brush application	Kantutjämna penseldrag
 	Anti-aliased	Kantutjämnad
@@ -231,7 +243,9 @@ cameraRaw	Amount	Mängd
 shape	Appearance	Utseende
 	Appearance (Layer Style)	Utseende (lagerstil)
 	Appearance Mode	Utseendeläge
+	Appearance Mode: {mode}	Utseendeläge: {mode}
 	Appearance Settings…	Utseendeinställningar…
+	Append	Lägg till i slutet
 	Apple RGB	Apple RGB
 	Apple Watch 45mm	Apple Watch 45 mm
 	Applies at next launch.	Gäller från nästa start.
@@ -262,6 +276,7 @@ cameraRaw	Aqua	Akvamarin
 	Arc Lower	Nedre båge
 	Arc Upper	Övre båge
 	Arch	Valv
+	Are you sure you want to delete all notes?	Vill du verkligen ta bort alla anteckningar?
 	Are you sure you want to quit?	Vill du verkligen avsluta?
 	Are you sure?	Är du säker?
 	Area	Yta
@@ -287,6 +302,7 @@ cameraRaw	Aqua	Akvamarin
 	Artboard…	Rityta…
 	ArtCraft	ArtCraft
 	Artist	Konstnär
+	As:	Som:
 	Ask	Fråga
 	Ask before saving layered tiff	Fråga innan TIFF med lager sparas
 	Ask Before Saving Saved Embedded	Fråga innan inbäddade sparas
@@ -312,9 +328,11 @@ cameraRaw	Aqua	Akvamarin
 	Auto Hide	Dölj automatiskt
 	Auto Hide Notifications	Dölj aviseringar automatiskt
 	Auto Scale	Skala automatiskt
+	Auto Scale Image	Skala bilden automatiskt
 	Auto show hidden panels	Visa dolda paneler automatiskt
 	Auto show home screen	Visa startskärmen automatiskt
 	Auto Show Overlay	Visa överlägg automatiskt
+	Auto spacing	Automatiskt avstånd
 	Auto Tone	Autoton
 	Auto-Align Layers	Justera lager automatiskt
 	Auto-Align Layers…	Justera lager automatiskt…
@@ -391,6 +409,7 @@ cameraRaw	Before (Y)	Före (Y)
 fontWeight	Black	Svart
 	Black & White…	Svartvitt…
 	Black Clip	Svartklippning
+	Black Color	Svart färg
 	Black Matte	Svart kantfärg
 	Black Point Compensation	Svartpunktskompensering
 	Black, White	Svart, vit
@@ -405,6 +424,7 @@ cameraRaw	Blacks	Svarta
 	Blend Clipped Layers as Group	Blanda urklippta lager som grupp
 	Blend If	Blandningsvillkor
 	Blend If:	Blandningsvillkor:
+	Blend Images Together	Blanda ihop bilder
 	Blend Interior Effects as Group	Blanda inre effekter som grupp
 	Blend Mode	Blandningsläge
 	Blend RGB Colors Using Gamma 1.0	Blanda RGB-färger med gamma 1,0
@@ -424,8 +444,10 @@ cameraRaw	Blue	Blå
 	Blur Angle	Oskärpevinkel
 	Blur Gallery	Oskärpegalleri
 	Blur More	Mer oskärpa
+	Blur Pins	Oskärpenålar
 	Blur Tool	Oskärpeverktyg
 	blur tool	oskärpeverktyg
+	BMP	BMP
 fontWeight	Bold	Fet
 	Bold Italic	Fet kursiv
 	Border	Ram
@@ -462,6 +484,7 @@ fontWeight	Bold	Fet
 	Brush name	Penselnamn
 	Brush picker	Penselväljare
 	Brush Pose	Penselställning
+	Brush Preset	Penselförinställning
 	Brush preset changes are not saved: {error}	Ändringar i penselförinställningar sparas inte: {error}
 	Brush Preset Options	Alternativ för penselförinställningar
 	Brush Preset picker	Väljare för penselförinställningar
@@ -475,6 +498,7 @@ fontWeight	Bold	Fet
 	Brush Stroke	Penseldrag
 	Brush Tip	Penselspets
 	Brush Tip Shape	Penselspetsens form
+	Brush tips	Penselspetsar
 	Brush Tool	Penselverktyg
 	brush tool	penselverktyget
 	Brush Tool Options	Alternativ för penselverktyget
@@ -489,6 +513,7 @@ fontWeight	Bold	Fet
 	Butt / Flat	Rak / Platt
 	Button Mode	Knappläge
 	Button Mode On	Knappläge på
+	By name	Efter namn
 	Byline	Upphovsperson
 	Byline Title	Upphovspersonens titel
 	Cache Level:	Cachenivå:
@@ -504,7 +529,9 @@ fontWeight	Bold	Fet
 	Camera Model	Kameramodell
 cameraRaw	Cancel	Avbryt
 	Cancel (Esc)	Avbryt (Esc)
+	Cancel any current edits	Avbryt aktuella ändringar
 	Cancel any current edits (Esc)	Avbryt alla pågående ändringar (Esc)
+	Cancel current crop operation	Avbryt aktuell beskärning
 	Cancel current crop operation  (Esc)	Avbryt aktuell beskärning  (Esc)
 	Cancel opening	Avbryt öppning
 	Cancel transform	Avbryt ombildning
@@ -521,6 +548,7 @@ cameraRaw	Canceled {label}	{label} avbröts
 	Canvas custom color	Anpassad färg för arbetsytan
 	Canvas extension color:	Färg för utökad arbetsyta:
 	Canvas Guides	Stödlinjer för arbetsytan
+	Canvas menu	Arbetsytemeny
 	Canvas rotation	Rotation av arbetsytan
 	Canvas Size	Storlek på arbetsyta
 	Canvas Size…	Storlek på arbetsyta…
@@ -550,6 +578,7 @@ cameraRaw	Canceled {label}	{label} avbröts
 	Channel Color	Kanalfärg
 	Channel Mixer	Kanalblandare
 	Channel Mixer…	Kanalblandare…
+	Channel Options	Kanalalternativ
 	Channel Options…	Kanalalternativ…
 	Channel1	Kanal 1
 	Channel2	Kanal 2
@@ -572,6 +601,7 @@ cameraRaw	Canceled {label}	{label} avbröts
 	Chisel Hard	Mejsel, hård
 	Chisel Soft	Mejsel, mjuk
 	Choke	Krympning
+	Choose a displacement map	Välj en förskjutningskarta
 	Choose a format that keeps it, such as Photoshop (PSD), or save a copy.	Välj ett format som behåller det, till exempel Photoshop (PSD), eller spara en kopia.
 	Choose a gradient file (.grd).	Välj en gradientfil (.grd).
 	Choose a menu command. Playback asks for its settings when needed.	Välj ett menykommando. Vid uppspelning efterfrågas inställningarna när det behövs.
@@ -579,17 +609,22 @@ cameraRaw	Canceled {label}	{label} avbröts
 	Choose a remix mode	Välj ett remixläge
 	Choose Folder	Välj mapp
 	Choose Import as New Group or Replace.	Välj Importera som ny grupp eller Ersätt.
+	Choose one Actions file.	Välj en åtgärdsfil.
 	Choose Stack Mode:	Välj staplingsläge:
+	Chromatic Aberration	Kromatisk aberration
 	Chrome	Krom
 	CIE RGB	CIE RGB
 	Circularity	Rundhet
 	Clarity	Klarhet
 cameraRaw	Clarity	Klarhet
+	Classic gradient	Klassisk gradient
 	Classic Theme	Klassiskt tema
 	Clean Brush	Rengör pensel
 	Clean the brush after each stroke	Rengör penseln efter varje penseldrag
 	Cleanliness	Renhet
 	Clear All	Rensa alla
+	Clear All Actions	Rensa alla åtgärder
+	Clear all actions?	Vill du rensa alla åtgärder?
 	Clear Amount	Rensningsgrad
 	Clear aspect ratio values	Rensa värden för bildförhållande
 	Clear Brush Controls	Rensa penselkontroller
@@ -645,6 +680,8 @@ cameraRaw	Clarity	Klarhet
 	Clipping Path…	Urklippsbana…
 	Clone	Klona
 	Clone Source	Klonkälla
+	Clone source	Klonkälla
+	Clone source overlay	Överlägg för klonkälla
 	Clone source set at {x}, {y}	Klonkälla inställd på {x}, {y}
 	Clone Source X Offset	Klonkälla, X-förskjutning
 	Clone Source Y Offset	Klonkälla, Y-förskjutning
@@ -655,6 +692,7 @@ cameraRaw	Clarity	Klarhet
 	Close Others	Stäng övriga
 	Close Style Options	Stäng stilalternativ
 	Close Tab Group	Stäng flikgrupp
+	Close the Color Picker first.	Stäng färgväljaren först.
 	Close Window	Stäng fönster
 	Closed document	Stängt dokument
 	Clouds	Moln
@@ -665,6 +703,7 @@ cameraRaw	Clarity	Klarhet
 	Coated CMYK	Bestruket CMYK
 	Coated-cmyk	Bestruket CMYK
 	Coerce to sRGB	Tvinga till sRGB
+	Collage	Kollage
 	Collapse All Groups	Komprimera alla grupper
 	Collapse group  ({key}-click: all groups)	Fäll ihop grupp  ({key}-klicka: alla grupper)
 	Collapse group  (⌥-click: all groups)	Fäll ihop grupp  (⌥-klicka: alla grupper)
@@ -723,6 +762,7 @@ cameraRaw	Color Priority	Färgprioritet
 	Color Replacement	Färgersättning
 	Color Replacement Tool	Färgersättningsverktyg
 	Color Sampler Tool	Färgprovsverktyg
+	Color samplers	Färgmätpunkter
 	Color space	Färgrymd
 	Color Swatches	Färgrutor
 	Color Table…	Färgtabell…
@@ -735,10 +775,15 @@ cameraRaw	Color Priority	Färgprioritet
 	Combine Shapes	Kombinera former
 	Comic Book	Serietidning
 	command or shortcut	kommando eller kortkommando
+	Command Palette	Kommandopalett
+	Commit	Verkställ
+	Commit any current edits	Verkställ aktuella ändringar
 	Commit any current edits ({key})	Verkställ aktuella ändringar ({key})
 	Commit any current edits (⌘↩)	Verkställ aktuella ändringar (⌘↩)
+	Commit current crop operation	Verkställ aktuell beskärning
 	Commit current crop operation  ({key})	Verkställ aktuell beskärning  ({key})
 	Commit current crop operation  (↵)	Verkställ aktuell beskärning  (↵)
+	Commit or cancel the transform first	Verkställ eller avbryt ombildningen först
 	Commit Perspective Warp ({key})	Verkställ perspektivdeformering ({key})
 	Commit Perspective Warp (↩)	Verkställ perspektivdeformering (↩)
 	Commit Puppet Warp ({key})	Verkställ marionettdeformering ({key})
@@ -759,6 +804,7 @@ cameraRaw	Color Priority	Färgprioritet
 	Cone - Inverted	Kon - omvänd
 	Confirm	Bekräfta
 	Confirm or cancel the open action step dialog first	Bekräfta eller avbryt den öppna dialogrutan för åtgärdssteget först
+	Confirm or cancel the pending Actions library change first.	Bekräfta eller avbryt den väntande ändringen av åtgärdsbiblioteket först.
 	Confirm or cancel the pending menu item first.	Bekräfta eller avbryt det väntande menyalternativet först.
 	Confirm or cancel the pending Record Again editor first.	Bekräfta eller avbryt den väntande redigeraren för Spela in igen först.
 	Conform	Anpassa
@@ -774,6 +820,7 @@ cameraRaw	Color Priority	Färgprioritet
 	Content-Aware Fill	Innehållsmedveten fyllning
 	Content-aware fill	Innehållsbaserad fyllning
 	Content-Aware Fill needs a selection on a pixel layer	Innehållsmedveten fyllning kräver en markering på ett pixellager
+	Content-Aware Fill Transparent Areas	Innehållsbaserad fyllning av genomskinliga områden
 	Content-Aware Fill…	Innehållsmedveten fyllning…
 	Content-Aware Move	Innehållsmedveten flytt
 	Content-Aware Move Tool	Verktyget Innehållsmedveten flytt
@@ -857,9 +904,16 @@ cameraRaw	Contrast	Kontrast
 	Could not write {name}: {error}	Det gick inte att skriva {name}: {error}
 	Couldn't open {name}: {error}	Det gick inte att öppna {name}: {error}
 	Couldn't place {name}: {error}	Det gick inte att placera {name}: {error}
+	couldn't read the file	kunde inte läsa filen
 	Couldn't save preferences: {error}. Retrying…	Det gick inte att spara inställningarna: {error}. Försöker igen…
 	Count	Antal
+	Count Color	Räknefärg
+	Count Group	Räknegrupp
+	Count group color	Räknegruppens färg
+	Count Group Name	Räknegruppens namn
+	Count Group Name:	Räknegruppens namn:
 	Count Jitter	Antalsvariation
+	Count markers	Räknemarkörer
 	Count Tool	Räkneverktyg
 	Count:	Antal:
 	Count: {n}	Antal: {n}
@@ -926,6 +980,7 @@ cameraRaw	Contrast	Kontrast
 	Crisp	Krispig
 	Crop and Straighten Photos	Beskär och räta upp foton
 	Crop Factor	Beskärningsfaktor
+	Crop presets	Beskärningsförinställningar
 	Crop Shield color	Färg för beskärningsskydd
 	Crop Tool	Beskärningsverktyg
 	Cross	Kors
@@ -976,6 +1031,7 @@ cameraRaw	Curve	Kurva
 	Cycle Orientation	Växla orientering
 	Cycle Overlay	Växla överlägg
 	Cycle Screen Mode	Växla skärmläge
+	Cylindrical	Cylindrisk
 	Cyrillic	Cyrilliska
 	D1/DV NTSC (0.91)	D1/DV NTSC (0,91)
 	D1/DV NTSC Widescreen (1.21)	D1/DV NTSC bredbild (1,21)
@@ -1001,6 +1057,7 @@ cameraRaw	Darks	Mörka
 	Dash offset	Streckförskjutning
 	Dashed line	Streckad linje
 	Dashed lines	Streckade linjer
+	Data Points	Datapunkter
 	Data Set: {name}  ({index}/{total})	Datauppsättning: {name}  ({index}/{total})
 	Data Sets as Files	Datauppsättningar som filer
 	Data Sets as Files is unavailable on the web	Datauppsättningar som filer är inte tillgängligt på webben
@@ -1058,6 +1115,7 @@ cameraRaw	Dehaze	Ta bort dis
 	Delete Channel	Ta bort kanal
 	Delete Contour	Ta bort kontur
 	Delete count group	Ta bort räknegrupp
+	Delete Crop Preset	Ta bort beskärningsförinställning
 	Delete Crop Preset…	Ta bort beskärningsförinställning…
 	Delete Cropped Pixels	Ta bort beskurna pixlar
 	Delete current channel	Ta bort aktuell kanal
@@ -1078,6 +1136,7 @@ cameraRaw	Dehaze	Ta bort dis
 	Delete Layer…	Ta bort lager…
 	Delete Mask	Ta bort mask
 	Delete note	Ta bort anteckning
+	Delete Note	Ta bort anteckning
 	Delete Path	Ta bort bana
 	Delete path	Ta bort bana
 	Delete Pins	Ta bort nålar
@@ -1087,7 +1146,9 @@ cameraRaw	Dehaze	Ta bort dis
 	Delete Smart Filters	Ta bort smarta filter
 	Delete Snapshot	Ta bort ögonblicksbild
 	Delete style	Ta bort stil
+	Delete the currently selected count group	Ta bort den markerade räknegruppen
 	Delete the vector mask?	Ta bort vektormasken?
+	Delete this note?	Ta bort anteckningen?
 	Delete this set	Ta bort den här uppsättningen
 	Delete Timeline	Ta bort tidslinje
 	Delete Tool Preset	Ta bort verktygsförinställning
@@ -1127,6 +1188,7 @@ cameraRaw	Developing {name}	Framkallar {name}
 	Diffuse…	Diffusera…
 	Diffusion Dither	Diffusionsdithering
 	Dimensions:	Mått:
+	Dir	Riktning
 	Direction	Riktning
 	Direction of Stroke	Penseldragets riktning
 	DirectX 12	DirectX 12
@@ -1176,6 +1238,7 @@ cameraRaw	Developing {name}	Framkallar {name}
 	Document Profile	Dokumentprofil
 	Document Size	Dokumentstorlek
 	Document Sizes	Dokumentstorlekar
+	Document Tab	Dokumentflik
 	Documentation	Dokumentation
 	Dodge	Skuggning
 	Dodge Tool	Skuggningsverktyg
@@ -1184,10 +1247,10 @@ cameraRaw	Developing {name}	Framkallar {name}
 	Domed	Välvd
 	Domed (Inverted)	Välvd (omvänd)
 	Don't also tick Mirror Image in Print Settings…: the two flips cancel out.	Markera inte också Spegelvänd bild i Utskriftsinställningar…: de två vändningarna tar ut varandra.
+	Don't Enlarge	Förstora inte
 	Don't Import	Importera inte
 	Don't show again	Visa inte igen
 	Dont Enlarge	Förstora inte
-	Dont enlarge	Förstora inte
 	Double click layer mask launches select and mask	Dubbelklick på lagermask öppnar Markera och maskera
 	Double Line	Dubbel linje
 	Drag (lasso) or click points (polygonal) · {add} add · {sub} subtract	Dra (lasso) eller klicka på punkter (polygonal) · {add} lägg till · {sub} subtrahera
@@ -1231,6 +1294,7 @@ cameraRaw	Developing {name}	Framkallar {name}
 	Duotone…	Duoton…
 	Duplicate Channel	Duplicera kanal
 	Duplicate Frame	Duplicera bildruta
+	Duplicate Group…	Duplicera grupp…
 	Duplicate Layer Comp	Duplicera lagerkomposition
 	Duplicate Layers	Duplicera lager
 	Duplicate Layers…	Duplicera lager…
@@ -1242,6 +1306,7 @@ cameraRaw	Developing {name}	Framkallar {name}
 	Duration	Varaktighet
 	Dust & Scratches	Damm och repor
 	Dust & Scratches…	Damm och repor…
+	DVCPRO HD 1080 (1.5)	DVCPRO HD 1080 (1,5)
 	DVCPRO HD 1080/HDV 1080 (1.5)	DVCPRO HD 1080/HDV 1080 (1,5)
 	Dynamic color sliders	Dynamiska färgreglage
 	Dynamics	Dynamik
@@ -1311,18 +1376,22 @@ cameraRaw	Effects	Effekter
 	Enter a name for the crop preset	Ange ett namn på beskärningsförinställningen
 	Enter description…	Ange beskrivning…
 	Entire Document	Hela dokumentet
+	Entire Image	Hela bilden
 	Entropy	Entropi
 	Equalize	Utjämna
 	Equalize Entire Image Based On Selected Area	Utjämna hela bilden baserat på markerat område
+	Equalize Histogram	Utjämna histogram
 	Equalize Selected Area Only	Utjämna endast markerat område
 	Erase range of similar colors	Radera ett intervall av liknande färger
 	Erase to History	Radera till historik
 	Erase with Brush or Pencil (hold)	Radera med pensel eller blyertspenna (håll ned)
 	Error File	Felfil
+	Error Log	Fellogg
 	Errors	Fel
 	Esc to cancel	Esc för att avbryta
 	Essentials	Grundläggande
 	Estimated file size	Uppskattad filstorlek
+	Event	Händelse
 	Exclude Overlapping Shapes	Uteslut överlappande former
 	Excluded Area	Uteslutet område
 	EXIF	EXIF
@@ -1344,6 +1413,7 @@ cameraRaw	Effects	Effekter
 	Export Contents…	Exportera innehåll…
 	Export Image	Exportera bild
 	Export Options	Exportalternativ
+	Export Paths to File	Exportera banor till fil
 	Export Preferences	Exportera inställningar
 	Export Preferences…	Exportinställningar…
 	Export Presets	Exportera förinställningar
@@ -1358,6 +1428,7 @@ cameraRaw	Effects	Effekter
 	Export/Import Presets…	Exportera/importera förinställningar…
 	Exported contents to {path}	Exporterade innehåll till {path}
 	Exported presets to {path}	Exporterade förinställningar till {path}
+	Exported to {file}	Exporterat till {file}
 	Exported {n} files	Exporterade {n} filer
 @plural	Exported {n} style to {file}|Exported {n} styles to {file}	Exporterade {n} stil till {file}|Exporterade {n} stilar till {file}
 @plural	Exported {n} swatch to {file}|Exported {n} swatches to {file}	Exporterade {n} färgruta till {file}|Exporterade {n} färgrutor till {file}
@@ -1384,6 +1455,7 @@ fontWeight	ExtraLight	Extra mager
 	Extras	Extrafunktioner
 	Extrude	Extrudera
 	Extrude…	Extrudera…
+	Eyedroppers	Pipetter
 	Eyedroppers:	Pipetter:
 	F	F
 	F cycles the views; hold X to see the image	F växlar mellan vyerna; håll ned X för att se bilden
@@ -1417,6 +1489,7 @@ cameraRaw	Feather	Fjädring
 	File Handling…	Filhantering…
 	File Info	Filinformation
 	File Name	Filnamn
+	File Name Prefix	Prefix för filnamn
 	File Naming	Filnamngivning
 	File not found	Filen hittades inte
 	File path	Filsökväg
@@ -1548,6 +1621,7 @@ cameraData	Focal Length (35 mm)	Brännvidd (35 mm)
 	Frame Duration	Bildrutevaraktighet
 	Frame from Layers	Ram från lager
 	Frame from Layers…	Ram från lager…
+	Frame Rate	Bildfrekvens
 	Frame Sync	Bildrutesynkronisering
 	Frame Tool	Ramverktyg
 	Frame {current} / {total}	Bildruta {current} / {total}
@@ -1594,6 +1668,8 @@ cameraRaw	Full-resolution preview unavailable	Förhandsgranskning i full upplös
 	Generate Mipmaps	Generera mipmappar
 	Generators	Generatorer
 	Generic	Allmän
+	Geometric Distortion	Geometrisk distorsion
+	Geometric Distortion Correction	Korrigering av geometrisk distorsion
 	Gif	GIF
 	GitHub	GitHub
 cameraRaw	Global	Global
@@ -1638,12 +1714,14 @@ cameraRaw	Global	Global
 	Gradient Editor	Gradientredigerare
 	Gradient Map	Gradientkarta
 	Gradient Map…	Gradientkarta…
+	Gradient mode	Gradientläge
 	Gradient Options	Gradientalternativ
 	Gradient Overlay	Gradientöverlägg
 	Gradient Overlay…	Gradientöverlägg…
 	Gradient picker	Gradientväljare
 	Gradient Preset Options	Alternativ för gradientförinställningar
 	Gradient stops	Gradientstopp
+	Gradient style	Gradientstil
 	gradient tool	gradientverktyget
 	Gradient-corrected interpolation: sharp and fast, with some color fringing on fine detail.	Gradientkorrigerad interpolering: skarp och snabb, med viss färgfransning i fina detaljer.
 	gradients	gradienter
@@ -1676,6 +1754,7 @@ cameraRaw	Green	Grön
 	Grid color	Rutnätsfärg
 	Grid colors	Rutnätsfärger
 	Grid size	Rutnätsstorlek
+	Grid Size	Rutnätsstorlek
 	Grid style	Rutnätsstil
 	Grid unit	Rutnätsenhet
 	Grid view	Rutnätsvy
@@ -1706,6 +1785,7 @@ cameraRaw	Green	Grön
 	Hand Tool (hold)	Handverktyg (håll ned)
 	Handwritten	Handskrift
 	Hanging Punctuation	Hängande skiljetecken
+	Hard Edge	Hård kant
 	Hard Mix	Hård blandning
 	Hardness	Hårdhet
 	Hardness:	Hårdhet:
@@ -1764,6 +1844,7 @@ cameraRaw	Highlights	Högdagrar
 	History Brush Tool	Historikpenselverktyg
 	History Log	Historiklogg
 	History Log…	Historiklogg…
+	History Options	Historikalternativ
 	History Options…	Historikalternativ…
 	History states	Historiktillstånd
 	Hold Alt while drawing for straight segments	Håll ned Alt medan du ritar för raka segment
@@ -1812,6 +1893,7 @@ cameraRaw	Hue	Nyans
 	Image Rotation	Bildrotation
 	Image Size:	Bildstorlek:
 	Image Size…	Bildstorlek…
+	Image Statistics	Bildstatistik
 	Images in subfolders will start on a new Contact Sheet	Bilder i undermappar börjar på ett nytt kontaktark
 	Import .GRD	Importera .GRD
 	Import as New Group	Importera som ny grupp
@@ -1822,6 +1904,7 @@ cameraRaw	Hue	Nyans
 	Import Brushes…	Importera penslar…
 	Import Brushes… (.abr or image)	Importera penslar… (.abr eller bild)
 	Import Brushes… (.abr)	Importera penslar… (.abr)
+	Import Gradients	Importera gradienter
 	Import Image	Importera bild
 	Import Image…	Importera bild…
 	Import keyboard shortcuts?	Vill du importera kortkommandon?
@@ -1883,12 +1966,14 @@ cameraRaw	Hue	Nyans
 	Inner Shadow	Inre skugga
 	Inner Shadow…	Inre skugga…
 	Input	Indata
+	Input Folder	Indatamapp
 	Input Levels	Ingångsnivåer
 	Input Mode	Inmatningsläge
 	Input:	Indata:
 	Insert Blank Frame	Infoga tom bildruta
-	Insert Menu Item…	Infoga menyalternativ…
+	Insert Menu Item	Infoga menyalternativ
 	Insert Path	Infoga bana
+	Insert Stop	Infoga stopp
 	Insert Stop…	Infoga stopp…
 	Installed RAM: {ram} MB; this limit: {percent}%	Installerat RAM: {ram} MB; den här gränsen: {percent} %
 	Integer	Heltal
@@ -1911,13 +1996,17 @@ cameraRaw	Hue	Nyans
 	Invalid guide layout	Ogiltig stödlinjelayout
 	Invalid nested file drop	Ogiltigt släpp av nästlade filer
 	Invalid numeric entry. An integer between {min}% and {max}% is required. Previous value was inserted.	Ogiltigt numeriskt värde. Ett heltal mellan {min} % och {max} % krävs. Föregående värde infogades.
+	Invalid panel layout	Ogiltig panellayout
 	Invalid panel layout; restored the default dock	Ogiltig panellayout; standarddockningen har återställts
+	Invalid Zoom	Ogiltig zoom
 	Invalid {mode} profile	Ogiltig {mode}-profil
 	Inverse	Omvänd
 colorRange	Invert	Omvänd
 	Invert All	Invertera alla
 	Invert has no settings.	Invertera har inga inställningar.
 	Invert Selection	Omvänd markering
+	Invert Source 1	Omvänd källa 1
+	Invert Source 2	Omvänd källa 2
 	Invert…	Invertera…
 	Iris Blur	Irisoskärpa
 	Iris Blur…	Irisoskärpa…
@@ -1934,6 +2023,7 @@ fontWeight	Italic	Kursiv
 	Join the ArtCraft Discord ({url})	Gå med i ArtCraft på Discord ({url})
 	Join the ArtCraft Discord…	Gå med i ArtCraft på Discord…
 	Join us on Discord	Gå med i vår Discord
+	JPEG	JPEG
 	JPEG Options	JPEG-alternativ
 	Jpeg quality	JPEG-kvalitet
 	Jpg	JPG
@@ -1992,11 +2082,14 @@ fontWeight	Italic	Kursiv
 	Layer From Background…	Lager från bakgrund…
 	Layer from Background…	Lager från bakgrund…
 	Layer Knocks Out Drop Shadow	Lagret sparar ut skuggan
+	Layer marquee	Lagermarkeringsram
 	Layer Mask	Lagermask
 	layer mask	lagermask
+	Layer Mask Display Options	Visningsalternativ för lagermask
 	Layer Mask Display Options…	Visningsalternativ för lagermask…
 	Layer Mask Hides Effects	Lagermasken döljer effekter
 	Layer Properties	Lageregenskaper
+	Layer rollover	Lagermarkering vid hovring
 	Layer Style	Lagerstil
 	Layer Styles	Lagerstilar
 	Layer Via Copy	Lager via kopiering
@@ -2033,6 +2126,7 @@ cameraData	Lens	Objektiv
 	Lens Flare	Motljus
 	Lens Flare…	Motljus…
 	Lens Info	Objektivinfo
+	Lens Profile	Objektivprofil
 	Letter	Letter
 	Letter Spacing	Teckenavstånd
 	Level	Nivå
@@ -2061,9 +2155,11 @@ fontWeight	Light	Mager
 	Lights	Ljusa toner
 cameraRaw	Lights	Ljusa
 	Limit Playback	Begränsa uppspelning
+	Limits	Gränser
 	Limits each open document's pixels plus History. Oldest undo states are discarded when the limit is exceeded.	Begränsar pixlarna i varje öppet dokument plus historiken. De äldsta ångrastegen tas bort när gränsen överskrids.
 	Limits:	Gränser:
 	Line delta	Raddifferens
+	Line preview	Förhandsgranskning av linje
 	Line Tool	Linjeverktyg
 	Linear Burn	Linjär efterbelysning
 	Linear Dodge	Linjär skugga
@@ -2118,6 +2214,7 @@ cameraRaw	Loaded RAW Develop settings from {file}	Läste in RAW-framkallning-ins
 	Loading fonts…	Läser in typsnitt…
 	Loading…	Läser in…
 	Load…	Läs in…
+	Local Adaptation	Lokal anpassning
 	Localize Color Clusters	Lokalisera färgkluster
 	Localized Color Clusters	Lokaliserade färgkluster
 	Location	Plats
@@ -2224,6 +2321,7 @@ cameraRaw	Masking	Maskering
 	Match Zoom	Matcha zoom
 	Math Symbols	Matematiska symboler
 	Matte	Kantfärg
+	Matte Color	Kantfärg
 	Matting	Kantbehandling
 	Max Offset	Max. förskjutning
 	Max Radius	Max. radie
@@ -2246,8 +2344,10 @@ fontWeight	Medium	Medium
 	Medium Thumbnails	Medelstora miniatyrer
 	Memory Usage	Minnesanvändning
 	Memory usage mb	Minnesanvändning (MB)
+	Memory Usage Percent	Minnesanvändning i procent
 	Menus	Menyer
 	Menus…	Menyer…
+	Merge Channels	Sammanfoga kanaler
 	Merge Channels…	Sammanfoga kanaler…
 	Merge Down	Sammanfoga nedåt
 	Merge Group	Sammanfoga grupp
@@ -2368,6 +2468,7 @@ cameraData	Model	Modell
 	New Channel	Ny kanal
 	New channel only	Endast ny kanal
 	New Channel…	Ny kanal…
+	New Crop Preset	Ny beskärningsförinställning
 	New Crop Preset…	Ny beskärningsförinställning…
 	New Document With Mask	Nytt dokument med mask
 	New Document…	Nytt dokument…
@@ -2391,12 +2492,14 @@ cameraData	Model	Modell
 	New Path	Ny bana
 	New Selection	Ny markering
 	New selection	Ny markering
+	New Set	Ny uppsättning
 	New Set…	Ny uppsättning…
 	New Shape Layer	Nytt formlager
 	New Size	Ny storlek
 	New Smart Object via Copy	Nytt smart objekt via kopiering
 	New Snapshot	Ny ögonblicksbild
 	New Snapshot…	Ny ögonblicksbild…
+	New Spot Channel	Ny dekorfärgskanal
 	New Spot Channel…	Ny dekorfärgskanal…
 	New Swatch Group…	Ny färgrutegrupp…
 	New Tool Preset	Ny verktygsförinställning
@@ -2409,10 +2512,12 @@ cameraData	Model	Modell
 	New…	Nytt…
 	Next Appearance Mode	Nästa utseendeläge
 	Next Brush	Nästa pensel
+	Next Data Set	Nästa datauppsättning
 	Next Document	Nästa dokument
 	Next frame	Nästa bildruta
 	Next note	Nästa anteckning
 	Next Theme	Nästa tema
+	No Actions library change belongs to this dialog.	Ingen ändring av åtgärdsbiblioteket hör till den här dialogrutan.
 	No Adv. Blending	Ingen avanc. blandning
 	No anchor to delete	Inget ankare att radera
 	No author	Ingen författare
@@ -2422,7 +2527,9 @@ layerLabel	No Color	Ingen färg
 	No Color Management	Ingen färghantering
 	No contributor data was built into this copy.	Ingen information om medverkande är inbyggd i den här kopian.
 	No custom shape "{name}": pick one in the options bar or Window › Shapes	Ingen egen form ”{name}”: välj en i alternativfältet eller Fönster › Former
+	no destination document	inget måldokument
 	No Dither	Ingen dithering
+	No document is open.	Inget dokument är öppet.
 	No document.	Inget dokument.
 	No favorite fonts yet: click the star beside a font to add it.	Inga favorittypsnitt än: klicka på stjärnan bredvid ett typsnitt för att lägga till det.
 	No fonts match these filters.	Inga typsnitt matchar de här filtren.
@@ -2476,6 +2583,7 @@ cameraRaw	Noise Reduction	Brusreducering
 	Nonlinear History	Icke-linjär historik
 	Normal tip	Normal spets
 	Not a web color: click for the nearest web color	Inte en webbfärg: klicka för närmaste webbfärg
+	Not available yet	Inte tillgängligt än
 	Not Clipped	Inte urklippt
 	Not Empty	Inte tom
 	Not enough grayscale documents for this mode.	Det finns inte tillräckligt många gråskaledokument för det här läget.
@@ -2484,6 +2592,7 @@ cameraRaw	Noise Reduction	Brusreducering
 	Not Locked	Inte låst
 	Not rendered: this adjustment ({key}) is kept as imported.	Renderas inte: den här justeringen ({key}) behålls som importerad.
 	Not Visible	Inte synlig
+	Note deleted, but the preference could not be saved: {error}	Anteckningen togs bort, men inställningen kunde inte sparas: {error}
 	Note Paper	Anteckningspapper
 	Note Tool	Anteckningsverktyg
 	Note tool	Anteckningsverktyg
@@ -2509,6 +2618,7 @@ cameraRaw	Noise Reduction	Brusreducering
 	Object Name / Title	Objektnamn/titel
 	Object Selection found nothing there — try a tighter rectangle	Objektmarkering hittade ingenting där — prova en snävare rektangel
 	Object Selection Tool	Objektmarkeringsverktyg
+	Occurrence	Förekomst
 	Ocean Ripple	Havskrusning
 	Octagon	Oktagon
 	off	av
@@ -2551,6 +2661,7 @@ cameraRaw	Open	Öppna
 	Open Recent is unavailable on the web	Öppna senaste är inte tillgängligt på webben
 	open source	öppen källkod
 	Open the release page to choose an installer for your system.	Öppna versionssidan för att välja ett installationsprogram för ditt system.
+	Opened Files	Öppnade filer
 	Opened {name}	Öppnade {name}
 cameraRaw	Opened {name}	Öppnade {name}
 	Opened {url}	Öppnade {url}
@@ -2590,6 +2701,7 @@ document	Orientation	Orientering
 	Outer Glow	Yttre glöd
 	Output	Utdata
 	Output Channel:	Utdatakanal:
+	Output Folder	Utdatamapp
 	Output Levels	Utgångsnivåer
 	Output Levels:	Utdatanivåer:
 	Output Settings	Utdatainställningar
@@ -2661,6 +2773,7 @@ cameraRaw	Paint Overlay	Målningsöverlägg
 	Patterns	Mönster
 	Pattern…	Mönster…
 	Pause For	Paus i
+	Pause For takes a whole number of seconds	Paus i måste vara ett helt antal sekunder
 	Pause For:	Paus i:
 	PDF Presentation…	PDF-presentation…
 	Pen Pressure	Penntryck
@@ -2730,6 +2843,7 @@ cameraRaw	Paint Overlay	Målningsöverlägg
 	Pixels/Centimeter	Pixlar/centimeter
 	Pixels/Inch	Pixlar/tum
 	Pixels:	Pixlar:
+	Place across first	Placera vågrätt först
 	Place Embedded	Placera inbäddad
 	Place Embedded…	Placera inbäddad…
 	Place Linked	Placera länkad
@@ -2746,12 +2860,14 @@ cameraRaw	Paint Overlay	Målningsöverlägg
 	Playback Options	Uppspelningsalternativ
 	Playback Options…	Uppspelningsalternativ…
 @plural	Played {n} step|Played {n} steps	Spelade upp {n} steg|Spelade upp {n} steg
+	Playhead	Spelmarkör
 	Please wait…	Vänta…
 	Plug-ins	Plugins
 	Plug-ins…	Plugins…
 	Plugins	Plugins
 	Plugins…	Plugins…
 	Png	PNG
+	PNG	PNG
 	Point Curve	Punktkurva
 	Point Curve Blue	Punktkurva blå
 	Point Curve Green	Punktkurva grön
@@ -2795,6 +2911,7 @@ cameraRaw	Paint Overlay	Målningsöverlägg
 	Preset Type	Typ av förinställning
 	Press keys	Tryck på tangenter
 	Pressure curve	Tryckkurva
+	Pressure Curve	Tryckkurva
 	Pressure for Opacity	Tryck för opacitet
 	Pressure for Size	Tryck för storlek
 	Prevent Auto-Nesting	Förhindra automatisk kapsling
@@ -2804,6 +2921,7 @@ cameraRaw	Paint Overlay	Målningsöverlägg
 	Preview on canvas when reordering layers	Förhandsgranska på arbetsytan när lager ordnas om
 	Preview size	Storlek på förhandsgranskning
 	Previous Brush	Föregående pensel
+	Previous Data Set	Föregående datauppsättning
 	Previous Document	Föregående dokument
 	Previous frame	Föregående bildruta
 	Previous note	Föregående anteckning
@@ -2877,6 +2995,7 @@ cameraRaw	Purple	Lila
 	Quick export format	Format för snabbexport
 	Quick export location	Plats för snabbexport
 	Quick Mask	Snabbmask
+	Quick Mask Options	Snabbmaskalternativ
 	Quick Selection	Snabbmarkering
 	Quick Selection found nothing there	Snabbmarkering hittade ingenting där
 	Quick Selection Tool	Snabbmarkeringsverktyg
@@ -2904,6 +3023,7 @@ cameraRaw	Radius	Radie
 	Rasterize svg groups deeper than	Rasterisera SVG-grupper djupare än
 	Rasterize Type	Rasterisera text
 	Rasterize Type Layer	Rasterisera textlager
+	Rasterize Vector Mask	Rasterisera vektormask
 	Rate	Hastighet
 	Ratio	Förhållande
 	Raw Data	Rådata
@@ -2918,6 +3038,7 @@ cameraRaw	RAW Develop ({name})	RAW-framkallning ({name})
 	RAW Develop Filter ({layer})	RAW-framkallning-filter ({layer})
 cameraRaw	RAW Develop Filter ({layer})	RAW-framkallning-filter ({layer})
 	RAW Develop Filter…	RAW-framkallning-filter…
+	RAW Develop is already open	RAW-framkallning är redan öppen
 	RAW Develop isn't open	RAW-framkallning är inte öppet
 cameraRaw	RAW Develop isn't open	RAW-framkallning är inte öppet
 	Reading	Läsning
@@ -2986,12 +3107,15 @@ fontWeight	Regular	Normal
 	Remove from Favorites	Ta bort från favoriter
 	Remove from favorites	Ta bort från favoriter
 	Remove from Recent	Ta bort från senaste
+	Remove Ghosts	Ta bort spökbilder
 	Remove Jpeg Artifact	Ta bort JPEG-artefakter
 	Remove pair	Ta bort par
 	Remove Planes	Ta bort plan
+	Remove size {n}	Ta bort storlek {n}
 	Remove stop	Ta bort stopp
 	Remove Tool	Borttagningsverktyg
 	Remove variable	Ta bort variabel
+	Remove Variable	Ta bort variabel
 	Remove Warp Split	Ta bort deformeringsdelning
 	Remove White Matte	Ta bort vit kantfärg
 	Remove {name} from Recent	Ta bort {name} från senaste
@@ -3013,6 +3137,8 @@ fontWeight	Regular	Normal
 	Rendering mode	Renderingsläge
 	Rendering…	Renderar…
 	Reorder Layer	Ändra lagerordning
+	Replace Actions…	Ersätt åtgärder…
+	Replace all actions with {count} actions from {file}?	Vill du ersätta alla åtgärder med {count} åtgärder från {file}?
 	Replace All Missing Fonts	Ersätt alla saknade typsnitt
 	Replace Color	Ersätt färg
 	Replace Color…	Ersätt färg…
@@ -3025,10 +3151,13 @@ fontWeight	Regular	Normal
 	Replace Image…	Ersätt bild…
 	Replace it with this document, or cancel and use File › Save As to keep both.	Ersätt den med det här dokumentet, eller avbryt och använd Arkiv › Spara som för att behålla båda.
 	Replace Swatches…	Ersätt färgrutor…
+	Replace the current actions?	Vill du ersätta de aktuella åtgärderna?
 	Report a Bug	Rapportera en bugg
 	Report an Issue	Rapportera ett problem
 	Report an Issue…	Rapportera ett problem…
+	Reposition	Flytta
 	Resample	Sampla om
+	Reset Actions…	Återställ åtgärder…
 	Reset Alignment	Återställ justering
 	Reset All	Återställ alla
 	Reset All Locked Settings	Återställ alla låsta inställningar
@@ -3107,6 +3236,7 @@ fontWeight	Regular	Normal
 	Rotate 90° Counter Clockwise	Rotera 90° moturs
 	Rotate Auto	Rotera automatiskt
 	Rotate Fixed	Fast rotation
+	Rotate for best fit	Rotera för bästa anpassning
 	Rotate View	Rotera vy
 	Rotate View Left	Rotera vy åt vänster
 	Rotate View Right	Rotera vy åt höger
@@ -3131,7 +3261,9 @@ cameraRaw	Roundness	Rundhet
 	Ruler Units	Linjalenheter
 	Rulers  (⌘R)	Linjaler  (⌘R)
 	Run	Kör
+	Same as Source	Samma som källan
 	Same folder	Samma mapp
+	Sample	Sampla
 	Sample a pixel anywhere on the screen	Ta prov på en pixel var som helst på skärmen
 	Sample All Layers	Ta prov på alla lager
 	Sample all layers	Ta prov på alla lager
@@ -3143,6 +3275,7 @@ cameraRaw	Roundness	Rundhet
 	Sample: foreground color	Prov: förgrundsfärg
 	Sampled Colors	Provtagna färger
 	Sampler	Provpunkt
+	Sampling	Sampling
 	Sampling Area	Provtagningsområde
 	Sampling Area Options	Alternativ för provtagningsområde
 	Sampling Area Overlay	Överlägg för provtagningsområde
@@ -3169,6 +3302,7 @@ cameraRaw	Saturation	Mättnad
 	Save Changes	Spara ändringar
 	Save Contours…	Spara konturer…
 	Save Default Type Styles	Spara standardtextformat
+	SAVE DOCUMENT PRESET	SPARA DOKUMENTFÖRINSTÄLLNING
 	Save failed: {error}	Det gick inte att spara: {error}
 	Save File	Spara fil
 	Save for Web (Legacy)	Spara för webben (äldre)
@@ -3180,6 +3314,7 @@ cameraRaw	Saturation	Mättnad
 	Save in background	Spara i bakgrunden
 	Save Path	Spara bana
 	Save Pixel Aspect Ratio	Spara pixelbildförhållande
+	Save Preset	Spara förinställning
 	Save selection as channel	Spara markeringen som kanal
 	Save Settings…	Spara inställningar…
 cameraRaw	Save Settings…	Spara inställningar…
@@ -3201,11 +3336,14 @@ cameraRaw	Save these settings as a Camera Raw .xmp file	Spara de här inställni
 @plural	Saved {n} action to {file}|Saved {n} actions to {file}	Sparade {n} åtgärd i {file}|Sparade {n} åtgärder i {file}
 @plural	Saved {n} color to {file}|Saved {n} colors to {file}	Sparade {n} färg i {file}|Sparade {n} färger i {file}
 	Saved {path}; image assets: {n} in {dir}	Sparade {path}; bildresurser: {n} i {dir}
+	Saving	Sparar
 	Saving brush presets… Keep this tab open until saving finishes.	Sparar penselförinställningar… Håll fliken öppen tills sparandet är klart.
 	Saving {name}	Sparar {name}
 	Saving {percent}	Sparar {percent}
 	Saving…	Sparar…
 	Sawtooth 1	Sågtand 1
+	Scale (%)	Skala (%)
+	Scale All	Skala alla
 	Scale Effects	Skala effekter
 	Scale Effects…	Skala effekter…
 	Scale Factor	Skalfaktor
@@ -3280,9 +3418,12 @@ cameraRaw	Save these settings as a Camera Raw .xmp file	Spara de här inställni
 	Select Top Layer	Markera översta lagret
 @id	select.all	Markera allt
 	Selected	Markerade
+	Selected Adjustments	Markerade justeringar
 	Selected Areas	Markerade områden
 	Selected Artboards	Markerade ritytor
 	Selected at launch: {backend}	Valdes vid start: {backend}
+	Selected Layer	Markerat lager
+	Selected Layer Comp Only	Endast markerad lagerkomposition
 	Selected Slices	Markerade skivor
 	Selection Edges	Markeringskanter
 	Selection Preview:	Förhandsgranskning av markering:
@@ -3385,6 +3526,7 @@ cameraRaw	Shadows	Skuggor
 	Shape Blur…	Formoskärpa…
 	Shape Dynamics	Formdynamik
 	Shape Layer	Formlager
+	Shape properties	Formegenskaper
 	Shapes can't use patterns yet	Former kan inte använda mönster än
 	Sharp	Skarp
 	Sharpen Amount	Skärpemängd
@@ -3480,6 +3622,7 @@ cameraRaw	Show Vectorscope	Visa vektorskop
 	Single Word Justification	Justering av enstaka ord
 cameraRaw	Size	Storlek
 	Size Jitter	Storleksvariation
+	Size {n}	Storlek {n}
 	Skew	Snedställ
 	Skewness	Skevhet
 	Skip	Hoppa över
@@ -3520,6 +3663,7 @@ curves	Smooth	Jämna ut
 	Snap to Grid	Fäst vid rutnät
 	Snap to Origin	Fäst vid origo
 	Snap vector tools and transforms to pixel grid	Fäst vektorverktyg och ombildningar vid pixelrutnätet
+	Snapped to 45°	Fäst vid 45°
 	Snapshot 1	Ögonblicksbild 1
 	Snapshots	Ögonblicksbilder
 	Snowflakes	Snöflingor
@@ -3545,8 +3689,11 @@ curves	Smooth	Jämna ut
 	Some settings could not be saved; the raws stay open	Vissa inställningar kunde inte sparas; raw-filerna förblir öppna
 	Sort By Name	Sortera efter namn
 	Source	Källa
+	Source 1 Channel	Kanal för källa 1
+	Source 2 Channel	Kanal för källa 2
 	Source Channel	Källkanal
 	Source Files	Källfiler
+	Source Folder	Källmapp
 	Source Invert	Invertera källa
 	Source Layer	Källager
 	Source1 Channel	Kanal för källa 1
@@ -3564,6 +3711,7 @@ curves	Smooth	Jämna ut
 	Sparkle	Gnistor
 	Specify Channels:	Ange kanaler:
 	Spell check complete.	Stavningskontrollen är klar.
+	Spherical	Sfärisk
 	Spherize	Sfärisera
 	Spherize…	Sfärisera…
 	Spin	Snurra
@@ -3589,6 +3737,7 @@ curves	Smooth	Jämna ut
 	Spread	Spridning
 	Sprinkles	Strössel
 	Square	Kvadratisk
+	Square Pixels	Kvadratiska pixlar
 	Square, 12 x 12	Kvadrat, 12 x 12
 	Square, 5 x 5	Kvadrat, 5 x 5
 	Squareness	Kvadratiskhet
@@ -3610,6 +3759,7 @@ curves	Smooth	Jämna ut
 	Start X	Start X
 	Start Y	Start Y
 	Starting serial	Startnummer
+	Starting Serial Number	Första serienummer
 	Statistics…	Statistik…
 	Status Information	Statusinformation
 	Std Dev:	Std.avv.:
@@ -3622,6 +3772,7 @@ curves	Smooth	Jämna ut
 	Stop For Errors	Stoppa vid fel
 	Stop playing/recording	Stoppa uppspelning/inspelning
 	Stop Recording	Stoppa inspelning
+	Stop recording or playback before changing the Actions library.	Stoppa inspelningen eller uppspelningen innan du ändrar åtgärdsbiblioteket.
 	Stops	Stopp
 	Straighten	Räta upp
 	Straighten Layer	Räta upp lager
@@ -3634,11 +3785,13 @@ curves	Smooth	Jämna ut
 	Stroke color	Linjefärg
 	Stroke Detail	Penseldragsdetalj
 	Stroke Direction	Penseldragsriktning
+	Stroke footprint	Penseldragets yta
 	Stroke Options	Linjealternativ
 	Stroke Path	Linje på bana
 	Stroke path with brush	Linje på bana med pensel
 	Stroke Path…	Linje på bana…
 	Stroke Pressure	Penseltryck
+	Stroke preview	Förhandsgranskning av penseldrag
 	Stroke Size	Penseldragsstorlek
 	Stroke Width	Linjebredd
 	Stroke:	Linje:
@@ -3646,6 +3799,7 @@ curves	Smooth	Jämna ut
 	Strokes to remove: {n} (Enter applies, Esc cancels)	Penseldrag att ta bort: {n} (Enter tillämpar, Esc avbryter)
 	Stroke…	Linje…
 	Strong	Stark
+	Structure	Struktur
 	Structure:	Struktur:
 	Studio (Dark)	Studio (mörk)
 	Studio (Light)	Studio (ljus)
@@ -3653,6 +3807,7 @@ curves	Smooth	Jämna ut
 	Studio light	Studio ljus
 	Studio Light Theme	Studio Light-tema
 	Studio Theme	Studio-tema
+	Style Library	Stilbibliotek
 	Style Options	Stilalternativ
 	Style Options…	Stilalternativ…
 	Style {name} saved	Stilen {name} har sparats
@@ -3672,6 +3827,8 @@ curves	Smooth	Jämna ut
 	Subtract Mask from Selection	Subtrahera mask från markering
 	Subtract Path from Selection	Subtrahera bana från markering
 	Subtract Shapes at Overlap	Subtrahera former vid överlappning
+	Suffix	Suffix
+	Suffix {n}	Suffix {n}
 	Suggestions:	Förslag:
 	Summarize…	Sammanfatta…
 	Summation	Summa
@@ -3692,6 +3849,7 @@ curves	Smooth	Jämna ut
 	System Info…	Systeminformation…
 	System title bar	Systemets namnlist
 	Tablet	Ritplatta
+	Tablet Input	Indata från ritplatta
 	Tabular	Tabellbredd
 	Tabular Lining	Tabellsiffror, versala
 	Tabular Oldstyle	Medievalsiffror i tabellbredd
@@ -3718,7 +3876,10 @@ cameraRaw	Temperature	Temperatur
 	Text color	Textfärg
 	Text engine	Textmotor
 	Text file	Textfil
+	Text frame	Textram
 	Text Layer	Textlager
+	Text on path	Text på bana
+	Text outline	Textkontur
 	Text Position:	Textposition:
 	Text Replacement	Textersättning
 	Texture	Struktur
@@ -3729,21 +3890,30 @@ cameraRaw	Texture	Struktur
 	Thaw Mask	Tina mask
 	The action or insertion command changed. Request Insert Menu Item again.	Åtgärden eller infogningskommandot har ändrats. Begär Infoga menyalternativ igen.
 	The actions changed. Request Record Again again.	Åtgärderna har ändrats. Begär Spela in igen på nytt.
+	The actions changed. Request Replace Actions again.	Åtgärderna har ändrats. Välj Ersätt åtgärder igen.
+	The Actions file is too large.	Åtgärdsfilen är för stor.
+	The Actions library changed. Choose the command again.	Åtgärdsbiblioteket har ändrats. Välj kommandot igen.
 	The active layer has no pixels here — turn on Sample All Layers or select a layer with pixels	Det aktiva lagret har inga pixlar här – aktivera Ta prov på alla lager eller markera ett lager med pixlar
 	The adjustment target is missing or unavailable.	Justeringsmålet saknas eller är inte tillgängligt.
 @plural	The brush group “{group}” already has {n} brush of yours.|The brush group “{group}” already has {n} brushes of yours.	Penselgruppen ”{group}” har redan {n} egen pensel.|Penselgruppen ”{group}” har redan {n} egna penslar.
 	The canvas is shown as sRGB. Choose a monitor profile in Edit › Color Settings.	Arbetsytan visas som sRGB. Välj en bildskärmsprofil i Redigera › Färginställningar.
 	The canvas on {display} is shown as sRGB. Choose a monitor profile in Edit › Color Settings.	Arbetsytan på {display} visas som sRGB. Välj en bildskärmsprofil i Redigera › Färginställningar.
+	The command permissions changed. Choose the command again.	Kommandots behörigheter har ändrats. Välj kommandot igen.
 	The command permissions changed. Request Insert Menu Item again.	Kommandobehörigheterna har ändrats. Begär Infoga menyalternativ igen.
 	The command permissions changed. Request Record Again again.	Kommandobehörigheterna har ändrats. Begär Spela in igen på nytt.
 	The current gradient (pick one in Window › Gradients)	Den aktuella gradienten (välj en i Fönster › Gradienter)
 	The current scratch directory ({path}) doesn't report its free space, so PhotoCraft can't stop before it fills up, and large files get no extra room from it without a Scratch Size Limit. This warning applies to the current configuration; changes above take effect on Apply or OK. Set a limit or use a local disk.	Den aktuella arbetsdiskkatalogen ({path}) rapporterar inte sitt lediga utrymme, så PhotoCraft kan inte stoppa innan den blir full, och stora filer får inget extra utrymme från den utan en storleksgräns för arbetsdisk. Den här varningen gäller den aktuella konfigurationen; ändringar ovan börjar gälla när du klickar på Använd eller OK. Ange en gräns eller använd en lokal disk.
+	The dialog names no action	Dialogrutan anger ingen åtgärd
+	The document changed. Open Count Group Name again.	Dokumentet har ändrats. Öppna Räknegruppsnamn igen.
+	The document changed. Please choose Clear All again.	Dokumentet har ändrats. Välj Rensa alla igen.
 	The document changed. Request Record Again again.	Dokumentet har ändrats. Begär Spela in igen på nytt.
 	The document does not have an embedded colour profile. Working space: {working}.	Dokumentet har ingen inbäddad färgprofil. Arbetsfärgrymd: {working}.
 	The document has an embedded colour profile that does not match the working space.\nEmbedded: {embedded}\nWorking: {working}	Dokumentet har en inbäddad färgprofil som inte matchar arbetsfärgrymden.\nInbäddad: {embedded}\nArbetsfärgrymd: {working}
 	The document is closed	Dokumentet är stängt
 	The document or active layer changed. Open Fill again.	Dokumentet eller det aktiva lagret har ändrats. Öppna Fyllning igen.
 	The document or active layer changed. Open Stroke again.	Dokumentet eller det aktiva lagret har ändrats. Öppna Linje igen.
+	The document or its notes changed. Please delete the note again.	Dokumentet eller dess anteckningar har ändrats. Radera anteckningen igen.
+	The document or selected layers changed. Choose Duplicate Layer again.	Dokumentet eller de markerade lagren har ändrats. Välj Duplicera lager igen.
 	The document or selected layers changed. Please request deletion again.	Dokumentet eller de markerade lagren har ändrats. Begär borttagningen igen.
 	The document or Smart Filter changed. Reopen its dialog.	Dokumentet eller det smarta filtret har ändrats. Öppna dialogrutan igen.
 	The document “{name}” does not have an embedded {mode} profile.	Dokumentet ”{name}” har ingen inbäddad {mode}-profil.
@@ -3761,6 +3931,7 @@ cameraRaw	Texture	Struktur
 	The gradient the Gradient tool paints with	Gradienten som Gradientverktyget målar med
 	The History Brush source was deleted: set a new source in the History panel	Historikpenselns källa har raderats: ange en ny källa i panelen Historik
 	The keyboard shortcut set was not imported: {error}	Kortkommandouppsättningen importerades inte: {error}
+	The keyboard shortcuts were not saved: {error}	Kortkommandona sparades inte: {error}
 	The layer or its mask changed. Drag the mask onto the Trash again.	Lagret eller dess mask har ändrats. Dra masken till papperskorgen igen.
 	The layers need {needed} of GPU memory and may hold {budget}, so edits that redraw the whole document do it on the CPU. Click to set GPU Memory.	Lagren behöver {needed} GPU-minne men får använda {budget}, så redigeringar som ritar om hela dokumentet görs på CPU:n. Klicka för att ställa in GPU-minne.
 	The name in the save dialog was “{name}”.	Namnet i dialogrutan Spara var ”{name}”.
@@ -3786,7 +3957,9 @@ fontWeight	Thin	Tunn
 	This Layer:	Det här lagret:
 	This operation will turn a live shape into a regular path. Continue?	Den här åtgärden gör om en direktform till en vanlig bana. Vill du fortsätta?
 	This redraw took {seconds} s on the CPU.	Den här omritningen tog {seconds} s på CPU:n.
+	This Reset Actions choice is unavailable.	Det här valet för Återställ åtgärder är inte tillgängligt.
 	This session: {reason}	Den här sessionen: {reason}
+	This shape can't be created	Den här formen kan inte skapas
 	This shape layer must be rasterized before proceeding. It will no longer be editable as a shape. Rasterize the shape?	Det här formlagret måste rasteriseras innan du fortsätter. Det går inte längre att redigera som form. Vill du rasterisera formen?
 	This smart object must be rasterized before proceeding. Edit Contents will no longer be available. Rasterize the smart object?	Det här smarta objektet måste rasteriseras innan du fortsätter. Innehållet går inte längre att redigera. Vill du rasterisera det smarta objektet?
 	This type layer must be rasterized before proceeding. Its text will no longer be editable. Rasterize the type?	Det här textlagret måste rasteriseras innan du fortsätter. Texten går inte längre att redigera. Vill du rasterisera texten?
@@ -3796,6 +3969,7 @@ fontWeight	Thin	Tunn
 	Thumbnail Contents	Miniatyrinnehåll
 	Thumbnail Size	Miniatyrstorlek
 	Thumbnail size (smallest: list)	Miniatyrstorlek (minsta: lista)
+	TIFF	TIFF
 	TIFF Options	TIFF-alternativ
 	Tight Curl	Tät, lockig
 	Tight Long	Tät, lång
@@ -3820,6 +3994,7 @@ cameraRaw	Tint	Färgton
 	Tint Color	Toningsfärg
 	Tiny	Mycket liten
 	Tiny Lens	Liten lins
+	Tip	Tips
 	Titling Alternates	Rubrikalternativ
 	To Center	Mot mitten
 	To drop files, start PhotoCraft under XWayland: `{command}`	Starta PhotoCraft under XWayland för att kunna släppa filer: `{command}`
@@ -3833,6 +4008,7 @@ cameraRaw	Tint	Färgton
 	Toggle the Brush Settings panel	Visa/dölj panelen Penselinställningar
 	Toggle the Brush Settings panel  (F5)	Visa/dölj panelen Penselinställningar  (F5)
 	Toggle visibility	Visa/dölj
+	Toggle visibility of count group	Visa/dölj räknegrupp
 	Tolerance for choosing related colors	Tolerans för val av närliggande färger
 	Tone Curve	Tonkurva
 	Tone Histogram	Tonhistogram
@@ -3870,12 +4046,14 @@ cameraRaw	Tone Histogram	Tonhistogram
 	Transparency Threshold	Tröskelvärde för genomskinlighet
 	Transparent	Genomskinlig
 	Transparent (default)	Genomskinlig (standard)
+	Transport	Transport
 	Trap	Överfyllning
 	Tree	Träd
 	Tree…	Träd…
 	Triangle Tool	Triangelverktyg
 	Trilinear	Trilinjär
 	Trim	Trimma
+	Trim Layers	Trimma lager
 	Trim…	Trimma…
 	TrueType font	TrueType-typsnitt
 	Turbulent	Turbulent
@@ -3884,9 +4062,12 @@ cameraRaw	Tone Histogram	Tonhistogram
 	Twirl Counterclockwise	Virvel moturs
 	Twirl…	Virvel…
 	Type	Text
+	Type editor	Textredigerare
 	Type Layer	Textlager
+	Type mask	Textmask
 	Type Options	Textalternativ
 	Type Styles	Textformat
+	Type transform	Ombilda text
 	Type units	Textenheter
 	UI font size	Teckenstorlek i gränssnittet
 	UI scale	Gränssnittsskala
@@ -3950,6 +4131,7 @@ cameraRaw	Tone Histogram	Tonhistogram
 	Use Legacy	Använd äldre
 	Use legacy free transform	Använd äldre fri ombildning
 	Use Measurement Scale	Använd måttskala
+	Use Open Documents	Använd öppna dokument
 	Use Previous Layer to Create Clipping Mask	Använd föregående lager för att skapa klippmask
 	Use relative positioning for reference point	Använd relativ positionering för referenspunkten
 	Use Selection In Source	Använd markering i källan
@@ -3994,10 +4176,12 @@ cameraRaw	Vibrance	Lyster
 	View menu	Menyn Visa
 	View Mode	Visningsläge
 	View Options	Visningsalternativ
+	Vignette	Vinjett
 	Vignette Amount	Vinjettmängd
 	Vignette Feather	Vinjettfjädring
 	Vignette Highlights	Vinjetthögdagrar
 	Vignette Midpoint	Vinjettmittpunkt
+	Vignette Removal	Vinjettborttagning
 	Vignette Roundness	Vinjettrundhet
 	Vignette Style	Vinjettstil
 	Vignetting	Vinjettering
@@ -4009,11 +4193,14 @@ cameraRaw	Vignetting	Vinjettering
 	violet	violett
 	Violet, Orange	Violett, orange
 	Visible	Synlig
+	Visible Layers Only	Endast synliga lager
 	Vivid Light	Intensivt ljus
 	Vulkan	Vulkan
 	W	B
 	W x H x Resolution	B x H x upplösning
+	Wait for the Actions library to load.	Vänta tills åtgärdsbiblioteket har lästs in.
 	Wait for the current job to finish.	Vänta tills det aktuella jobbet är klart.
+	Waiting removals	Väntande borttagningar
 	Wand	Trollstav
 	Warm	Varm
 	Warming Filter (81)	Värmefilter (81)
@@ -4044,6 +4231,7 @@ cameraRaw	Vignetting	Vinjettering
 	Web Photo Gallery…	Webbfotogalleri…
 	Web Snap	Fäst mot webbfärger
 	Webp	WebP
+	WebP	WebP
 	WebP (lossless)	WebP (förlustfri)
 	Weight:	Tjocklek:
 	Wet	Våt
@@ -4053,6 +4241,7 @@ cameraRaw	Vignetting	Vinjettering
 	White Balance: As Shot	Vitbalans: som tagen
 cameraRaw	White Balance: As Shot	Vitbalans: som tagen
 	White Clip	Vitklippning
+	White Color	Vit färg
 	White Is High	Vitt är högt
 	White Matte	Vit kantfärg
 	Whites	Vita
@@ -4097,6 +4286,7 @@ cameraRaw	Yellow	Gul
 	yellow	gul
 	Yellow  ·  Blue	Gul  ·  Blå
 	Yellows	Gula
+	You must save to at least one file type.	Du måste spara i minst en filtyp.
 	Your keyboard shortcut set {set} is in use here: {n} shortcuts differ from the defaults. Edit › Keyboard Shortcuts shows them; Reset All to Defaults undoes this.	Din kortkommandouppsättning {set} används här: {n} kortkommandon skiljer sig från standardvärdena. Redigera › Kortkommandon visar dem; Återställ alla till standardvärden ångrar detta.
 	ZigZag	Sicksack
 	Zigzag	Sicksack
@@ -4115,6 +4305,7 @@ navigator	Zoom	Zoom
 	Zoom with scroll wheel	Zooma med rullhjulet
 	Zoom with trackpad pinch	Zooma genom att nypa på styrplattan
 	{added}, {removed} subtracted	{added}, {removed} subtraherade
+	{dpi} pixels/inch	{dpi} pixlar/tum
 	{file} is not a style library (.asl)	{file} är inte ett stilbibliotek (.asl)
 	{index} of {total}	{index} av {total}
 	{key} to subtract	{key} för att subtrahera
@@ -4150,6 +4341,7 @@ navigator	Zoom	Zoom
 	{path}: the path is not valid Unicode; rename the file and open it again.	{path}: sökvägen är inte giltig Unicode; byt namn på filen och öppna den igen.
 	{path}: the path is not valid Unicode; save under another name.	{path}: sökvägen är inte giltig Unicode; spara under ett annat namn.
 	{set} (modified)	{set} (ändrad)
+	{set} Copy	{set} kopia
 	{set} from {file} replaced the one from {earlier}	Uppsättningen {set} från {file} ersatte den från {earlier}
 	{shortcut} assigned.	{shortcut} har tilldelats.
 	{shortcut} is already in use by {commands} and will be removed from it when you click OK.	{shortcut} används redan av {commands} och tas bort därifrån när du klickar på OK.
