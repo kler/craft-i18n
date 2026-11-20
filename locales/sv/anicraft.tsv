@@ -14,6 +14,7 @@
 	"{key}" is not part of a theme file.	"{key}" ingår inte i en temafil.
 	"{key}" must be a short line of text, up to {max} characters.	"{key}" måste vara en kort textrad på högst {max} tecken.
 	$1 puts back a group	$1 lägger tillbaka en grupp
+	(missing)	(saknas)
 @plural	+{n} more|+{n} more	+{n} till|+{n} till
 	// Type or paste a frame script	// Skriv eller klistra in ett bildruteskript
 	1 keys every frame that changes; 2 animates on twos, and so on	1 sätter en nyckel på varje bildruta som ändras; 2 animerar på tvåor, och så vidare
@@ -33,6 +34,7 @@
 	A black stroke and a white fill	En svart kontur och en vit fyllning
 	A bone ends on another symbol instance or a shape: release over the one it should move.	Ett ben slutar på en annan symbolinstans eller en form: släpp över den som det ska flytta.
 	A change takes effect the next time AniCraft starts. If a way doesn't work, AniCraft starts with the next one.	En ändring gäller från nästa gång AniCraft startar. Om ett sätt inte fungerar startar AniCraft med nästa.
+	A column of a data table drives one of this instance's properties, frame by frame	En kolumn i en datatabell styr en av den här instansens egenskaper, bildruta för bildruta
 	A file with this name is already there. Replace it? This can't be undone.	Det finns redan en fil med det här namnet. Vill du ersätta den? Det går inte att ångra.
 	A frame script: it runs while the movie plays. Pick it for a keyframe in the Actions panel (F9)	Ett bildruteskript: det körs medan filmen spelas upp. Välj det för en nyckelbildruta i panelen Åtgärder (F9)
 	A keyframe on the layer wherever the value changes, as if you had set each by hand	En nyckelbildruta på lagret överallt där värdet ändras, som om du hade satt var och en för hand
@@ -40,6 +42,8 @@
 	A light touch already paints wide	Redan en lätt beröring målar brett
 	A line whose width you can shape with the Width tool.	En linje vars bredd du kan forma med breddverktyget.
 	A list of actions, in order	En lista med åtgärder, i ordning
+	A locked guide layer under the layer you are on shows the video for {frames} frames from frame {from}. Nothing is added to the document but the file's name; frames are read as you go and kept within {memory}.	Ett låst hjälplager under det lager du står på visar videon i {frames} bildrutor från bildruta {from}. Inget utom filens namn läggs till i dokumentet; bildrutorna läses efter hand och hålls inom {memory}.
+	A locked guide layer under your artwork shows the video as you scrub and play. The video stays a file on this computer and is never in the movie or an export	Ett låst hjälplager under ditt bildmaterial visar videon när du spolar och spelar upp. Videon förblir en fil på den här datorn och ingår aldrig i filmen eller i en export
 	A Lottie animation (JSON) for web and apps.	En Lottie-animering (JSON) för webb och appar.
 	A menu entry of AniCraft's name that AniCraft didn't add is there; it is left as it is	Det finns en menypost med AniCrafts namn som AniCraft inte har lagt till; den lämnas som den är
 	A Mouth graphic symbol with ten labelled mouth shapes to redraw, placed on a face guide	En grafiksymbol, Mouth, med tio etiketterade munformer att rita om, placerad på ett hjälplager med ett ansikte
@@ -90,6 +94,7 @@
 	Add from File…	Lägg till från fil…
 	Add guide	Lägg till stödlinje
 	Add Motion Path Point	Lägg till punkt på rörelsebana
+	Add Reference Layer	Lägg till referenslager
 	Add Shape Hint	Lägg till formledtråd
 	Add Swatch	Lägg till färgruta
 	Add the copied filters after these	Lägg till de kopierade filtren efter dessa
@@ -110,6 +115,7 @@
 	Added a guide. Drag it with the Selection tool to move it, or back onto a ruler to delete it. {undo} to undo.	Lade till en stödlinje. Dra den med markeringsverktyget för att flytta den, eller tillbaka till en linjal för att ta bort den. {undo} ångrar.
 	Added a point to the motion path. {undo} to undo.	Lade till en punkt på rörelsebanan. {undo} ångrar.
 	Added a point. {undo} to undo.	Lade till en punkt. {undo} ångrar.
+	Added after scaling. The result is the property: pixels, percent, degrees or a frame counted from 0	Läggs till efter skalningen. Resultatet blir egenskapen: pixlar, procent, grader eller en bildruta räknad från 0
 	Added shape hint {letter}: drag it onto an edge here, then onto the matching edge on the tween's last keyframe.	Lade till formledtråd {letter}: dra den till en kant här och sedan till motsvarande kant på interpoleringens sista nyckelbildruta.
 	Added the graphic symbol “{name}” to the Library. Drag it to the stage to place it.	Lade till grafiksymbolen ”{name}” i biblioteket. Dra den till scenen för att placera den.
 @plural	Added {n} file to the Library|Added {n} files to the Library	Lade till {n} fil i biblioteket|Lade till {n} filer i biblioteket
@@ -127,6 +133,7 @@
 	Agent / contributor guide	Guide för agenter och bidragsgivare
 	Align centre	Justera mot mitten
 	Align on Multiple Frames	Justera på flera bildrutor
+	Align Panel	Justeringspanel
 	Align to Stage On / Off	Justera mot scenen på/av
 	Align to the stage instead of the selection's bounds (a single shape always aligns to the stage)	Justera mot scenen i stället för markeringens gränser (en enskild form justeras alltid mot scenen)
 	Align: to stage	Justera: mot scenen
@@ -161,6 +168,8 @@
 	AniCraft is in your applications menu, and opens .anicraft, .fla and .xfl files. Preferences › About removes it.	AniCraft finns i programmenyn och öppnar .anicraft-, .fla- och .xfl-filer. Inställningar › Om tar bort det.
 	AniCraft opens .anicraft, .fla and .xfl documents, and imports SVG drawings, PNG and JPEG images, and WAV, Ogg and MP3 sounds	AniCraft öppnar .anicraft-, .fla- och .xfl-dokument och importerar SVG-teckningar, PNG- och JPEG-bilder samt WAV-, Ogg- och MP3-ljud
 	AniCraft opens one document at a time; drop the others on their own	AniCraft öppnar ett dokument i taget; släpp de andra var för sig
+	AniCraft reads video with ffmpeg, which is not on this computer: install it from ffmpeg.org.	AniCraft läser video med ffmpeg, som inte finns på den här datorn: installera det från ffmpeg.org.
+	AniCraft reads video with the ffmpeg on this computer and holds no video decoder of its own. ffmpeg is free: install it from ffmpeg.org (or with your system's package manager), then import again.	AniCraft läser video med ffmpeg på den här datorn och har ingen egen videoavkodare. ffmpeg är gratis: installera det från ffmpeg.org (eller med systemets pakethanterare) och importera sedan igen.
 	AniCraft tries the best way for this computer first, and the next one if a way doesn't work.	AniCraft provar först det sätt som är bäst för den här datorn, och nästa om ett sätt inte fungerar.
 	AniCraft {version}	AniCraft {version}
 	AniCraft: Apache License 2.0	AniCraft: Apache License 2.0
@@ -174,7 +183,6 @@
 	Animated PNG	Animerad PNG
 	Animated WebP	Animerad WebP
 	Animator	Animatör
-	Any colour: hue, saturation and brightness	Valfri färg: nyans, mättnad och ljusstyrka
 	Applications menu	Programmenyn
 @plural	Applied the picked bitmap fill to {n} shape. {undo} to undo.|Applied the picked bitmap fill to {n} shapes. {undo} to undo.	Använde den valda bitmappsfyllningen på {n} form. {undo} för att ångra.|Använde den valda bitmappsfyllningen på {n} former. {undo} för att ångra.
 @plural	Applied the picked fill {color} to {n} shape. {undo} to undo.|Applied the picked fill {color} to {n} shapes. {undo} to undo.	Använde den valda fyllningen {color} på {n} form. {undo} för att ångra.|Använde den valda fyllningen {color} på {n} former. {undo} för att ångra.
@@ -188,6 +196,7 @@
 	Apply to Stroke	Använd på kontur
 	Apply: {filters} (replaces the filters)	Använd: {filters} (ersätter filtren)
 	Architecture philosophy	Arkitekturfilosofi
+	Areas of colour smaller than this many pixels join their neighbour	Färgytor som är mindre än så här många pixlar slås ihop med sin granne
 	Armature	Skelett
 	Armature layer	Skelettlager
 	Armatures	Skelett
@@ -234,17 +243,23 @@
 	Back to the workspace as built or saved	Tillbaka till arbetslayouten som den byggdes eller sparades
 	Back to this symbol	Tillbaka till den här symbolen
 	Background	Bakgrund
+	Bake to Keyframes	Expandera till nyckelbildrutor
 	Before	Före
 	Before colour	Färg före
 	Bend	Böjning
 	Bend Segment	Böj segment
+	Between	Mellan
+	Between rows	Mellan rader
+	Between two rows: Linear goes straight from one value to the next; Step holds each row's value until the next row	Mellan två rader: Linjär går rakt från ett värde till nästa; Steg håller varje rads värde fram till nästa rad
 	Bevel	Fasat
 	Bevel highlight colour	Fasningens högdagerfärg
 	Bevel offset	Fasningens förskjutning
 	Bevel shadow colour	Fasningens skuggfärg
 	Bind	Bind
+	Bind to Data	Bind till data
 	Bind Tool	Bindningsverktyg
 	Bind tool	Bindningsverktyg
+	Bindings still read columns that are gone: {names}.	Bindningar läser fortfarande kolumner som inte längre finns: {names}.
 	Binds every point of the shape to its nearest bones again, dropping changes made with the Bind tool	Binder om varje punkt i formen till de närmaste benen och tar bort ändringar gjorda med bindningsverktyget
 	Bit depth	Bitdjup
 	Bitmap fill	Bitmappsfyllning
@@ -329,6 +344,7 @@
 	Choose a Library item.	Välj ett objekt i biblioteket.
 	Choose a preset	Välj en förinställning
 	Choose from the Library	Välj från biblioteket
+	Choose the video file again: where it moved to, or another video	Välj videofilen igen: där den har flyttats, eller en annan video
 	Choose which points of the shape follow this bone	Välj vilka punkter i formen som följer det här benet
 	Class	Klass
 	Classic Ease	Klassisk easing
@@ -401,16 +417,19 @@
 	Colour of the frames after the playhead	Färg på bildrutorna efter spelmarkören
 	Colour of the frames before the playhead	Färg på bildrutorna före spelmarkören
 	Colour of {name}	Färg för {name}
+	Colour Panel	Färgpanel
 	Colour picker	Färgväljare
 	Colour stop	Färgstopp
 	Colour stop position	Färgstoppets position
 	Colour stop {stop} of {count} at {at}%, alpha {alpha}%	Färgstopp {stop} av {count} vid {at} %, alfa {alpha} %
 	Colour swatches	Färgrutor
 	Colour swatches and the document's swatches	Färgrutor och dokumentets färgrutor
+	Colour threshold	Färgtröskel
 	Colour to find	Färg att söka efter
 	Colour to replace with	Färg att ersätta med
 	Colours	Färger
 	Colours you mix or type show here	Färger som du blandar eller skriver in visas här
+	Column	Kolumn
 	Combine Objects	Kombinera objekt
 	Command palette	Kommandopalett
 	Command Palette…	Kommandopalett…
@@ -442,6 +461,7 @@
 	Copy of {name}	Kopia av {name}
 	Copy on Multiple Frames	Kopiera på flera bildrutor
 	Corner radius	Hörnradie
+	Corner threshold	Hörntröskel
 	Corners sharper than this are bevelled: how far a point may reach, in stroke widths	Hörn som är skarpare än så här fasas av: hur långt en spets får sträcka sig, i konturbredder
 	Could not export the theme: {e}	Det gick inte att exportera temat: {e}
 	Could not make the archive: {e}	Det gick inte att skapa arkivet: {e}
@@ -467,7 +487,9 @@
 	Ctrl+click steps to save them as a command	Ctrl+klicka på steg för att spara dem som ett kommando
 	Current document	Aktuellt dokument
 	Current frame	Aktuell bildruta
+	Current frame: click to type the frame to go to, or drag to scrub	Aktuell bildruta: klicka för att skriva in bildrutan att gå till, eller dra för att spola
 	Curve	Kurva
+	Curve fit	Kurvanpassning
 @plural	Curved · {n} segment|Curved · {n} segments	Krökt · {n} segment|Krökt · {n} segment
 @plural	Custom ({n} point)|Custom ({n} points)	Anpassad ({n} punkt)|Anpassad ({n} punkter)
 	Custom Ease	Anpassad easing
@@ -484,7 +506,12 @@
 	Dark (Graphite)	Mörkt (grafit)
 	Dash	Streck
 	Dash length	Strecklängd
+	Data Binding	Databindning
 	Data font	Typsnitt för data
+	Data Table	Datatabell
+	Data table	Datatabell
+	Data table (CSV, TSV or JSON)	Datatabell (CSV, TSV eller JSON)
+	Data table · {rows} × {columns}	Datatabell · {rows} × {columns}
 	Date added	Datum tillagt
 	Decision records (ADRs)	Beslutsdokument (ADR)
 	Default (bundled: {font})	Standard (medföljande: {font})
@@ -709,6 +736,7 @@
 	Every frame of every scene, in order	Alla bildrutor i alla scener, i ordning
 	Every frame of the movie	Alla bildrutor i filmen
 	Every frame of the timeline	Alla bildrutor i tidslinjen
+	Every property of this instance is bound already: change them under Data in Properties.	Alla egenskaper för den här instansen är redan bundna: ändra dem under Data i Egenskaper.
 	Every property's keys at frame {frame}: click to pick them, drag to move them in time	Alla egenskapers nyckelbildrutor vid bildruta {frame}: klicka för att välja dem, dra för att flytta dem i tid
 	Every scene, and every symbol in the Library	Alla scener och alla symboler i biblioteket
 	Every shortcut is back to the defaults.	Alla kortkommandon är återställda till standardvärdena.
@@ -740,6 +768,7 @@
 	Export Presets…	Exportera förinställningar…
 	Export sprite sheet (PNG + JSON frame map)	Exportera spritesheet (PNG + JSON-karta över bildrutorna)
 	Export Sprite Sheet…	Exportera spritesheet…
+	Export SVG sequence to folder	Exportera SVG-sekvens till mapp
 	Export swatches (a swatch file)	Exportera färgrutor (en färgrutefil)
 	Export Swatches…	Exportera färgrutor…
 	Export the movie in this format	Exportera filmen i det här formatet
@@ -768,6 +797,7 @@
 	Falls from full volume to silence while it plays	Sjunker från full volym till tystnad under uppspelningen
 	Farther	Längre bort
 	Faucet	Helsuddning
+	Few corners	Få hörn
 	Fewest frames a mouth is held	Minsta antal bildrutor en munform hålls
 	Field height	Fälthöjd
 	Field size	Fältstorlek
@@ -807,6 +837,8 @@
 	Find Previous	Sök föregående
 	Finish with the open dialog first.	Avsluta den öppna dialogrutan först.
 	First frame	Första bildrutan
+	First frame of the span	Första bildrutan i intervallet
+	First key of the span	Första nyckeln i intervallet
 	First-line indent	Indrag för första raden
 	Fit in Window	Anpassa till fönstret
 	Fit in window	Anpassa till fönstret
@@ -834,6 +866,7 @@
 	Font: Hack (MIT, Bitstream Vera)	Typsnitt: Hack (MIT, Bitstream Vera)
 	Font: Noto Emoji (SIL OFL 1.1)	Typsnitt: Noto Emoji (SIL OFL 1.1)
 	Font: Ubuntu Light (Ubuntu Font Licence 1.0)	Typsnitt: Ubuntu Light (Ubuntu Font Licence 1.0)
+	for	för
 	Formats	Format
 	Frame	Bildruta
 	Frame for the {mouth} mouth	Bildruta för munformen {mouth}
@@ -844,10 +877,13 @@
 	Frame number	Bildrutenummer
 	Frame rate	Bildfrekvens
 	Frame rate, and the time the last picture took to draw	Bildfrekvens och tiden det tog att rita den senaste bilden
+	Frame rate: click to type frames per second, or drag	Bildfrekvens: klicka för att skriva in bilder per sekund, eller dra
 	Frame script	Bildruteskript
 	Frame script set — {undo} to undo	Bildruteskript angivet – {undo} för att ångra
 	Frame scripts and instance actions	Bildruteskript och instansåtgärder
+	Frame shown	Visad bildruta
 	Frame shown on the stage	Bildruta som visas på scenen
+	Frame step	Bildrutesteg
 	Frame to publish	Bildruta att publicera
 	Frame view	Bildrutevy
 	Frame view: frame width and row height	Bildrutevy: bildrutebredd och radhöjd
@@ -867,11 +903,15 @@
 	Frames farther from the playhead are fainter	Bildrutor längre från spelmarkören visas svagare
 	Frames here don't run (graphic and button timelines, guide layers); the script is kept with the document.	Bildrutor här körs inte (grafik- och knapptidslinjer, hjälplager); skriptet sparas med dokumentet.
 	Frames in a grid on one PNG, with a JSON frame map beside it.	Bildrutor i ett rutnät i en PNG, med en JSON-bildrutekarta bredvid.
+	Frames in the document	Bildrutor i dokumentet
+	Frames in the span	Bildrutor i intervallet
 	Frames of {name}	Bildrutor i {name}
 	Frames quieter than this share of the loudest frame are silence: the mouth rests, or closes for a short stop	Bildrutor som är tystare än den här andelen av den starkaste bildrutan räknas som tystnad: munnen vilar eller stängs vid en kort paus
 	Frames quieter than this share of the loudest frame count as silence: raise it to ignore background noise	Bildrutor som är tystare än den här andelen av den starkaste bildrutan räknas som tystnad: höj värdet för att ignorera bakgrundsbrus
+	Frames read	Lästa bildrutor
 	Frames that repeat the one before are stored once, shown longer.	Bildrutor som upprepar den föregående sparas en gång och visas längre.
 	Frames {a}–{b}	Bildrutor {a}–{b}
+	From {file}	Från {file}
 	Front, three-quarter, side and back views side by side, on head-height guides eight heads tall	Vyer framifrån, i trekvartsprofil, från sidan och bakifrån sida vid sida, på stödlinjer i huvudhöjder för en figur som är åtta huvuden hög
 	Full HD video	Full HD-video
 	Full volume on both channels	Full volym på båda kanalerna
@@ -924,8 +964,11 @@
 	Hex colour: #rrggbb, or #rrggbbaa with alpha	Hexfärg: #rrggbb, eller #rrggbbaa med alfa
 	Hide all layers	Dölj alla lager
 	Hide object	Dölj objekt
+	Hide Panels	Dölj paneler
+	Hide Panels / Show Panels	Dölj paneler / Visa paneler
 	High contrast	Hög kontrast
 	Highlight	Högdager
+	History Panel	Historikpanel
 button state	Hit	Träffyta
 	Hit: the area that answers the pointer, never shown (drawn over the other states while you edit them)	Träff: området som reagerar på pekaren, visas aldrig (ritas över de andra lägena medan du redigerar dem)
 	Hold each mouth	Håll varje munform
@@ -935,12 +978,14 @@ button state	Hit	Träffyta
 	Horizontal ruler	Vågrät linjal
 	Horizontal spacing	Horisontellt avstånd
 	Hover a stroke to see its width points. Drag a point's handle to widen or narrow the stroke there (Alt: one side only), drag its dot to slide it along, or drag anywhere on the stroke to add a point. Click a point and press Delete to remove it.	Håll pekaren över en kontur för att se dess breddpunkter. Dra i en punkts handtag för att göra konturen bredare eller smalare där (Alt: bara en sida), dra i dess prick för att flytta den längs konturen, eller dra var som helst på konturen för att lägga till en punkt. Klicka på en punkt och tryck på Delete för att ta bort den.
+	How closely the outlines follow the pixels: Pixels follows them exactly, Very Smooth rounds them most	Hur nära konturlinjerna följer pixlarna: Pixlar följer dem exakt, Mycket mjuk rundar av dem mest
 	How corners turn: sharp (Miter), rounded, or cut across (Bevel)	Hur hörnen vänder: skarpa (Gering), rundade eller avskurna (Fasat)
 	How deep the points are: near 0 they are thin spikes, at 1 the star is the polygon through its tips.	Hur djupa spetsarna är: nära 0 är de tunna piggar, vid 1 är stjärnan polygonen genom spetsarna.
 	How far behind the stage this layer is: through the camera a deeper layer moves and zooms less, and draws behind nearer ones. Negative is in front.	Hur långt bakom scenen lagret ligger: genom kameran rör sig och zoomar ett djupare lager mindre, och det ritas bakom närmare lager. Negativa värden ligger framför.
 	How far the fill's edge moves, in stage pixels	Hur långt fyllningens kant flyttas, i scenpixlar
 	How far the joint has slid at the playhead, from where it was drawn	Hur långt leden har glidit vid spelmarkören, från där den ritades
 	How many bands the soft edge is made of: more are smoother, and more shapes to draw	Hur många band den mjuka kanten består av: fler ger jämnare resultat, och fler former att rita
+	How many frames the span has. Before it the instance shows the first frame's value, after it the last's	Hur många bildrutor intervallet har. Före det visar instansen den första bildrutans värde, efter det den sistas
 	How many of the shape's points this bone moves. Adjust them with the Bind tool	Hur många av formens punkter benet flyttar. Justera dem med bindningsverktyget
 	How much of the stroke swells from a point at its start	Hur stor del av konturen som sväller ut från en punkt i början
 	How much of the stroke thins to a point at its end	Hur stor del av konturen som smalnar av till en punkt i slutet
@@ -949,6 +994,7 @@ button state	Hit	Träffyta
 	How much this bone moves the point, 0 to 100 %; the point's other bones share the rest	Hur mycket benet flyttar punkten, 0 till 100 %; punktens andra ben delar på resten
 	How open ends finish: flat at the end (None), rounded, or squared off past it	Hur öppna ändar avslutas: platt vid änden (Ingen), rundade eller fyrkantiga förbi änden
 	How quickly the spring's swing dies down, 0 to 100: 0 swings on, 100 absorbs it all	Hur snabbt fjäderns svängning dämpas, 0 till 100: 0 svänger vidare, 100 dämpar allt
+	How rows are looked up: by row number (a row per frame), or by a column such as an age, a depth or a time	Hur rader slås upp: efter radnummer (en rad per bildruta) eller efter en kolumn, till exempel en ålder, ett djup eller en tid
 	How stiff the bone's spring is, 0 to 100: 0 is no spring; a stiffer spring swings faster and lags less	Hur styv benets fjäder är, 0 till 100: 0 är ingen fjäder; en styvare fjäder svänger snabbare och släpar efter mindre
 	How strongly the layer shows, in the movie and every export. Its artwork fades together, so overlapping parts don't show through each other; a folder fades the layers in it	Hur starkt lagret syns, i filmen och i alla exporter. Bildmaterialet tonas som en helhet, så att överlappande delar inte syns genom varandra; en mapp tonar lagren i den
 	How the stroke's width varies along it. Shape it by hand with the Width tool (U).	Hur konturens bredd varierar längs den. Forma den för hand med breddverktyget (U).
@@ -961,17 +1007,26 @@ button state	Hit	Träffyta
 	If you don't save, your changes since the last save will be lost.	Om du inte sparar går dina ändringar sedan du senast sparade förlorade.
 	Image added to the Library	Bilden har lagts till i biblioteket
 	Immediate	Omedelbart
+	Import a data table (CSV, TSV or JSON)	Importera en datatabell (CSV, TSV eller JSON)
+	Import Again…	Importera igen…
 	Import an image into the Library first (File › Import › Import to Library), then fill with it.	Importera först en bild till biblioteket (Arkiv › Importera › Importera till bibliotek) och fyll sedan med den.
+	Import as	Importera som
 	Import brushes (a brush set file)	Importera penslar (en penseluppsättningsfil)
+	Import cancelled. Nothing was changed.	Importen avbröts. Ingenting ändrades.
 	Import Dropped Files	Importera släppta filer
 	Import filter presets (a preset file)	Importera filterförinställningar (en förinställningsfil)
 	Import Presets…	Importera förinställningar…
 	Import swatches (a swatch file or a GIMP palette)	Importera färgrutor (en färgrutefil eller en GIMP-palett)
 	Import Swatches…	Importera färgrutor…
+	Import the sound track	Importera ljudspåret
 	Import to library (WAV, OGG or MP3 sound; PNG or JPEG image)	Importera till bibliotek (WAV-, OGG- eller MP3-ljud; PNG- eller JPEG-bild)
 	Import to Library…	Importera till bibliotek…
 	Import to stage (SVG, PNG or JPEG; WAV, OGG or MP3 onto a new layer)	Importera till scen (SVG, PNG eller JPEG; WAV, OGG eller MP3 på ett nytt lager)
 	Import to Stage…	Importera till scen…
+	Import Video	Importera video
+	Import video (frames in the document, or a reference layer for tracing)	Importera video (bildrutor i dokumentet eller ett referenslager att rita av)
+	Importing Video	Importerar video
+	Importing video runs ffmpeg, which a web browser can't start: use the desktop app, or import the frames as PNG images	Videoimport kör ffmpeg, som en webbläsare inte kan starta: använd skrivbordsappen eller importera bildrutorna som PNG-bilder
 	in	in
 	In silence	Vid tystnad
 	In the browser: settings are kept in this site's storage	I webbläsaren: inställningarna sparas i webbplatsens lagring
@@ -1039,6 +1094,8 @@ button state	Hit	Träffyta
 	Kept the autosaved work. File › Recover Autosaved Documents… brings it back.	Det autosparade arbetet har behållits. Arkiv › Återställ autosparade dokument… tar tillbaka det.
 	Kept with the document as written. ActionScript 3.0 that controls the timeline runs in Test Movie and the HTML canvas export.	Behålls med dokumentet som det är skrivet. ActionScript 3.0 som styr tidslinjen körs i Testa film och i HTML Canvas-exporten.
 	Kept with the document, but outside the ActionScript 3.0 subset AniCraft runs (or on a timeline that doesn't run scripts). The first Output lines say why; the Actions panel shows each problem in place.	Behålls med dokumentet, men utanför den delmängd av ActionScript 3.0 som AniCraft kör (eller på en tidslinje som inte kör skript). De första raderna i Utdata förklarar varför; panelen Åtgärder visar varje problem på plats.
+	Key	Nyckel
+	Key column	Nyckelkolumn
 	Key every	Nyckelbildruta var
 	Key the depth on this frame: the depth then tweens between keys	Sätt en nyckel för djupet på den här bildrutan: djupet interpoleras sedan mellan nycklarna
 	Keyboard shortcuts (this editor)	Kortkommandon (den här redigeraren)
@@ -1048,6 +1105,7 @@ button state	Hit	Träffyta
 	Keyframe at {frame} · {frames} · {elements}	Nyckelbildruta vid {frame} · {frames} · {elements}
 	Keyframes	Nyckelbildrutor
 	Keyframes Only	Endast nyckelbildrutor
+	Keys	Nycklar
 	Keys go to the movie	Tangenttryck går till filmen
 	keys stay (Shift)	nycklar ligger kvar (Shift)
 	keys stretch	nycklar sträcks
@@ -1055,7 +1113,10 @@ button state	Hit	Träffyta
 left channel	L	L
 	Label	Etikett
 	label “{label}”	etikett ”{label}”
+	Largest size	Största storlek
+	Largest size (pixels)	Största storlek (pixlar)
 	Last frame	Sista bildrutan
+	Last key of the span	Sista nyckeln i intervallet
 	Later	Senare
 	Later keeps them: File › Recover Autosaved Documents… brings this back.	Med Senare behålls de: Arkiv › Återställ autosparade dokument… tar tillbaka det här.
 	Layer Colour	Lagerfärg
@@ -1066,6 +1127,7 @@ left channel	L	L
 	Layer Depth	Lagerdjup
 	Layer depth	Lagerdjup
 	Layer depth belongs to a scene's layers. Edit the document (Edit › Edit Document) to set it.	Lagerdjup hör till en scens lager. Redigera dokumentet (Redigera › Redigera dokument) för att ange det.
+	Layer Depth Panel	Lagerdjupspanel
 	Layer Height	Lagerhöjd
 	Layer height	Lagerhöjd
 	Layer name	Lagernamn
@@ -1088,6 +1150,7 @@ left channel	L	L
 	Left margin	Vänstermarginal
 	Left out {files}: {why}	Utelämnade {files}: {why}
 	Legal compliance	Juridisk efterlevnad
+	Length (seconds, 0 for all)	Längd (sekunder, 0 för allt)
 	Length of each dash	Längd på varje streck
 	Length of each gap	Längd på varje mellanrum
 	Let it move down the list again	Låt den flytta ned i listan igen
@@ -1099,6 +1162,7 @@ left channel	L	L
 	Library folder	Biblioteksmapp
 	Library name	Bibliotekets namn
 	Library options	Biblioteksalternativ
+	Library Panel	Bibliotekspanel
 	Library: drop here for the top level	Bibliotek: släpp här för översta nivån
 	Library…	Bibliotek…
 	Licenses & Notices	Licenser och meddelanden
@@ -1160,6 +1224,7 @@ left channel	L	L
 	Manage Saved Commands	Hantera sparade kommandon
 	Manage Workspaces	Hantera arbetslayouter
 	Manage Workspaces…	Hantera arbetslayouter…
+	Many corners	Många hörn
 	Markers	Markörer
 	Mask layer	Masklager
 	Mask layer: its fills reveal the masked layers below. Lock it to hide its outline.	Masklager: dess fyllningar visar de maskerade lagren nedanför. Lås det för att dölja dess kontur.
@@ -1175,12 +1240,14 @@ left channel	L	L
 	Message	Meddelande
 	Metal	Metal
 	Middle-drag	Dra med mittenknappen
+	Minimum area	Minsta yta
 	missing bitmap	bitmapp saknas
 	Miter	Gering
 	Miter limit	Spetsgräns
 	Mix the colours in linear light: brighter, more even blends	Blanda färgerna i linjärt ljus: ljusare, jämnare blandningar
 	mixed	blandat
 	Mixer	Mixer
+	Mixer: any colour, by hue, saturation and brightness	Mixer: valfri färg, efter nyans, mättnad och ljusstyrka
 	Mode	Läge
 	More…	Mer…
 	Morph this keyframe's shapes into the next keyframe's	Förvandla den här nyckelbildrutans former till nästa nyckelbildrutas
@@ -1188,6 +1255,7 @@ left channel	L	L
 	Most characters a viewer may type (0: no limit)	Högsta antal tecken en tittare får skriva (0: ingen gräns)
 	Motion	Rörelse
 	Motion Editor	Rörelseredigerare
+	Motion Editor Panel	Rörelseredigerarpanel
 	Motion path start X	Rörelsebanans start X
 	Motion path start Y	Rörelsebanans start Y
 	Motion Tween	Rörelseinterpolering
@@ -1257,6 +1325,7 @@ left channel	L	L
 	Name for the brush	Namn på penseln
 	Name it to address it from actions (letters, digits and _). Its events work without a name.	Namnge den för att kunna adressera den från åtgärder (bokstäver, siffror och _). Dess händelser fungerar utan namn.
 	Nearer	Närmare
+	Neighbouring pixels whose colours differ by less than this are one colour: higher makes fewer shapes	Närliggande pixlar vars färger skiljer sig mindre än så räknas som en färg: högre ger färre former
 	Never saved	Aldrig sparat
 	New document from the template “{name}”	Nytt dokument från mallen ”{name}”
 	New Folder	Ny mapp
@@ -1306,11 +1375,13 @@ left channel	L	L
 	No saved commands yet. Pick steps in the History panel (Ctrl+click), then Save As Command: they run again on the selection as one undo step.	Inga sparade kommandon än. Välj steg i panelen Historik (Ctrl+klick) och sedan Spara som kommando: de körs igen på markeringen som ett enda ångringssteg.
 	No saved commands yet: pick steps in the History panel and Save As Command	Inga sparade kommandon än: välj steg i panelen Historik och sedan Spara som kommando
 	no settings folder on this system	ingen inställningsmapp på det här systemet
+	no sound	inget ljud
 	no sound output device	ingen enhet för ljudutgång
 	No sound: {error}	Inget ljud: {error}
 	No swatches. Add the current colour with +, or load the defaults from the menu.	Inga färgrutor. Lägg till den aktuella färgen med + eller läs in standardvärdena från menyn.
 	No symbols, images or sounds yet. Select artwork and press {convert} to make a symbol, or import an image or a sound with {import}.	Inga symboler, bilder eller ljud än. Markera bildmaterial och tryck på {convert} för att skapa en symbol, eller importera en bild eller ett ljud med {import}.
 	No text uses a font yet	Ingen text använder ett typsnitt än
+	no value	inget värde
 	none	ingen
 	None yet. Add one below, or drag one from a ruler (View › Rulers).	Inga än. Lägg till en nedan eller dra ut en från en linjal (Visa › Linjaler).
 	None yet. Set up a brush in Properties, then save it below.	Inga än. Ställ in en pensel i Egenskaper och spara den sedan nedan.
@@ -1352,6 +1423,7 @@ left channel	L	L
 	Off: transparent	Av: transparent
 	Off: what is on them, straight under the scene	Av: det som finns på dem, direkt under scenen
 	Offset along the path	Förskjutning längs banan
+	Offset of the value	Förskjutning av värdet
 	Ogg Vorbis	Ogg Vorbis
 	Older and slower, but works with most graphics drivers. The stage is drawn on the CPU or on a graphics device of its own.	Äldre och långsammare, men fungerar med de flesta grafikdrivrutiner. Scenen ritas på CPU:n eller på en egen grafikenhet.
 	On click	Vid klick
@@ -1366,6 +1438,7 @@ left channel	L	L
 	On: each shape is an object of its own. Off: shapes cut and merge with the shapes they touch ({key})	På: varje form är ett eget objekt. Av: former skär och slås samman med de former de rör vid ({key})
 	One frame as a PNG image.	En bildruta som PNG-bild.
 	One frame as an SVG drawing.	En bildruta som SVG-teckning.
+	One picture every this many frames of the document. 2 animates on twos: half the pictures, each held for two frames	En bild per så här många bildrutor i dokumentet. 2 animerar på tvåor: hälften så många bilder, var och en hålls i två bildrutor
 	One PNG per frame, in a folder.	En PNG per bildruta, i en mapp.
 	One strength: −100 eases in, +100 eases out	En styrka: −100 ger ease in, +100 ger ease out
 	One web page that plays the movie, buttons and actions included.	En webbsida som spelar upp filmen, med knappar och åtgärder.
@@ -1423,6 +1496,7 @@ left channel	L	L
 	Outline Layer	Visa lager som konturlinjer
 	Outline {name}	Visa {name} som konturlinjer
 	Outlines	Konturlinjer
+	Output Panel	Utdatapanel
 	Outside the artwork's edge	Utanför grafikens kant
 button state	Over	Hovring
 	Over: the button with the pointer over it	Över: knappen när pekaren är över den
@@ -1440,6 +1514,8 @@ button state	Over	Hovring
 	Paints over fills and empty areas, leaving lines alone.	Målar över fyllningar och tomma områden men lämnar linjer orörda.
 	Paints over lines and fills on the layer.	Målar över linjer och fyllningar på lagret.
 	Pan with any tool	Panorera med valfritt verktyg
+	Panels hidden: Window › Show Panels brings them back	Panelerna är dolda: Fönster › Visa paneler tar tillbaka dem
+	Panels hidden: {key} brings them back	Panelerna är dolda: {key} tar tillbaka dem
 	panning with any tool	panorering med valfritt verktyg
 	Parent	Överordnat
 	Parent layer	Överordnat lager
@@ -1590,6 +1666,7 @@ button state	Over	Hovring
 	Project Files & Docs	Projektfiler och dokumentation
 	Project Files & Docs…	Projektfiler och dokumentation…
 	Project folder	Projektmapp
+	Properties Panel	Egenskapspanel
 	Properties…	Egenskaper…
 	Property	Egenskap
 	Property curves of the motion tween at the playhead (double-click a motion span)	Egenskapskurvor för rörelseinterpoleringen vid spelmarkören (dubbelklicka på ett rörelseintervall)
@@ -1631,7 +1708,10 @@ right channel	R	R
 	Raw Points	Obearbetade punkter
 	Read times in frames	Visa tider i bildrutor
 	Read times in seconds	Visa tider i sekunder
+	Reading frames with ffmpeg. The document changes when it is done.	Läser bildrutor med ffmpeg. Dokumentet ändras när det är klart.
 	Reading the sound…	Läser ljudet…
+	Reading the video with ffmpeg…	Läser videon med ffmpeg…
+	Reads the file again, or a revised one: the table's values change and everything bound to it follows	Läser filen igen, eller en ändrad version: tabellens värden ändras och allt som är bundet till den följer med
 	Reads the themes folder again, so a file you changed shows at once.	Läser in temamappen igen, så att en fil du har ändrat visas direkt.
 	Rebind All	Bind om alla
 	Rebind all points	Bind om alla punkter
@@ -1642,10 +1722,14 @@ right channel	R	R
 	Red multiplier	Röd multiplikator
 	Red offset	Röd offset
 	Redid {action}	Gjorde om {action}
+	Reference layer for tracing	Referenslager att rita av
+	Reference video	Referensvideo
 	Reflect	Spegla
 	Regular expression	Reguljärt uttryck
 	Release	Släpp
 	Releases	Versioner
+	Relink the reference video (choose the video file)	Länka om referensvideon (välj videofilen)
+	Relink…	Länka om…
 	Reload Plug-ins	Läs in plugins igen
 	Remote control is off: port {port} is in use or not allowed ({reason}). Is another AniCraft already open with remote control?	Fjärrstyrning är av: port {port} används redan eller är inte tillåten ({reason}). Är en annan AniCraft redan öppen med fjärrstyrning?
 	Remote control is off: {reason}	Fjärrstyrning är av: {reason}
@@ -1672,6 +1756,7 @@ right channel	R	R
 	Remove Shape Hint	Ta bort formtips
 	Remove Sound	Ta bort ljud
 	Remove the depth key on this frame	Ta bort djupnyckeln på den här bildrutan
+	Remove the {property} binding	Ta bort bindningen för {property}
 	Remove the {property} keyframe at frame {frame}	Ta bort nyckelbildrutan för {property} i bildruta {frame}
 	Remove this action	Ta bort den här åtgärden
 	Remove this colour stop	Ta bort det här färgstoppet
@@ -1679,6 +1764,7 @@ right channel	R	R
 	Remove Transform	Ta bort transformering
 	Remove Tween	Ta bort interpolering
 	Remove tween	Ta bort interpolering
+	Remove Video	Ta bort video
 	Remove Warp	Ta bort förvrängning
 	Remove warp	Ta bort förvrängning
 	Remove warp pin	Ta bort förvrängningsnål
@@ -1694,6 +1780,7 @@ right channel	R	R
 	Removed the pointer out event — {undo} to undo	Tog bort pekare ut-händelsen — {undo} för att ångra
 	Removed the pointer over event — {undo} to undo	Tog bort pekare över-händelsen — {undo} för att ångra
 	Removed the press event — {undo} to undo	Tog bort tryckhändelsen — {undo} för att ångra
+	Removed the reference video — {undo} to undo	Referensvideon togs bort – {undo} för att ångra
 	Removed the release event — {undo} to undo	Tog bort släpphändelsen — {undo} för att ångra
 	Removed the script — {undo} to undo	Tog bort skriptet — {undo} för att ångra
 	Removed the width point. {undo} to undo.	Tog bort breddpunkten. {undo} för att ångra.
@@ -1702,6 +1789,7 @@ right channel	R	R
 	Removes the bone and the bones below it; the shape's points follow the bones that are left	Tar bort benet och benen under det; formens punkter följer de ben som är kvar
 	Removes the bone and the bones below it; what they moved stays where it is, on a layer of its own	Tar bort benet och benen under det; det som de flyttade stannar där det är, på ett eget lager
 	Removes the picked pin from every keyframe (Delete)	Tar bort den valda nålen från alla nyckelbildrutor (Delete)
+	Removes this binding: the property is the instance's own again	Tar bort den här bindningen: egenskapen blir instansens egen igen
 	Remove…	Ta bort…
 	Rename Layer	Byt namn på lager
 	Rename layer	Byt namn på lager
@@ -1760,6 +1848,8 @@ right channel	R	R
 	Round	Rund
 	Rounded lips: oh, oo and w	Rundade läppar: oh, oo och w
 	Roundness	Rundhet
+	Row number	Radnummer
+	Rows	Rader
 	Run	Kör
 	Run a saved command (a .json file)	Kör ett sparat kommando (en .json-fil)
 	Run it on the selection (one undo step)	Kör det på markeringen (ett ångra-steg)
@@ -1808,6 +1898,7 @@ right channel	R	R
 	Saved:	Sparat:
 	Saves the brush in hand as one of yours (one with that name is replaced)	Sparar penseln du använder som en av dina egna (en med samma namn ersätts)
 	Scale height	Skalhöjd
+	Scale of the value	Skalning av värdet
 	Scale to the browser window	Skala till webbläsarfönstret
 	Scale width	Skalbredd
 	Scale X	Skala X
@@ -1827,6 +1918,8 @@ right channel	R	R
 	Search the Movie Explorer	Sök i filmutforskaren
 	Search the User Guide	Sök i användarhandboken
 	Seconds	Sekunder
+	Seconds into the video to begin at	Sekunder in i videon att börja vid
+	Seconds of video to take. 0 takes it to its end	Sekunder video att ta med. 0 tar med den till slutet
 	Select a keyframe with a sound to edit its envelope	Markera en nyckelbildruta med ett ljud för att redigera dess volymkurva
 	Select a tweened span to edit its ease	Markera ett interpolerat avsnitt för att redigera dess hastighetskurva
 	Select All Frames	Markera alla bildrutor
@@ -1837,6 +1930,7 @@ right channel	R	R
 	Select Layer	Markera lager
 	Select one button or movie clip instance on the stage	Markera en knapp- eller filmklippsinstans på scenen
 	Select one button or movie clip instance on the stage to give it events (a graphic can't have them: set its symbol's Type in Properties).	Markera en knapp- eller filmklippsinstans på scenen för att ge den händelser (en grafik kan inte ha några: ange symbolens Typ i Egenskaper).
+	Select one symbol instance to bind to data.	Markera en symbolinstans att binda till data.
 	Select Parts	Markera delar
 	Select some artwork first	Markera bildmaterial först
 	Select the object to see its path on the stage. Drag the path to bend it and its ends to move them; {drag} the path or the object to move the whole path. With the Subselection tool (A), drag points and handles, double-click the path to add a point (or Alt-click it with the Pen), Delete removes points, and right-click makes them smooth or corners.	Markera objektet för att se dess bana på scenen. Dra i banan för att böja den och i dess ändar för att flytta dem; {drag} banan eller objektet för att flytta hela banan. Med verktyget Direktmarkering (A) drar du punkter och handtag, dubbelklickar på banan för att lägga till en punkt (eller Alt-klickar på den med pennan), Delete tar bort punkter och högerklick gör dem mjuka eller till hörn.
@@ -1877,6 +1971,7 @@ right channel	R	R
 	Show in the Movie Explorer	Visa i filmutforskaren
 	Show only the effect, not the artwork	Visa bara effekten, inte bildmaterialet
 	Show over objects	Visa ovanpå objekt
+	Show Panels	Visa paneler
 	Show the built-in preset {name}	Visa den inbyggda förinställningen {name}
 	Show the keyframes between the markers at full strength, and select and move their artwork together	Visa nyckelbildrutorna mellan markörerna med full styrka, och markera och flytta deras bildmaterial tillsammans
 	Show the markers on the frame ruler even when onion skin is off	Visa markörerna på bildrutelinjalen även när lökskal är av
@@ -1889,6 +1984,7 @@ right channel	R	R
 	Show/Hide Layer	Visa/dölj lager
 	Shown	Visas
 	Shown in your system's file viewer	Visas i systemets filhanterare
+	Shows every row and column (or double-click the table in the list)	Visar alla rader och kolumner (eller dubbelklicka på tabellen i listan)
 	Shows its Up frame	Visar sin Upp-bildruta
 	Shows the folder your own themes are kept in.	Visar mappen där dina egna teman sparas.
 	Shows the points of shapes with bones: a square follows one bone, a triangle several. Click a bone to see the points it moves (filled). Click a point, or drag a box around points, to make them follow only that bone; Shift shares the bone with the ones they follow, Ctrl takes them from it. Turn on Paint Weights in Properties to brush the bone's influence on, off or smooth, shown as a heat map.	Visar punkterna i former med ben: en fyrkant följer ett ben, en triangel flera. Klicka på ett ben för att se punkterna det flyttar (ifyllda). Klicka på en punkt, eller dra en ruta runt punkter, så att de bara följer det benet; med Shift delar de benet med dem de redan följer, med Ctrl tas de bort från det. Slå på Måla vikter i Egenskaper för att måla benets inverkan på, av eller jämna ut den, visad som en värmekarta.
@@ -1962,16 +2058,20 @@ right channel	R	R
 	Star point size	Stjärnspetsarnas storlek
 	Start	Start
 	Start a bone inside a shape, or on a symbol instance and drag to the instance or shape it moves.	Börja ett ben inuti en form eller på en symbolinstans och dra till instansen eller formen som det flyttar.
+	Start at	Börja vid
+	Start at (seconds)	Börja vid (sekunder)
 	Start it from the menu like any app, and open .anicraft, .fla and .xfl files by double-clicking them. Only your own data folder changes; Preferences › About removes it again.	Starta det från menyn som vilken app som helst och öppna .anicraft-, .fla- och .xfl-filer genom att dubbelklicka på dem. Bara din egen datamapp ändras; Inställningar › Om tar bort det igen.
 	Start Screen	Startskärm
 	Starting the graphics card…	Startar grafikkortet…
 	Static text	Statisk text
 	Static text is drawn as laid out. Scripts set dynamic text while the movie plays; viewers type into input text.	Statisk text ritas som den är upplagd. Skript anger dynamisk text medan filmen spelas; tittarna skriver i inmatningstext.
+	Step	Steg
 	Step one frame	Stega en bildruta
 	Steps	Steg
 	Stereo	Stereo
 	Stop after the frame being made; formats not started don't run	Stoppa efter bildrutan som skapas; format som inte har startat körs inte
 	Stop colour (this stop stays transparent)	Stoppfärg (det här stoppet förblir transparent)
+	Stop reading the video. The document stays as it is	Sluta läsa videon. Dokumentet förblir som det är
 	Stop the export; nothing is written	Stoppa exporten; ingenting skrivs
 	Stop the preview	Stoppa förhandsgranskningen
 	Stop {n}	Stopp {n}
@@ -2016,7 +2116,9 @@ right channel	R	R
 	Swatch name	Färgrutenamn
 	Swatch options: import, export, defaults	Färgrutealternativ: import, export, standardvärden
 	Swatch {n}: {name}	Färgruta {n}: {name}
+	Swatches Panel	Färgrutepanel
 	Swatches set the	Färgrutorna anger
+	Swatches: the web-safe palette, the colours used lately and the document's swatches	Färgrutor: den webbsäkra paletten, nyligen använda färger och dokumentets färgrutor
 	Symbol definitions	Symboldefinitioner
 	Symbol instance	Symbolinstans
 	Symbol name	Symbolnamn
@@ -2053,6 +2155,7 @@ right channel	R	R
 	That autosaved copy is gone	Den automatiskt sparade kopian finns inte längre
 	That bone is pinned (or hangs from a pinned bone): unpin it in Properties to drag it.	Benet är fäst (eller hänger i ett fäst ben): lossa det i Egenskaper för att kunna dra det.
 	That fill is a solid colour. Click its Fill swatch and choose Linear, Radial or Bitmap to give it a gradient.	Fyllningen är enfärgad. Klicka på dess färgruta för Fyllning och välj Linjär, Radiell eller Bitmapp för att ge den en gradient.
+	That is a large document. A reference layer shows the same video without keeping its frames.	Det blir ett stort dokument. Ett referenslager visar samma video utan att spara dess bildrutor.
 	That name belongs to a built-in workspace	Namnet tillhör en inbyggd arbetslayout
 	That name is too long	Namnet är för långt
 	The applications menu belongs to an AppImage on Linux: use the desktop app	Programmenyn hör till en AppImage på Linux: använd skrivbordsappen
@@ -2071,6 +2174,7 @@ right channel	R	R
 	The class scripts run the main timeline as (the document class). Kept with the document; scripts don't run yet	Klassen som skript kör huvudtidslinjen som (dokumentklassen). Sparas med dokumentet; skript körs inte än
 	The colour of the layer's outlines and of its bar on the timeline	Färgen på lagrets konturlinjer och på dess stapel i tidslinjen
 	The colour of {role}, {value}, is not written as "#rrggbb" or "#rrggbbaa".	Färgen för {role}, {value}, är inte skriven som "#rrggbb" eller "#rrggbbaa".
+	The column's number times this	Kolumnens tal gånger detta
 	the command palette	kommandopaletten
 	The copied picture could not be pasted: {error}	Den kopierade bilden kunde inte klistras in: {error}
 	The current scene and every symbol in it	Den aktuella scenen och alla symboler i den
@@ -2085,12 +2189,14 @@ right channel	R	R
 	The file could not be read: {e}	Filen kunde inte läsas: {e}
 	The file dialog could not be shown	Fildialogrutan kunde inte visas
 	The file has no "anicraft_theme" number, so it is not a theme.	Filen har inget "anicraft_theme"-nummer, så den är inte ett tema.
+	The file held more than a table keeps; the rest was left out.	Filen innehöll mer än en tabell rymmer; resten utelämnades.
 	The file is larger than {size} KB, so it is not a theme.	Filen är större än {size} KB, så den är inte ett tema.
 	The file is not valid JSON: {e}	Filen är inte giltig JSON: {e}
 	The file was saved after this copy, so it opens as a new document and Save asks for a name.	Filen sparades efter den här kopian, så den öppnas som ett nytt dokument och Spara frågar efter ett namn.
 	The file's name	Filens namn
 	The fill grows by the distance; its corners round	Fyllningen växer med avståndet; dess hörn rundas av
 	The fill shrinks by the distance; its corners stay sharp	Fyllningen krymper med avståndet; dess hörn förblir skarpa
+	The first frame of the span the table is played over	Den första bildrutan i intervallet som tabellen spelas upp över
 @plural	The first {n} result|The first {n} results	Det första {n} resultatet|De första {n} resultaten
 @plural	The first {n} row|The first {n} rows	Den första {n} raden|De första {n} raderna
 	The frame rate is for every new document made here. Change the size later in Modify › Document Settings.	Bildfrekvensen gäller alla nya dokument som skapas här. Ändra storleken senare i Ändra › Dokumentinställningar.
@@ -2106,6 +2212,7 @@ right channel	R	R
 	The HTML page on, every other format off	HTML-sidan på, alla andra format av
 	The joint's turn from where the bone was drawn, measured from the bone it hangs from	Ledens vridning från där benet ritades, mätt från benet det hänger i
 	The layer stays where it is on screen while the camera moves: for titles and HUDs	Lagret står still på skärmen medan kameran rör sig: för titlar och HUD:er
+	The layer stays; it no longer shows a video	Lagret blir kvar; det visar inte längre någon video
 	The layer whose object the sound drives: the keys are written on it	Lagret vars objekt ljudet styr: nycklarna skrivs på det
 	The Library folder the new symbol goes into (the next conversion offers it again)	Mappen i Bibliotek som den nya symbolen hamnar i (nästa konvertering föreslår den igen)
 	The Library has none	Biblioteket har inga
@@ -2131,6 +2238,7 @@ right channel	R	R
 	The object stays as it is on the span's first frame ({undo} to undo)	Objektet förblir som det är på intervallets första bildruta ({undo} för att ångra)
 	The output is a folder; the frames in it are frame_00001.png and on.	Utdata är en mapp; bildrutorna i den heter frame_00001.png och framåt.
 	The pen's tilt turns the tip: the way it leans adds to the brush's angle	Pennans lutning vrider spetsen: åt vilket håll den lutar läggs till penselns vinkel
+	The pictures' longest edge. A smaller video is never enlarged; smaller pictures make a smaller document	Bildernas längsta kant. En mindre video förstoras aldrig; mindre bilder ger ett mindre dokument
 	The playhead is on an empty frame of this layer.	Spelmarkören står på en tom bildruta i det här lagret.
 	The plug-in runs each time the playhead enters this keyframe, reads where the movie is, and sends actions back. It can't change the document.	Pluginet körs varje gång spelmarkören når den här nyckelbildrutan, läser av var filmen är och skickar tillbaka åtgärder. Det kan inte ändra dokumentet.
 	The plug-in “{id}” is no longer installed	Pluginet ”{id}” är inte längre installerat
@@ -2144,6 +2252,9 @@ right channel	R	R
 	The property's value on the sound's loudest frame	Egenskapens värde på ljudets starkaste bildruta
 	The property's value where nothing sounds (or the sound is under the threshold)	Egenskapens värde där inget hörs (eller ljudet ligger under tröskeln)
 	The reference renderer: slower on large stages. Exports always use it.	Referensrenderaren: långsammare på stora scener. Exporter använder den alltid.
+	The reference video can't be shown: {why}	Referensvideon kan inte visas: {why}
+	The reference video is relinked — {undo} to undo	Referensvideon är omlänkad – {undo} för att ångra
+	The selected bitmaps become filled shapes, one for each area of colour. Pixels under half opacity stay empty.	De markerade bitmappsbilderna blir fyllda former, en för varje färgyta. Pixlar under halv opacitet förblir tomma.
 	The selected elements differ here; it shows the first one's. A change applies to all of them	De markerade elementen skiljer sig här; det första elementets värde visas. En ändring gäller för alla
 	The selected objects turn, scale and skew together, as one arrangement	De markerade objekten roteras, skalas och skevas tillsammans, som ett arrangemang
 	the shortcut editor	kortkommandoredigeraren
@@ -2168,16 +2279,25 @@ right channel	R	R
 	The transformation point (the white circle Free Transform shows): what this instance turns, scales and skews about, on the stage, here and in tweens. Drag the circle with Free Transform, or set it here	Transformeringspunkten (den vita cirkeln som Fri transformering visar): det som instansen roteras, skalas och skevas kring, på scenen, här och i interpoleringar. Dra cirkeln med Fri transformering, eller ange den här
 	The update failed: {error}	Uppdateringen misslyckades: {error}
 	The update worker stopped unexpectedly. Try checking again.	Uppdateringsprocessen stoppades oväntat. Försök kontrollera igen.
+	The video could not be imported: this computer would not start another thread.	Videon kunde inte importeras: datorn kunde inte starta ytterligare en tråd.
+	The video could not be read.	Videon kunde inte läsas.
+	The video could not be read: this computer would not start another thread.	Videon kunde inte läsas: datorn kunde inte starta ytterligare en tråd.
+	The video was longer than one import takes: the rest was left out.	Videon var längre än en import rymmer: resten utelämnades.
+	The video was not imported: another document was opened while it was being read. Import it again.	Videon importerades inte: ett annat dokument öppnades medan den lästes. Importera den igen.
+	The video's frames become bitmaps on a new layer, one keyframe each at the document's frame rate, with its sound. They are saved in the document and export with the movie	Videons bildrutor blir bitmappsbilder på ett nytt lager, en nyckelbildruta var med dokumentets bildfrekvens, tillsammans med ljudet. De sparas i dokumentet och exporteras med filmen
+	The video's sound goes on a layer of its own as a stream sound, in time with the frames	Videons ljud hamnar på ett eget lager som strömmande ljud, i takt med bildrutorna
 	The volume of this layer's sounds, and of the sounds in the symbols on it	Volymen för det här lagrets ljud och för ljuden i symbolerna på det
 	the web version of AniCraft has no sound output yet	webbversionen av AniCraft har ingen ljudutgång än
 	The web-safe palette and the colours used lately	Den webbsäkra paletten och de senast använda färgerna
 	The whole document	Hela dokumentet
 	The whole selection	Hela markeringen
+	The whole table, however long it gets	Hela tabellen, hur lång den än blir
 	Theme	Tema
 	Then click a shape on the stage: the text follows its outline (Esc cancels)	Klicka sedan på en form på scenen: texten följer dess kontur (Esc avbryter)
 	There are too many workspaces; replace one of yours	Det finns för många arbetslayouter; ersätt en av dina
 	There is already a workspace of that name	Det finns redan en arbetslayout med det namnet
 	There is no colour role named "{role}".	Det finns ingen färgroll med namnet "{role}".
+	There is no data table yet: import one with File › Import › Import Data Table.	Det finns ingen datatabell än: importera en med Arkiv › Importera › Importera datatabell.
 	There is no settings folder to keep templates in on this system	Det finns ingen inställningsmapp att spara mallar i på det här systemet
 	these files	de här filerna
 	These run when the playhead enters frame {keyframe} (the keyframe). For frame {frame}, add a keyframe there ({key}).	De här körs när spelmarkören når bildruta {keyframe} (nyckelbildrutan). För bildruta {frame} lägger du till en nyckelbildruta där ({key}).
@@ -2190,6 +2310,8 @@ right channel	R	R
 	This copy	Den här kopian
 	This copy is portable, but {path} can't be written ({error}), so your user folder is used instead.	Den här kopian är portabel, men {path} kan inte skrivas ({error}), så din användarmapp används i stället.
 	This copy of AniCraft has no themes folder	Den här kopian av AniCraft har ingen temamapp
+	This file doesn't say how long it is, so it can only come in as frames	Den här filen anger inte hur lång den är, så den kan bara importeras som bildrutor
+	This file is missing. Relink it to show the video again.	Den här filen saknas. Länka om den för att visa videon igen.
 	This installation is managed externally. Update it with its package manager or open Releases.	Den här installationen hanteras externt. Uppdatera den med dess pakethanterare eller öppna Releases.
 	This kind of layer can't follow a parent	Den här typen av lager kan inte följa ett överordnat lager
 	this page has no window	den här sidan har inget fönster
@@ -2198,12 +2320,15 @@ right channel	R	R
 	This span has no motion tween. Create one to animate its object property by property.	Det här intervallet har ingen rörelseinterpolering. Skapa en för att animera objektet egenskap för egenskap.
 	This span has no tween: create a classic or motion tween to ease it	Det här intervallet har ingen interpolering: skapa en klassisk interpolering eller en rörelseinterpolering för att lägga på easing
 	This span is empty. Draw or place an object, then create a motion tween.	Det här intervallet är tomt. Rita eller placera ett objekt och skapa sedan en rörelseinterpolering.
+	This table has no rows.	Den här tabellen har inga rader.
 	Three documents are open: click a tab to show it, or press {key}.	Tre dokument är öppna: klicka på en flik för att visa den, eller tryck på {key}.
 	Throws dabs either side of the stroke, up to this part of the size away, and varies their size: spatter and stipple	Sprider stämplar på båda sidor om penseldraget, upp till den här andelen av storleken bort, och varierar deras storlek: stänk och prickning
 	Tied to the frames: plays over this span and follows the playhead (lip sync)	Knutet till bildrutorna: spelas över det här intervallet och följer spelmarkören (läppsynk)
+	Tight	Tät
 	Tilt	Lutning
 	Time at the playhead	Tid vid spelmarkören
 	Timeline	Tidslinje
+	Timeline Panel	Panelen Tidslinje
 	Times it plays	Antal uppspelningar
 	Times it plays in a row	Antal uppspelningar i följd
 	Tint amount	Färgtonens mängd
@@ -2217,10 +2342,13 @@ right channel	R	R
 	to	till
 	To Keyframes…	Till nyckelbildrutor…
 	To stage	Till scenen
+	to the end	till slutet
+	Tools Panel	Panelen Verktyg
 	Tools panel menu	Verktygspanelens meny
 	Top 9-slice guide	Övre stödlinje för 9-delning
 	Trace	Trace
 	Trace actions, frame-script logs and anything that couldn't run appear here.	Trace-åtgärder, loggar från bildruteskript och allt som inte kunde köras visas här.
+	Trace Bitmap	Vektorisera bitmapp
 	Trace message	Trace-meddelande
 	Transform about	Transformera kring
 	Transform on Multiple Frames	Transformera på flera bildrutor
@@ -2294,11 +2422,14 @@ right channel	R	R
 	Vertical ruler	Vertikal linjal
 	Vertical spacing	Vertikalt avstånd
 	Vertical story	Lodrät artikel
+	Very Smooth	Mycket mjuk
+	Very Tight	Mycket tät
 	Video (WebM or MP4)	Video (WebM eller MP4)
 	Video export runs ffmpeg, which a web browser can't start: use the desktop app, or export an animated GIF or a PNG sequence	Videoexport kör ffmpeg, som en webbläsare inte kan starta: använd skrivbordsappen, eller exportera en animerad GIF eller en PNG-sekvens
 	View action	Visa åtgärd
 	View as outlines in the layer's colour (on the stage only)	Visa som konturlinjer i lagrets färg (endast på scenen)
 	View layer as outlines	Visa lager som konturlinjer
+	View Table	Visa tabell
 	Viewers can select the text while the movie plays	Tittarna kan markera texten medan filmen spelas upp
 	Visible	Synlig
 	Volume	Volym
@@ -2324,8 +2455,11 @@ right channel	R	R
 	What runs when the playhead enters this keyframe ({key})	Det som körs när spelmarkören når den här nyckelbildrutan ({key})
 	What several selected objects are transformed about. Give Modify › Transform › Next Transformation Origin a key in the shortcut editor to change it from the keyboard.	Det som flera markerade objekt transformeras kring. Ge Ändra › Transformera › Nästa transformationsorigo ett kortkommando i kortkommandoredigeraren för att ändra det från tangentbordet.
 	What several selected objects are transformed about. {key} moves to the next choice.	Det som flera markerade objekt transformeras kring. {key} går till nästa alternativ.
+	What the binding gives at the playhead (the instance stays as placed when the table or column is missing or has no number)	Vad bindningen ger vid spelmarkören (instansen stannar där den placerades när tabellen eller kolumnen saknas eller inte innehåller något tal)
 	What the Movie Explorer shows	Det som Filmutforskaren visar
 	What the selected button or movie clip does on clicks and the pointer	Vad den markerade knappen eller filmklippet gör vid klick och med pekaren
+	What the span's first frame shows	Det som intervallets första bildruta visar
+	What the span's last frame shows. Before the first plays the table backwards	Det som intervallets sista bildruta visar. Före den första spelas tabellen upp baklänges
 	What to search for	Vad du vill söka efter
 	Wheel	Hjul
 	Where AniCraft's documents and files are on this computer	Var AniCrafts dokument och filer finns på den här datorn
@@ -2334,6 +2468,7 @@ right channel	R	R
 	Where the ramp starts, from the centre along the gradient's axis (drag the triangle with the Gradient Transform tool)	Där färgrampen börjar, från mitten längs gradientens axel (dra triangeln med verktyget Gradienttransformering)
 	Where the text sits along the path: its alignment decides whether it starts, is centred or ends there	Var texten ligger längs banan: dess justering avgör om den börjar, centreras eller slutar där
 	Where to search	Var du vill söka
+	Whether sharp turns in the outlines stay corners or are smoothed	Om skarpa vändningar i konturlinjerna förblir hörn eller jämnas ut
 	Whichever comes first. 0 changes: by time only. Copies are written in the background, so drawing never waits.	Det som inträffar först. 0 ändringar: endast efter tid. Kopior skrivs i bakgrunden, så ritandet behöver aldrig vänta.
 	White text on black, a yellow focus and selection colour, outlined controls.	Vit text på svart, gul fokus- och markeringsfärg, kontroller med kontur.
 	Whole word	Hela ord
@@ -2344,6 +2479,7 @@ right channel	R	R
 	Window grip: drag to dock this window	Fönstergrepp: dra för att docka det här fönstret
 	Window › Brush Library: every brush with a preview, and your own	Fönster › Penselbibliotek: alla penslar med förhandsgranskning, och dina egna
 	Windows' own graphics: try this if the window flickers or goes black with another choice.	Windows egen grafik: prova detta om fönstret flimrar eller blir svart med ett annat val.
+	with sound	med ljud
 	Without a pen: drawing faster makes the stroke thinner, as a pen pressed lightly would	Utan penna: ju snabbare du ritar, desto tunnare blir strecket, som med en lätt tryckt penna
 	Working…	Arbetar…
 	Workspace “{name}” deleted	Arbetslayouten ”{name}” har raderats
@@ -2355,6 +2491,7 @@ right channel	R	R
 	Write	Write
 	Write your filter presets to a file, to use on another computer	Skriv dina filterförinställningar till en fil, för att använda på en annan dator
 	Writes the look in use to the themes folder as a file to start your own from.	Skriver den look som används till temamappen som en fil att utgå från för ditt eget.
+	Writes what the bindings show as plain keyframes and removes the bindings: every frame looks as it did	Skriver det som bindningarna visar som vanliga nyckelbildrutor och tar bort bindningarna: varje bildruta ser ut som förut
 	Writes your brushes to a brush set file, to use on another computer	Skriver dina penslar till en penseluppsättningsfil, för att använda på en annan dator
 	written to Output	skrivet till Utdata
 	X offset	X-förskjutning
@@ -2388,6 +2525,7 @@ right channel	R	R
 	{axis} guide {n} position	{axis} stödlinje {n}, position
 	{bits}-bit	{bits}-bitars
 	{channel}: click to add a volume point	{channel}: klicka för att lägga till en volympunkt
+	{column} (missing)	{column} (saknas)
 	{command}\nSelect something to align	{command}\nMarkera något att justera
 	{description} (plug-in · .{ext})	{description} (plugin · .{ext})
 	{description} · {fps} fps	{description} · {fps} bild/s
@@ -2456,6 +2594,8 @@ right channel	R	R
 	{name} can lead other layers: drag from their dots to this layer	{name} kan styra andra lager: dra från deras punkter till det här lagret
 	{name} folder row	Mappraden {name}
 	{name} follows {parent}. Drag to another layer to change its parent; click to pick or remove it	{name} följer {parent}. Dra till ett annat lager för att byta överordnat lager; klicka för att välja eller ta bort det
+	{name} is in the Library: {rows} × {columns}. Select an instance and choose Modify › Data › Bind to Data.	{name} finns i biblioteket: {rows} × {columns}. Markera en instans och välj Ändra › Data › Bind till data.
+	{name} now has {rows} × {columns}; what is bound to it follows.	{name} har nu {rows} × {columns}; det som är bundet till den följer med.
 	{name} · armature layer	{name} · skelettlager
 	{name} · camera layer	{name} · kameralager
 	{name} · folder	{name} · mapp
@@ -2470,6 +2610,7 @@ right channel	R	R
 	{name}, unsaved changes	{name}, osparade ändringar
 	{name}: off\nDragged points and selections snap to points, lines and fill edges within 10 pixels.	{name}: av\nPunkter och markeringar som dras fästs mot punkter, linjer och fyllningskanter inom 10 pixlar.
 	{name}: on\nDragged points and selections snap to points, lines and fill edges within 10 pixels.	{name}: på\nPunkter och markeringar som dras fästs mot punkter, linjer och fyllningskanter inom 10 pixlar.
+	{name}: {detail}	{name}: {detail}
 	{name}: {message} — {undo} to undo	{name}: {message} — {undo} för att ångra
 @plural	{n} command is scriptable with anicraft-cli|{n} commands are scriptable with anicraft-cli	{n} kommando kan skriptas med anicraft-cli|{n} kommandon kan skriptas med anicraft-cli
 @plural	{n} day ago|{n} days ago	för {n} dag sedan|för {n} dagar sedan
@@ -2515,6 +2656,7 @@ right channel	R	R
 @plural	{properties} · {n} key frame|{properties} · {n} key frames	{properties} · {n} nyckelbildruta|{properties} · {n} nyckelbildrutor
 	{property} curve: Left and Right move the picked keys a frame	Kurva för {property}: Vänsterpil och högerpil flyttar de valda nycklarna en bildruta
 	{property} ease	Easing för {property}
+	{property} follows {table} · {column}. Change it under Data in Properties. {undo} to undo.	{property} följer {table} · {column}. Ändra det under Data i Egenskaper. {undo} för att ångra.
 	{property} has no keyframes: it stays {value}. Click ◇ or drag its value to key it here.	{property} har inga nyckelbildrutor: värdet förblir {value}. Klicka på ◇ eller dra i värdet för att skapa en nyckelbildruta här.
 	{property} has no keyframes: Keep area moves it against the other scale axis. Click ◇ or drag its value to key it yourself.	{property} har inga nyckelbildrutor: Behåll yta ändrar värdet i motsats till den andra skalaxeln. Klicka på ◇ eller dra i värdet för att skapa en nyckelbildruta själv.
 	{property} keyframe at frame {frame}	Nyckelbildruta för {property} vid bildruta {frame}
