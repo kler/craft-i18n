@@ -287,8 +287,10 @@ cameraRaw	Aqua	Akvamarin
 	Arrowheads	Pilspetsar
 	Art & Illustration	Konst och illustration
 	Art History Brush	Konsthistorikpensel
+	art history brush	konsthistorikpensel
 	Art History Brush Tool	Konsthistorikpenselverktyg
 	Artboard Background Color	Bakgrundsfärg för rityta
+	Artboard Content Only	Endast ritytans innehåll
 	Artboard from Group	Rityta från grupp
 	Artboard from Group…	Rityta från grupp…
 	Artboard from Layers	Rityta från lager
@@ -327,6 +329,7 @@ cameraRaw	Aqua	Akvamarin
 	Auto Erase	Radera automatiskt
 	Auto Hide	Dölj automatiskt
 	Auto Hide Notifications	Dölj aviseringar automatiskt
+	Auto Refresh	Automatisk uppdatering
 	Auto Scale	Skala automatiskt
 	Auto Scale Image	Skala bilden automatiskt
 	Auto show hidden panels	Visa dolda paneler automatiskt
@@ -660,6 +663,7 @@ cameraRaw	Clarity	Klarhet
 	Click to pick · Esc to cancel	Klicka för att välja · Esc för att avbryta
 	Click to place · Alt-click or drag off-canvas to remove	Klicka för att placera · Alt-klicka eller dra utanför arbetsytan för att ta bort
 	Click to refresh histogram with uncached data	Klicka för att uppdatera histogrammet med data som inte har cachelagrats
+	Click to refresh object finder.	Klicka för att uppdatera objektsökaren.
 	Click to restore the current color	Klicka för att återställa den aktuella färgen
 	Click to sample the foreground color  ·  {key}-click for background	Klicka för att ta prov på förgrundsfärgen  ·  {key}-klicka för bakgrundsfärgen
 	Click to zoom in  ·  {key}-click to zoom out  ·  drag right/left to zoom in/out	Klicka för att zooma in  ·  {key}-klicka för att zooma ut  ·  dra åt höger/vänster för att zooma in/ut
@@ -885,6 +889,7 @@ cameraRaw	Contrast	Kontrast
 	Correct Distortion	Korrigera distorsion
 	Correct Vignette	Korrigera vinjettering
 	Correction	Korrigering
+	Correction Options	Korrigeringsalternativ
 	Could not complete the Free Transform command because the layer is locked.	Det gick inte att slutföra kommandot Ombilda fritt eftersom lagret är låst.
 	Could not open	Det gick inte att öppna
 	Could not rename the action: {error}	Det gick inte att byta namn på åtgärden: {error}
@@ -899,9 +904,12 @@ cameraRaw	Contrast	Kontrast
 	Could not use the magic eraser because it does not work with Bitmap images (convert image to Grayscale mode to edit).	Det gick inte att använda det magiska suddgummit eftersom det inte fungerar med bitmappsbilder (konvertera bilden till färgläget Gråskala för att redigera).
 	Could not use the magic eraser because it does not work with Indexed Color images (convert image to RGB Color mode to edit).	Det gick inte att använda det magiska suddgummit eftersom det inte fungerar med bilder i indexerad färg (konvertera bilden till färgläget RGB-färg för att redigera).
 	Could not use the move tool because the layer is locked.	Det gick inte att använda flyttverktyget eftersom lagret är låst.
+	Could not use the perspective crop tool because it does not work with Bitmap images (convert image to Grayscale mode to edit).	Det gick inte att använda perspektivbeskärningsverktyget eftersom det inte fungerar med bitmappsbilder (konvertera bilden till läget Gråskala för att redigera den).
+	Could not use the perspective crop tool because the image contains unsupported layers types.	Det gick inte att använda perspektivbeskärningsverktyget eftersom bilden innehåller lagertyper som inte stöds.
 	Could not use the type tool because the layer is locked.	Det gick inte att använda textverktyget eftersom lagret är låst.
 	Could not use the {tool} because the target layer is a group.	Det gick inte att använda {tool} eftersom mållagret är en grupp.
 	Could not write {name}: {error}	Det gick inte att skriva {name}: {error}
+	Couldn't find an object to select. There might not be enough edge contrast, or the object might be too small.	Det gick inte att hitta något objekt att markera. Kantkontrasten kanske inte räcker, eller så är objektet för litet.
 	Couldn't open {name}: {error}	Det gick inte att öppna {name}: {error}
 	Couldn't place {name}: {error}	Det gick inte att placera {name}: {error}
 	couldn't read the file	kunde inte läsa filen
@@ -1058,6 +1066,7 @@ cameraRaw	Darks	Mörka
 	Dashed line	Streckad linje
 	Dashed lines	Streckade linjer
 	Data Points	Datapunkter
+	Data Set:	Datauppsättning:
 	Data Set: {name}  ({index}/{total})	Datauppsättning: {name}  ({index}/{total})
 	Data Sets as Files	Datauppsättningar som filer
 	Data Sets as Files is unavailable on the web	Datauppsättningar som filer är inte tillgängligt på webben
@@ -1171,6 +1180,7 @@ cameraRaw	Dehaze	Ta bort dis
 	Deselect Layers	Avmarkera lager
 	Despeckle	Ta bort fläckar
 	Destination	Mål
+	Destination Folder	Målmapp
 	Detail	Detalj
 cameraRaw	Detail	Detalj
 	Detailed	Detaljerad
@@ -1417,6 +1427,7 @@ cameraRaw	Effects	Effekter
 	Export Preferences	Exportera inställningar
 	Export Preferences…	Exportinställningar…
 	Export Presets	Exportera förinställningar
+	Export Selected Artboards	Exportera markerade ritytor
 	Export selected measurements (CSV)	Exportera markerade mätningar (CSV)
 	Export Selected Styles…	Exportera markerade stilar…
 	Export Settings	Exportera inställningar
@@ -1512,6 +1523,8 @@ layers	Fill	Fyllning
 	Fill Path…	Fyll bana…
 	Fill Screen	Fyll skärmen
 	Fill Settings	Fyllningsinställningar
+	Fill Subpaths…	Fyll delbanor…
+	Fill Subpath…	Fyll delbana…
 	Fill the expanded area with your background color or transparent pixels	Fyll det utökade området med bakgrundsfärgen eller genomskinliga bildpunkter
 	Fill with Background Color	Fyll med bakgrundsfärg
 	Fill with Background Color, Preserve Transparency	Fyll med bakgrundsfärg, bevara genomskinlighet
@@ -1934,6 +1947,7 @@ cameraRaw	Hue	Nyans
 	Include Color	Ta med färg
 	Include ICC Profile	Bädda in ICC-profil
 	Include in playback	Ta med i uppspelning
+	Include Overlapping Areas	Ta med överlappande ytor
 	Include Subfolders	Inkludera undermappar
 	Include Tool Settings	Ta med verktygsinställningar
 	Including layers will increase file size.	Om lager tas med blir filen större.
@@ -2121,6 +2135,7 @@ cameraData	Lens	Objektiv
 	Lens Blur	Linsoskärpa
 	Lens Blur…	Objektivoskärpa…
 	Lens Correction	Objektivkorrigering
+	Lens Correction Profile	Objektivkorrigeringsprofil
 	Lens Corrections	Objektivkorrigeringar
 	Lens Correction…	Objektivkorrigering…
 	Lens Flare	Motljus
@@ -2292,6 +2307,7 @@ cameraData	Make	Tillverkare
 	Managed by the launch options (--control).	Hanteras av startalternativen (--control).
 	Manual	Manuell
 	manual	manuell
+	Manual Refresh	Manuell uppdatering
 	Map Document	Mappa dokument
 	Map Layer	Mappa lager
 	Map Path	Mappa bana
@@ -2479,6 +2495,7 @@ cameraData	Model	Modell
 	New Fill Layer	Nytt fyllningslager
 	New Frame	Ny ram
 	New from Clipboard	Nytt från Urklipp
+	New Group from Layers	Ny grupp från lager
 	New Group from Layers…	Ny grupp från lager…
 	New Group…	Ny grupp…
 	New Guide Layout	Ny stödlinjelayout
@@ -2618,6 +2635,7 @@ cameraRaw	Noise Reduction	Brusreducering
 	Object Name / Title	Objektnamn/titel
 	Object Selection found nothing there — try a tighter rectangle	Objektmarkering hittade ingenting där — prova en snävare rektangel
 	Object Selection Tool	Objektmarkeringsverktyg
+	Object Subtract	Objektsubtrahering
 	Occurrence	Förekomst
 	Ocean Ripple	Havskrusning
 	Octagon	Oktagon
@@ -2727,7 +2745,9 @@ document	Orientation	Orientering
 	Paint Overlay	Målningsöverlägg
 cameraRaw	Paint Overlay	Målningsöverlägg
 	Painting	Målning
+	Painting area diameter	Målningsytans diameter
 	Painting Mode	Målningsläge
+	Painting tolerance	Målningstolerans
 	Paints from the document's opening state	Målar från dokumentets tillstånd när det öppnades
 	Paints from the History panel's source state	Målar från källtillståndet i panelen Historik
 	PAL/SECAM	PAL/SECAM
@@ -2778,6 +2798,7 @@ cameraRaw	Paint Overlay	Målningsöverlägg
 	PDF Presentation…	PDF-presentation…
 	Pen Pressure	Penntryck
 	Pen Tilt	Pennlutning
+	pen tool	pennverktyg
 	Pencil Tool	Blyertspennverktyg
 	Pencil Width	Pennbredd
 	Pentagon	Pentagon
@@ -3348,6 +3369,7 @@ cameraRaw	Save these settings as a Camera Raw .xmp file	Spara de här inställni
 	Scale Effects…	Skala effekter…
 	Scale Factor	Skalfaktor
 	Scale Horizontally	Skala vågrätt
+	Scale Layer Effects	Skala lagereffekter
 	Scale or rotate the moved area, then press {key}	Skala eller rotera det flyttade området och tryck sedan på {key}
 	Scale to Fit Media	Skala för att passa mediet
 	Scale Units	Skalenheter
@@ -3386,6 +3408,7 @@ cameraRaw	Save these settings as a Camera Raw .xmp file	Spara de här inställni
 	Second Color Readout	Andra färgavläsning
 	seconds	sekunder
 	Seed	Startvärde
+	Select a data set to apply.	Markera en datauppsättning att tillämpa.
 	Select a preset aspect ratio or crop size	Välj ett förinställt bildförhållande eller beskärningsstorlek
 	Select a type layer or click into text to insert glyphs	Markera ett textlager eller klicka i texten för att infoga glyfer
 	Select a type layer to edit its character and paragraph settings.	Markera ett textlager för att redigera dess tecken- och styckeinställningar.
@@ -3463,6 +3486,7 @@ fontWeight	SemiBold	Halvfet
 	Set 8	Uppsättning 8
 	Set 9	Uppsättning 9
 	Set additional Crop options	Ange fler beskärningsalternativ
+	Set additional options	Ange fler alternativ
 	Set additional pen and path options	Ange fler alternativ för penna och bana
 	Set additional shape and path options	Ange fler alternativ för former och banor
 	Set additional smoothing options	Ange fler utjämningsalternativ
@@ -3696,6 +3720,7 @@ curves	Smooth	Jämna ut
 	Source Folder	Källmapp
 	Source Invert	Invertera källa
 	Source Layer	Källager
+	Source Mode	Källäge
 	Source1 Channel	Kanal för källa 1
 	Source1 Invert	Invertera källa 1
 	Source2 Channel	Kanal för källa 2
@@ -3793,6 +3818,8 @@ curves	Smooth	Jämna ut
 	Stroke Pressure	Penseltryck
 	Stroke preview	Förhandsgranskning av penseldrag
 	Stroke Size	Penseldragsstorlek
+	Stroke Subpaths…	Rita linje längs delbanor…
+	Stroke Subpath…	Rita linje längs delbana…
 	Stroke Width	Linjebredd
 	Stroke:	Linje:
 	Strokes	Penseldrag
@@ -3863,6 +3890,7 @@ curves	Smooth	Jämna ut
 	Target Channel 8	Välj kanal 8
 	Target Channel 9	Välj kanal 9
 	Target Composite Channel	Välj sammansatt kanal
+	Target Mode	Målläge
 	Target Path	Målbana
 	Target X	Mål X
 	Target Y	Mål Y
@@ -3903,6 +3931,7 @@ cameraRaw	Texture	Struktur
 	The command permissions changed. Request Record Again again.	Kommandobehörigheterna har ändrats. Begär Spela in igen på nytt.
 	The current gradient (pick one in Window › Gradients)	Den aktuella gradienten (välj en i Fönster › Gradienter)
 	The current scratch directory ({path}) doesn't report its free space, so PhotoCraft can't stop before it fills up, and large files get no extra room from it without a Scratch Size Limit. This warning applies to the current configuration; changes above take effect on Apply or OK. Set a limit or use a local disk.	Den aktuella arbetsdiskkatalogen ({path}) rapporterar inte sitt lediga utrymme, så PhotoCraft kan inte stoppa innan den blir full, och stora filer får inget extra utrymme från den utan en storleksgräns för arbetsdisk. Den här varningen gäller den aktuella konfigurationen; ändringar ovan börjar gälla när du klickar på Använd eller OK. Ange en gräns eller använd en lokal disk.
+	The destination document is no longer open. Choose another one.	Måldokumentet är inte längre öppet. Välj ett annat.
 	The dialog names no action	Dialogrutan anger ingen åtgärd
 	The document changed. Open Count Group Name again.	Dokumentet har ändrats. Öppna Räknegruppsnamn igen.
 	The document changed. Please choose Clear All again.	Dokumentet har ändrats. Välj Rensa alla igen.
@@ -4305,6 +4334,7 @@ navigator	Zoom	Zoom
 	Zoom with scroll wheel	Zooma med rullhjulet
 	Zoom with trackpad pinch	Zooma genom att nypa på styrplattan
 	{added}, {removed} subtracted	{added}, {removed} subtraherade
+	{count} stored slices past the first {max} were ignored	{count} lagrade skivor efter de första {max} ignorerades
 	{dpi} pixels/inch	{dpi} pixlar/tum
 	{file} is not a style library (.asl)	{file} är inte ett stilbibliotek (.asl)
 	{index} of {total}	{index} av {total}
