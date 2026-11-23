@@ -31,12 +31,14 @@
 	150%	150 %
 	16 Bit	16 bitar
 	16 Bits/Channel	16 bitar/kanal
+	16bit	16 bitar
 	175%	175 %
 	180°	180°
 	2-up Horizontal	2 vågrätt
 	2-up Vertical	2 lodrätt
 	200%	200 %
 	24 fps	24 bild/s
+	24bit	24 bitar
 	25 fps	25 bild/s
 	250%	250 %
 	3 by 3 Average	Medelvärde 3 x 3
@@ -53,6 +55,7 @@
 	32 Bits/Channel	32 bitar/kanal
 	32-bit Preview Options	Alternativ för 32-bitars förhandsgranskning
 	32-bit Preview Options…	Alternativ för 32-bitars förhandsgranskning…
+	32bit	32 bitar
 	3D	3D
 	3D LUT File	3D LUT-fil
 	3D…	3D…
@@ -129,6 +132,7 @@
 	Add to	Lägg till i
 	Add to Favorites	Lägg till i favoriter
 	Add to favorites	Lägg till i favoriter
+	Add to mask areas to apply adjustment to more of the image	Lägg till i maskområden för att tillämpa justeringen på mer av bilden
 	Add to Sample	Lägg till i prov
 	Add to selection  ({key})	Lägg till i markeringen  ({key})
 	Add to selection  (⇧)	Lägg till i markeringen  (⇧)
@@ -150,6 +154,7 @@
 	Adjustment Preview	Förhandsgranskning av justering
 	Adjustment Properties	Justeringsegenskaper
 	Adjustment visible	Justering synlig
+	Adjustment:	Justering:
 	Adjustments	Justeringar
 	Adobe	Adobe
 	Adobe rgb	Adobe RGB
@@ -549,6 +554,8 @@ cameraRaw	Canceled {label}	{label} avbröts
 	Canvas border	Arbetsytans kant
 	Canvas color	Arbetsytans färg
 	Canvas custom color	Anpassad färg för arbetsytan
+	Canvas Extension	Utökning av arbetsytan
+	Canvas Extension Color	Färg för utökad arbetsyta
 	Canvas extension color:	Färg för utökad arbetsyta:
 	Canvas Guides	Stödlinjer för arbetsytan
 	Canvas menu	Arbetsytemeny
@@ -610,6 +617,7 @@ cameraRaw	Canceled {label}	{label} avbröts
 	Choose a menu command. Playback asks for its settings when needed.	Välj ett menykommando. Vid uppspelning efterfrågas inställningarna när det behövs.
 	Choose a new shortcut for this command, or leave it without one.	Välj ett nytt kortkommando för det här kommandot, eller lämna det utan.
 	Choose a remix mode	Välj ett remixläge
+	Choose an object and have the adjustment applied to it	Välj ett objekt så tillämpas justeringen på det
 	Choose Folder	Välj mapp
 	Choose Import as New Group or Replace.	Välj Importera som ny grupp eller Ersätt.
 	Choose one Actions file.	Välj en åtgärdsfil.
@@ -643,6 +651,7 @@ cameraRaw	Clarity	Klarhet
 	Clear Selection	Rensa markering
 	Clear Slices	Rensa skivor
 	Clear Smart Filters	Rensa smarta filter
+	Click a note to view or edit	Klicka på en anteckning för att visa eller redigera den
 	Click a red pupil to neutralize it	Klicka på en röd pupill för att neutralisera den
 	Click a segment to add an anchor point · {alt}-click an anchor to delete it	Klicka på ett segment för att lägga till en ankarpunkt · {alt}-klicka på en ankarpunkt för att ta bort den
 	Click an anchor point to delete it · {alt}-click a segment to add one	Klicka på en ankarpunkt för att ta bort den · {alt}-klicka på ett segment för att lägga till en
@@ -682,6 +691,7 @@ cameraRaw	Clarity	Klarhet
 	Clipped	Urklippt
 	Clipping Path	Urklippsbana
 	Clipping Path…	Urklippsbana…
+	Clockwise	Medurs
 	Clone	Klona
 	Clone Source	Klonkälla
 	Clone source	Klonkälla
@@ -891,6 +901,7 @@ cameraRaw	Contrast	Kontrast
 	Correction	Korrigering
 	Correction Options	Korrigeringsalternativ
 	Could not complete the Free Transform command because the layer is locked.	Det gick inte att slutföra kommandot Ombilda fritt eftersom lagret är låst.
+	Could not complete your request because the tool does not work with Indexed Color images. Please convert the image to RGB or another supported mode before using.	Det gick inte att slutföra begäran eftersom verktyget inte fungerar med bilder i indexerad färg. Konvertera bilden till RGB eller ett annat läge som stöds innan du använder det.
 	Could not open	Det gick inte att öppna
 	Could not rename the action: {error}	Det gick inte att byta namn på åtgärden: {error}
 	Could not set the clone source because it does not work with Indexed Color images (convert image to RGB Color mode to edit).	Det gick inte att ange klonkällan eftersom den inte fungerar med bilder i indexerad färg (konvertera bilden till färgläget RGB-färg för att redigera).
@@ -925,6 +936,7 @@ cameraRaw	Contrast	Kontrast
 	Count Tool	Räkneverktyg
 	Count:	Antal:
 	Count: {n}	Antal: {n}
+	Counter clockwise	Moturs
 	Cove - Deep	Hålkäl - djup
 	Cove - Shallow	Hålkäl - grund
 	CPU (no GPU acceleration)	CPU (ingen GPU-acceleration)
@@ -1066,6 +1078,7 @@ cameraRaw	Darks	Mörka
 	Dashed line	Streckad linje
 	Dashed lines	Streckade linjer
 	Data Points	Datapunkter
+	Data Points:	Datapunkter:
 	Data Set:	Datauppsättning:
 	Data Set: {name}  ({index}/{total})	Datauppsättning: {name}  ({index}/{total})
 	Data Sets as Files	Datauppsättningar som filer
@@ -1245,6 +1258,7 @@ cameraRaw	Developing {name}	Framkallar {name}
 	Doc: {w} × {h} px	Dok: {w} × {h} px
 	Document Bounds	Dokumentgränser
 	Document Dimensions	Dokumentmått
+	Document Per Artboard	Ett dokument per rityta
 	Document Profile	Dokumentprofil
 	Document Size	Dokumentstorlek
 	Document Sizes	Dokumentstorlekar
@@ -1304,7 +1318,7 @@ cameraRaw	Developing {name}	Framkallar {name}
 	Duotone…	Duoton…
 	Duplicate Channel	Duplicera kanal
 	Duplicate Frame	Duplicera bildruta
-	Duplicate Group…	Duplicera grupp…
+	Duplicate Group	Duplicera grupp
 	Duplicate Layer Comp	Duplicera lagerkomposition
 	Duplicate Layers	Duplicera lager
 	Duplicate Layers…	Duplicera lager…
@@ -1944,6 +1958,8 @@ cameraRaw	Hue	Nyans
 	In Front	Framför
 	In White	Vitt in
 	Include All Subfolders	Ta med alla undermappar
+	Include Artboard Name	Ta med ritytans namn
+	Include Background in Export	Ta med bakgrunden i exporten
 	Include Color	Ta med färg
 	Include ICC Profile	Bädda in ICC-profil
 	Include in playback	Ta med i uppspelning
@@ -2320,6 +2336,7 @@ cameraData	Make	Tillverkare
 	Mask All Objects	Maskera alla objekt
 	Mask Channel	Maskkanal
 	Mask Incomplete Blocks	Maskera ofullständiga block
+	Mask mode	Maskläge
 	Mask None	Maskera inget
 	Mask Options	Maskalternativ
 	Mask Options…	Maskalternativ…
@@ -2451,6 +2468,7 @@ cameraData	Model	Modell
 	Move Toolbar to the Right	Flytta verktygsfältet till höger
 	Move Up	Flytta uppåt
 	Movie Prime	Film med fast brännvidd
+	Multi-Page Document	Flersidigt dokument
 	Multichannel	Flerkanal
 	Multiple Flames Along Path	Flera lågor längs banan
 	Multiple Flames One Direction	Flera lågor i en riktning
@@ -2458,6 +2476,7 @@ cameraData	Model	Modell
 	Multiple Flames Various Length	Flera lågor med olika längd
 	My Brushes	Mina penslar
 	name	namn
+	Name Options	Namnalternativ
 	Native file drag-and-drop is not supported on Wayland yet. Use File › Open, or copy the image in your file manager and paste it with {paste}.	Inbyggt dra och släpp av filer stöds inte på Wayland ännu. Använd Arkiv › Öppna, eller kopiera bilden i filhanteraren och klistra in den med {paste}.
 	Native file drag-and-drop is not supported on Wayland yet. Use File › Open, or run PhotoCraft under XWayland with `WAYLAND_DISPLAY= photocraft`.	Inbyggt dra och släpp av filer stöds inte på Wayland ännu. Använd Arkiv › Öppna, eller kör PhotoCraft under XWayland med `WAYLAND_DISPLAY= photocraft`.
 	Native file drag-and-drop is unavailable	Inbyggt dra och släpp av filer är inte tillgängligt
@@ -2707,6 +2726,7 @@ cameraRaw	Orange	Orange
 document	Orientation	Orientering
 	Original Ratio	Ursprungliga proportioner
 	Ornaments	Ornament
+	Other...	Annat...
 	Other…	Annat…
 	Out	Ut
 	Out Black	Utdata svart
@@ -2919,6 +2939,7 @@ cameraRaw	Paint Overlay	Målningsöverlägg
 	Preferences were reset: {error}	Inställningarna återställdes: {error}
 	Preparing Free Transform	Förbereder fri ombildning
 	Presentation	Presentation
+	Preserve Artboard	Bevara rityta
 	Preserve Details	Bevara detaljer
 	Preserve details	Bevara detaljer
 	Preserve Luminosity	Bevara luminositet
@@ -3230,6 +3251,7 @@ fontWeight	Regular	Normal
 	Reveal in Finder	Visa i Finder
 	Reveal Selection	Visa markering
 	Reverse	Omvänd
+	Reverse Page Order	Omvänd sidordning
 	Revert “{name}” to the last saved version? Your changes will be lost.	Vill du återgå till den senast sparade versionen av ”{name}”? Dina ändringar går förlorade.
 	Rgb	RGB
 	RGB Sliders	RGB-skjutreglage
@@ -3256,6 +3278,7 @@ fontWeight	Regular	Normal
 	Rotate 90° Clockwise	Rotera 90° medurs
 	Rotate 90° Counter Clockwise	Rotera 90° moturs
 	Rotate Auto	Rotera automatiskt
+	Rotate Canvas	Rotera arbetsyta
 	Rotate Fixed	Fast rotation
 	Rotate for best fit	Rotera för bästa anpassning
 	Rotate View	Rotera vy
@@ -3438,6 +3461,7 @@ cameraRaw	Save these settings as a Camera Raw .xmp file	Spara de här inställni
 	Select text to apply a character style	Markera text för att använda ett teckenformat
 	Select the crop presets to delete	Markera beskärningsförinställningarna som ska tas bort
 	Select the crop presets to delete:	Markera beskärningsförinställningarna som ska tas bort:
+	Select the font style	Välj typsnittsstil
 	Select Top Layer	Markera översta lagret
 @id	select.all	Markera allt
 	Selected	Markerade
@@ -3498,7 +3522,6 @@ fontWeight	SemiBold	Halvfet
 	Set exposure for stroke	Ange exponering för penseldrag
 	Set flow rate for stroke	Ange flödeshastighet för penseldrag
 	Set font size	Ange teckenstorlek
-	Set font style	Ange teckenstil
 	Set foreground color	Ange förgrundsfärg
 	Set GPU Memory in Preferences › Performance to what your graphics card can hold, at most 3/8 of its memory. Automatic follows Memory Usage, within a quarter of this computer's memory and 3/8 of the card's, and doesn't count the document against a card whose memory is known. The status bar shows GPU Memory Full while they don't fit.	Ställ in GPU-minne i Inställningar › Prestanda på vad ditt grafikkort rymmer, som mest 3/8 av dess minne. Automatiskt följer Minnesanvändning, inom en fjärdedel av den här datorns minne och 3/8 av kortets, och räknar inte dokumentet mot ett kort vars minne är känt. Statusfältet visar GPU-minne fullt så länge de inte ryms.
 	Set horizontal skew	Ange vågrät snedställning
@@ -3645,6 +3668,7 @@ cameraRaw	Show Vectorscope	Visa vektorskop
 	Single Row Marquee Tool	Verktyget Enradsmarkeringsram
 	Single Word Justification	Justering av enstaka ord
 cameraRaw	Size	Storlek
+	Size (pt)	Storlek (pt)
 	Size Jitter	Storleksvariation
 	Size {n}	Storlek {n}
 	Skew	Snedställ
@@ -3847,6 +3871,7 @@ curves	Smooth	Jämna ut
 	Subject	Motiv
 	Subject Distance	Motivavstånd
 	Subtract from	Subtrahera från
+	Subtract from mask areas to remove adjustment from areas of the image	Subtrahera från maskområden för att ta bort justeringen från delar av bilden
 	Subtract from Sample	Subtrahera från prov
 	Subtract from selection  ({key})	Subtrahera från markering  ({key})
 	Subtract from selection  (⌥)	Subtrahera från markering  (⌥)
